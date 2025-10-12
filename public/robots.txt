@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /privacy-policy
+Disallow: /terms-of-service
+Disallow: /data-processing-agreement
+
+Sitemap: https://www.retainsure.com/sitemap.xml
