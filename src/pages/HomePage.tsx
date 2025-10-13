@@ -43,7 +43,7 @@ function HomePage() {
               <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight" style={{ color: '#022610' }} itemProp="headline">
                 Your AI Customer Success Manager{' '}
                 <span className="block text-xl sm:text-2xl lg:text-4xl mt-4" style={{ color: '#039143' }}>
-                  Agents for onboarding, adoption, retention and expansion
+                  Onboarding. Retention. Expansion
                 </span>
               </h1>
             
