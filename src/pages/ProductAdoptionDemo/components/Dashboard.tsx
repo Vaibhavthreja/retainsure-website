@@ -120,7 +120,7 @@ const Dashboard = () => {
           <div className="bg-purple-100 p-3 rounded-full mb-4">
             <span className="text-purple-600 text-2xl">✨</span>
           </div>
-          <h2 className="text-xl font-bold text-gray-900 mb-2">Ask Mailmodo AI</h2>
+          <h2 className="text-xl font-bold text-gray-900 mb-2">Ask Tech Corp AI</h2>
           <p className="text-gray-600 mb-4">Get instant help with your email marketing questions</p>
           <button className="bg-purple-600 text-white font-semibold py-2 px-5 rounded-full shadow-md hover:bg-purple-700 transition duration-300">
             Try now
