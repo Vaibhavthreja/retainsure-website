@@ -62,7 +62,7 @@ function HomePage() {
               <div className="flex items-start space-x-3">
                 <CheckCircle className="w-5 h-5 sm:w-6 sm:h-6 mt-0.5 flex-shrink-0" style={{ color: '#039143' }} />
                 <div>
-                  <h3 className="font-semibold text-base sm:text-lg" style={{ color: '#022610' }}>Meeting Agent: Turning customer calls into actions</h3>
+                  <h3 className="font-semibold text-base sm:text-lg" style={{ color: '#022610' }}>Meeting Agent: Turning customer calls into actions and insights</h3>
                   
                 </div>
               </div>
