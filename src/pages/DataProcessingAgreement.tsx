@@ -618,13 +618,13 @@ function DataProcessingAgreement() {
                           </tr>
                           <tr className="hover:bg-gray-50 transition-colors duration-200">
                             <td className="border border-gray-300 px-4 py-3 font-medium" style={{ color: '#022610' }}>
-                              SendGrid
+                              PostHog
                             </td>
                             <td className="border border-gray-300 px-4 py-3" style={{ color: '#022610', opacity: 0.8 }}>
-                              For transactional email sending
+                              For analytics and staged feature rollouts
                             </td>
                             <td className="border border-gray-300 px-4 py-3" style={{ color: '#022610', opacity: 0.8 }}>
-                              SOC 2 Type 2
+                              SOC 2 Type 2, GDPR
                             </td>
                           </tr>
                         </tbody>
