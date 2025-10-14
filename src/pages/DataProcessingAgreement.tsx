@@ -607,7 +607,7 @@ function DataProcessingAgreement() {
                           </tr>
                           <tr className="hover:bg-gray-50 transition-colors duration-200">
                             <td className="border border-gray-300 px-4 py-3 font-medium" style={{ color: '#022610' }}>
-                              SendGrid
+                              AWS SES
                             </td>
                             <td className="border border-gray-300 px-4 py-3" style={{ color: '#022610', opacity: 0.8 }}>
                               For transactional email sending
