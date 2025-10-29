@@ -312,8 +312,8 @@ function DataProcessingAgreement() {
                   </h2>
                   <p className="text-base leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
                     In the event a Data Subject wishes to exercise its data subject rights under applicable Data Protection Law, including, but not limited to, a data subject's right of access, correction and/or erasure of its Personal Data in RetainSure's control, the Data Subjects can submit such request done by contacting RetainSure's Data Protection Officer (DPO) below. Also, for raising concerns and/or any complaints related to the Customer Personal Data that can be done by contacting the Data Protection Officer below:
-Name: Anand Thakkar
-Email ID: anand@retainsure.com
+<p><strong>Name:</strong> Anand Thakkar</p>
+<p><strong>Email ID:</strong> anand@retainsure.com</p>
                   </p>
                 </section>
                 {/* Schedule 1 */}
