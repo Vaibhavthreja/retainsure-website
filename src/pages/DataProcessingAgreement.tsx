@@ -305,7 +305,17 @@ function DataProcessingAgreement() {
                     Having regard to the state of technological development and the cost of implementing any measures, the Processor will take appropriate technical and organizational measures against the unauthorized or unlawful processing of Personal Data and against the accidental loss or destruction of, or damage to, Personal Data to ensure a level of security appropriate to: (a) the harm that might result from unauthorized or unlawful processing or accidental loss, destruction or damage; and (b) the nature of the data to be protected [including the measures stated in Annex II of Schedule 1]
                   </p>
                 </section>
-
+{/* Section 15 - Data Subject Rights */}
+                <section>
+                  <h2 className="text-2xl font-bold mb-4" style={{ color: '#022610' }}>
+                    15. Data Subject Rights
+                  </h2>
+                  <p className="text-base leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
+                    In the event a Data Subject wishes to exercise its data subject rights under applicable Data Protection Law, including, but not limited to, a data subject's right of access, correction and/or erasure of its Personal Data in RetainSure's control, the Data Subjects can submit such request done by contacting RetainSure's Data Protection Officer (DPO) below. Also, for raising concerns and/or any complaints related to the Customer Personal Data that can be done by contacting the Data Protection Officer below:
+Name: Anand Thakkar
+Email ID: anand@retainsure.com
+                  </p>
+                </section>
                 {/* Schedule 1 */}
                 <section>
                   <h2 className="text-2xl font-bold mb-6" style={{ color: '#022610' }}>
