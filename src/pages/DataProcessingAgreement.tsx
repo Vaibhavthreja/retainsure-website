@@ -349,7 +349,7 @@ function DataProcessingAgreement() {
                         <div className="bg-gray-50 p-4 rounded-lg space-y-2 text-sm" style={{ color: '#022610', opacity: 0.8 }}>
                           <p><strong>Name:</strong> RetainSure Technologies Private Limited</p>
                           <p><strong>Address:</strong> #17, 2nd floor, 7th Main Road, ll Stage Indiranagar, Bangalore - 560038</p>
-                          <p><strong>Contact person's name, position, and contact details:</strong> Dhiraj Patel, Co-Founder and CEO, dhiraj@retainsure.com</p>
+                          <p><strong>Contact person's name, position, and contact details:</strong> Dhiraj Patel, Co-Founder and CEO, support@retainsure.com</p>
                           <p><strong>Activities relevant to the data transferred under these Clauses:</strong> Provision of the Services to the Customer in accordance with the Agreement.</p>
                           <p><strong>Signature and date:</strong> Signature and date are set out in the order form.</p>
                           <p><strong>Role (controller/processor):</strong> Processor.</p>
