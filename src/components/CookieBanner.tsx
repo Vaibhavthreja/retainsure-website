@@ -86,11 +86,11 @@ function CookieBanner() {
               </h3>
               <p className="text-sm leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
                 We use cookies to enhance your experience, analyze site traffic and deliver personalized content. Read our{' '}
-                <Link 
-                  to="/privacy-policy#cookies" 
-                  className="underline hover:opacity-70 transition-opacity"
-                  style={{ color: '#039143' }}
-                >
+                <Link
+          to={{ pathname: '/privacy-policy', hash: '#cookies' }}
+          className="underline hover:opacity-70 transition-opacity"
+          style={{ color: '#039143' }}
+        >
                   Cookie Policy
                 </Link>
                 .
