@@ -155,7 +155,7 @@ function PrivacyPolicy() {
                     <li>Withdraw consent (where processing is based on consent)</li>
                   </ul>
                   <p className="text-base leading-relaxed mt-4" style={{ color: '#022610', opacity: 0.8 }}>
-                    To exercise these rights, please contact us at support@retainsure.com to reach our Chief Information Security Officer
+                    To exercise these rights, please contact us at privacy@retainsure.com to reach our Data Protection Officer
                   </p>
                   <p className="text-base leading-relaxed mt-4" style={{ color: '#022610', opacity: 0.8 }}>
                     For EU residents, you can reach out to our EU GDPR representative at below given address or email:
