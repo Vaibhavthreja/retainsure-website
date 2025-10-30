@@ -173,7 +173,7 @@ function PrivacyPolicy() {
                 </section>
 
                 {/* Section 7 */}
-                <section>
+                <section id="cookies">
                   <h2 className="text-2xl font-bold mb-4" style={{ color: '#022610' }}>
                     7. Cookies and Tracking
                   </h2>
