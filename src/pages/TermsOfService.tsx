@@ -38,7 +38,7 @@ function TermsOfService() {
                 <div className="flex items-center space-x-4 mt-2 text-sm" style={{ color: '#022610', opacity: 0.6 }}>
                   <div className="flex items-center space-x-1">
                     <Calendar className="w-4 h-4" />
-                    <span>Last updated: May 14, 2025</span>
+                    <span>Last updated: Nov 10, 2025</span>
                   </div>
                 </div>
               </div>
