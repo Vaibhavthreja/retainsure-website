@@ -175,10 +175,52 @@ function PrivacyPolicy() {
                 {/* Section 7 */}
                 <section id="cookies">
                   <h2 className="text-2xl font-bold mb-4" style={{ color: '#022610' }}>
-                    7. Cookies and Tracking
+                    7. Cookie Policy
                   </h2>
                   <p className="text-base leading-relaxed mb-4" style={{ color: '#022610', opacity: 0.8 }}>
-                    We use cookies and similar tracking technologies to improve user experience and collect analytics. You can manage cookie preferences through your browser settings or our website's cookie banner. We have a 365 days retention period for cookies.
+                    This Cookie Policy explains how we use cookies and similar technologies to recognize you when you visit our website. It also explains the types of cookies we use, why we use them, and how you can control your preferences.
+                  </p>
+
+                  <h3 className="text-xl font-bold mb-3 mt-6" style={{ color: '#022610' }}>
+                    1. Necessary Cookies
+                  </h3>
+                  <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                    These cookies are essential for the website to function properly. They enable basic features such as page navigation, secure access, and load balancing.
+                  </p>
+                  <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                    Without these cookies, the website cannot operate correctly.
+                  </p>
+                  <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                    <strong>Purpose:</strong> To ensure the website and its services function securely and as intended.
+                  </p>
+                  <p className="text-base leading-relaxed mb-4" style={{ color: '#022610', opacity: 0.8 }}>
+                    <strong>Example:</strong> Session management, authentication, and security-related cookies.
+                  </p>
+
+                  <h3 className="text-xl font-bold mb-3 mt-6" style={{ color: '#022610' }}>
+                    2. Analytics Cookies
+                  </h3>
+                  <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                    These cookies help us understand how visitors interact with our website by collecting and reporting information anonymously.
+                  </p>
+                  <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                    <strong>Purpose:</strong> To improve website performance and user experience by analyzing traffic patterns, usage data, and user behavior.
+                  </p>
+                  <p className="text-base leading-relaxed mb-4" style={{ color: '#022610', opacity: 0.8 }}>
+                    <strong>Example:</strong> Cookies used by tools like Google Analytics or similar analytics platforms.
+                  </p>
+
+                  <h3 className="text-xl font-bold mb-3 mt-6" style={{ color: '#022610' }}>
+                    3. Marketing Cookies
+                  </h3>
+                  <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                    These cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and therefore more valuable for publishers and third-party advertisers.
+                  </p>
+                  <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                    <strong>Purpose:</strong> To deliver personalized advertisements and promotional content based on user interests and browsing activity.
+                  </p>
+                  <p className="text-base leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
+                    <strong>Example:</strong> Cookies from advertising networks or social media platforms.
                   </p>
                 </section>
 
