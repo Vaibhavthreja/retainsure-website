@@ -235,7 +235,7 @@ function PrivacyPolicy() {
                         • Rights Related to Automated Decision-Making and Profiling
                       </h3>
                       <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
-                        You have the right not to be subject to decisions made solely through automated means — including profiling — if those decisions have a legal or significant effect on you.
+                        You have the right not to be subject to decisions made solely through automated means, including profiling, if those decisions have a legal or significant effect on you.
                       </p>
                       <p className="text-base leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
                         You can request human review, express your views, or challenge such decisions.
