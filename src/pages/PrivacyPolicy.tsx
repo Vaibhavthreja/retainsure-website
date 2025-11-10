@@ -181,8 +181,8 @@ function PrivacyPolicy() {
                     This Cookie Policy explains how we use cookies and similar technologies to recognize you when you visit our website. It also explains the types of cookies we use, why we use them, and how you can control your preferences.
                   </p>
 
-                  <h3 className="text-xl font-bold mb-3 mt-6" style={{ color: '#022610' }}>
-                    1. Necessary Cookies
+                  <h3 className="text-lg font-bold mb-3 mt-6" style={{ color: '#022610' }}>
+                    • Necessary Cookies
                   </h3>
                   <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
                     These cookies are essential for the website to function properly. They enable basic features such as page navigation, secure access, and load balancing.
@@ -197,8 +197,8 @@ function PrivacyPolicy() {
                     <strong>Example:</strong> Session management, authentication, and security-related cookies.
                   </p>
 
-                  <h3 className="text-xl font-bold mb-3 mt-6" style={{ color: '#022610' }}>
-                    2. Analytics Cookies
+                  <h3 className="text-lg font-bold mb-3 mt-6" style={{ color: '#022610' }}>
+                    • Analytics Cookies
                   </h3>
                   <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
                     These cookies help us understand how visitors interact with our website by collecting and reporting information anonymously.
@@ -210,8 +210,8 @@ function PrivacyPolicy() {
                     <strong>Example:</strong> Cookies used by tools like Google Analytics or similar analytics platforms.
                   </p>
 
-                  <h3 className="text-xl font-bold mb-3 mt-6" style={{ color: '#022610' }}>
-                    3. Marketing Cookies
+                  <h3 className="text-lg font-bold mb-3 mt-6" style={{ color: '#022610' }}>
+                    • Marketing Cookies
                   </h3>
                   <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
                     These cookies are used to track visitors across websites. The intention is to display ads that are relevant and engaging for the individual user and therefore more valuable for publishers and third-party advertisers.
