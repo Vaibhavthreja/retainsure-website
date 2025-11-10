@@ -159,17 +159,103 @@ function PrivacyPolicy() {
                   <h2 className="text-2xl font-bold mb-4" style={{ color: '#022610' }}>
                     6. Your Rights
                   </h2>
-                  <p className="text-base leading-relaxed mb-4" style={{ color: '#022610', opacity: 0.8 }}>
+                  <p className="text-base leading-relaxed mb-6" style={{ color: '#022610', opacity: 0.8 }}>
                     Depending on your location, you may have the following rights:
                   </p>
-                  <ul className="list-disc pl-6 space-y-2 text-base" style={{ color: '#022610', opacity: 0.8 }}>
-                    <li>Access the data we hold about you</li>
-                    <li>Request correction or deletion of your data</li>
-                    <li>Object to or restrict certain data processing</li>
-                    <li>Data portability</li>
-                    <li>Withdraw consent (where processing is based on consent)</li>
-                  </ul>
-                  <p className="text-base leading-relaxed mt-4" style={{ color: '#022610', opacity: 0.8 }}>
+
+                  <div className="space-y-6">
+                    <div>
+                      <h3 className="text-lg font-bold mb-2" style={{ color: '#022610' }}>
+                        • Right to Be Informed
+                      </h3>
+                      <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                        You have the right to know how we collect, use, share, and store your personal data.
+                      </p>
+                      <p className="text-base leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
+                        We provide this information in this Privacy Policy and through in-product notices where relevant.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h3 className="text-lg font-bold mb-2" style={{ color: '#022610' }}>
+                        • Right of Access
+                      </h3>
+                      <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                        You can request a copy of the personal data we hold about you, along with details on how and why we process it.
+                      </p>
+                      <p className="text-base leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
+                        We will provide this information free of charge within one month of receiving your request.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h3 className="text-lg font-bold mb-2" style={{ color: '#022610' }}>
+                        • Right to Rectification
+                      </h3>
+                      <p className="text-base leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
+                        If any of the personal data we hold about you is inaccurate or incomplete, you can ask us to correct or update it.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h3 className="text-lg font-bold mb-2" style={{ color: '#022610' }}>
+                        • Right to Erasure (Right to Be Forgotten)
+                      </h3>
+                      <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                        You can request that we delete your personal data in certain circumstances, such as:
+                      </p>
+                      <ul className="list-disc pl-6 space-y-1 text-base mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                        <li>When the data is no longer needed for its original purpose</li>
+                        <li>When you withdraw your consent</li>
+                        <li>When you believe your data has been processed unlawfully</li>
+                      </ul>
+                      <p className="text-base leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
+                        We may retain some information if required by law or for legitimate business purposes (e.g., record-keeping).
+                      </p>
+                    </div>
+
+                    <div>
+                      <h3 className="text-lg font-bold mb-2" style={{ color: '#022610' }}>
+                        • Right to Object
+                      </h3>
+                      <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                        You have the right to object to how we process your data:
+                      </p>
+                      <ul className="list-disc pl-6 space-y-1 text-base mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                        <li>If the processing is based on our legitimate interests</li>
+                        <li>If we use your data for direct marketing (including automated profiling)</li>
+                      </ul>
+                      <p className="text-base leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
+                        If you object to marketing, we will stop sending you such communications immediately.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h3 className="text-lg font-bold mb-2" style={{ color: '#022610' }}>
+                        • Rights Related to Automated Decision-Making and Profiling
+                      </h3>
+                      <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                        You have the right not to be subject to decisions made solely through automated means — including profiling — if those decisions have a legal or significant effect on you.
+                      </p>
+                      <p className="text-base leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
+                        You can request human review, express your views, or challenge such decisions.
+                      </p>
+                    </div>
+
+                    <div>
+                      <h3 className="text-lg font-bold mb-2" style={{ color: '#022610' }}>
+                        • Right to Withdraw Consent
+                      </h3>
+                      <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                        If you have given consent for us to process your data, you can withdraw it at any time.
+                      </p>
+                      <p className="text-base leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
+                        Withdrawing consent will not affect the lawfulness of any processing carried out before your withdrawal.
+                      </p>
+                    </div>
+                  </div>
+
+                  <p className="text-base leading-relaxed mt-6" style={{ color: '#022610', opacity: 0.8 }}>
                     To exercise these rights, please contact us at privacy@retainsure.com to reach our Data Protection Officer Anand Thakkar
                   </p>
                   <p className="text-base leading-relaxed mt-4" style={{ color: '#022610', opacity: 0.8 }}>
