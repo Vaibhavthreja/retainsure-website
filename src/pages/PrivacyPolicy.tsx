@@ -1,9 +1,24 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Shield, Calendar, Eye, Lock } from 'lucide-react';
+import { useLocation } from 'react-router-dom';
 
 
 function PrivacyPolicy() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const id = location.hash.replace('#', '');
+      const element = document.getElementById(id);
+      if (element) {
+        setTimeout(() => {
+          element.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }, 100);
+      }
+    }
+  }, [location]);
+
   const scrollToSection = (sectionId: string) => {
     // This function won't work on this page since sections don't exist
     // But we need it for the Navigation component
