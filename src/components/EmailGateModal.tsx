@@ -50,6 +50,36 @@ function EmailGateModal({ onSuccess }: EmailGateModalProps) {
     setLoading(true);
 
     try {
+      const checkResponse = await fetch(
+        `${import.meta.env.VITE_SUPABASE_URL}/rest/v1/demo_access_requests?email=eq.${email.toLowerCase()}`,
+        {
+          method: 'GET',
+          headers: {
+            'Content-Type': 'application/json',
+            'apikey': import.meta.env.VITE_SUPABASE_ANON_KEY,
+            'Authorization': `Bearer ${import.meta.env.VITE_SUPABASE_ANON_KEY}`,
+          }
+        }
+      );
+
+      if (checkResponse.ok) {
+        const existingRecords = await checkResponse.json();
+
+        if (existingRecords && existingRecords.length > 0) {
+          const existingRecord = existingRecords[0];
+          localStorage.setItem('demo_pending_email', email.toLowerCase());
+          localStorage.setItem('demo_verification_token', existingRecord.verification_token);
+
+          setSubmitted(true);
+          setLoading(false);
+
+          setTimeout(() => {
+            onSuccess();
+          }, 2000);
+          return;
+        }
+      }
+
       const verificationToken = crypto.randomUUID();
 
       const response = await fetch(
@@ -71,11 +101,7 @@ function EmailGateModal({ onSuccess }: EmailGateModalProps) {
       );
 
       if (!response.ok) {
-        if (response.status === 409) {
-          setError('This email has already been submitted. Please check your inbox for the verification link.');
-        } else {
-          setError('Failed to submit email. Please try again.');
-        }
+        setError('Failed to submit email. Please try again.');
         setLoading(false);
         return;
       }
