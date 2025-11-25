@@ -8,7 +8,7 @@ import EmailGateModal from '../components/EmailGateModal';
 
 function InteractiveDemo() {
   const { hasAccess, grantAccess } = useDemoAccess();
-  const [showGate, setShowGate] = useState(false);
+  const [showGate, setShowGate] = useState(!hasAccess);
 
   useEffect(() => {
     if (!hasAccess) {
