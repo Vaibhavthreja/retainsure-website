@@ -10,6 +10,7 @@ function EmailGateModal({ onSuccess }: EmailGateModalProps) {
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
   const [submitted, setSubmitted] = useState(false);
+  const [agreeToUpdates, setAgreeToUpdates] = useState(false);
 
   const blockedDomains = ['gmail.com', 'yahoo.com', 'outlook.com', 'hotmail.com'];
 
@@ -38,6 +39,11 @@ function EmailGateModal({ onSuccess }: EmailGateModalProps) {
     const validationError = validateEmail(email);
     if (validationError) {
       setError(validationError);
+      return;
+    }
+
+    if (!agreeToUpdates) {
+      setError('Please agree to receive updates to continue');
       return;
     }
 
@@ -116,14 +122,10 @@ function EmailGateModal({ onSuccess }: EmailGateModalProps) {
               <Mail className="w-6 h-6 text-white" />
             </div>
             <h2 className="text-2xl font-bold" style={{ color: '#022610' }}>
-              Access Required
+              One step away
             </h2>
           </div>
         </div>
-
-        <p className="text-base mb-6" style={{ color: '#022610', opacity: 0.8 }}>
-          Please provide your business email to access our interactive demos. We collect this information to better understand our audience.
-        </p>
 
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
@@ -156,8 +158,28 @@ function EmailGateModal({ onSuccess }: EmailGateModalProps) {
 
           <div className="bg-gray-50 p-4 rounded-lg">
             <p className="text-xs" style={{ color: '#022610', opacity: 0.7 }}>
-              <strong>Note:</strong> Free email providers (Gmail, Yahoo, Outlook) are not accepted. Please use your company email address.
+              <strong>Note:</strong> Please provide your business email to access our interactive demos. We collect this information to better understand our audience. Free email providers (Gmail, Yahoo, Outlook) are not accepted.
             </p>
+          </div>
+
+          <div className="flex items-start space-x-3">
+            <input
+              type="checkbox"
+              id="agree-updates"
+              checked={agreeToUpdates}
+              onChange={(e) => {
+                setAgreeToUpdates(e.target.checked);
+                if (error === 'Please agree to receive updates to continue') {
+                  setError('');
+                }
+              }}
+              className="mt-1 w-4 h-4 rounded border-gray-300 focus:ring-2 focus:ring-opacity-50"
+              style={{ accentColor: '#039143' }}
+              disabled={loading}
+            />
+            <label htmlFor="agree-updates" className="text-xs" style={{ color: '#022610', opacity: 0.7 }}>
+              By continuing, you agree to receive updates about RetainSure. You can unsubscribe at any time.
+            </label>
           </div>
 
           <button
@@ -169,10 +191,6 @@ function EmailGateModal({ onSuccess }: EmailGateModalProps) {
             {loading ? 'Submitting...' : 'Continue to Demos'}
           </button>
         </form>
-
-        <p className="text-xs mt-4 text-center" style={{ color: '#022610', opacity: 0.6 }}>
-          By continuing, you agree to receive updates about RetainSure. You can unsubscribe at any time.
-        </p>
       </div>
     </div>
   );
