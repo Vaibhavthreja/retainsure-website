@@ -1,10 +1,25 @@
 import { Link } from 'react-router-dom';
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Zap, Users, Bot } from 'lucide-react';
+import { useDemoAccess } from '../contexts/DemoAccessContext';
+import EmailGateModal from '../components/EmailGateModal';
 
 
 function InteractiveDemo() {
+  const { hasAccess, grantAccess } = useDemoAccess();
+  const [showGate, setShowGate] = useState(false);
+
+  useEffect(() => {
+    if (!hasAccess) {
+      setShowGate(true);
+    }
+  }, [hasAccess]);
+
+  const handleAccessGranted = () => {
+    grantAccess();
+    setShowGate(false);
+  };
   const agents = [
     {
       title: 'Product Adoption Agent',
@@ -35,8 +50,8 @@ function InteractiveDemo() {
         <meta name="description" content="Interactive demo of RetainSure's AI-powered customer success platform." />
         <link rel="canonical" href="https://www.retainsure.com/interactive-demo" />
       </Helmet>
-      
-      
+
+      {showGate && <EmailGateModal onSuccess={handleAccessGranted} />}
 
       <main className="min-h-screen bg-gradient-to-br from-white to-green-50 flex flex-col items-center justify-center p-4 pt-12 pb-20">
         <div className="container mx-auto">

@@ -12,6 +12,7 @@ import InteractiveDemo from './pages/InteractiveDemo';
 import CookieBanner from './components/CookieBanner';
 import Navigation from './components/Navigation';
 import Footer from './components/Footer';
+import ProtectedDemoRoute from './components/ProtectedDemoRoute';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -44,9 +45,9 @@ function App() {
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
         <Route path="/data-processing-agreement" element={<DataProcessingAgreement />} />
         <Route path="/interactive-demo" element={<InteractiveDemo />} />
-        <Route path="/interactive-demo/copilot-agent" element={<CopilotAgentDemo />} />
-        <Route path="/interactive-demo/product-adoption-agent" element={<ProductAdoptionDemo />} />
-        <Route path="/interactive-demo/meeting-agent" element={<MeetingAgent />} />
+        <Route path="/interactive-demo/copilot-agent" element={<ProtectedDemoRoute><CopilotAgentDemo /></ProtectedDemoRoute>} />
+        <Route path="/interactive-demo/product-adoption-agent" element={<ProtectedDemoRoute><ProductAdoptionDemo /></ProtectedDemoRoute>} />
+        <Route path="/interactive-demo/meeting-agent" element={<ProtectedDemoRoute><MeetingAgent /></ProtectedDemoRoute>} />
       </Routes>
       {!isDemoPage && <Footer />}
       <CookieBanner />
