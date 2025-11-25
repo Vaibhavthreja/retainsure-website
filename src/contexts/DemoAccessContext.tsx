@@ -9,8 +9,6 @@ interface DemoAccessContextType {
 const DemoAccessContext = createContext<DemoAccessContextType | undefined>(undefined);
 
 export function DemoAccessProvider({ children }: { children: ReactNode }) {
-  const [hasAccess, setHasAccess] = useState(false);
-
   const checkAccess = (): boolean => {
     const pendingEmail = localStorage.getItem('demo_pending_email');
     const verificationToken = localStorage.getItem('demo_verification_token');
@@ -18,13 +16,11 @@ export function DemoAccessProvider({ children }: { children: ReactNode }) {
     return !!(pendingEmail && verificationToken);
   };
 
+  const [hasAccess, setHasAccess] = useState(() => checkAccess());
+
   const grantAccess = () => {
     setHasAccess(true);
   };
-
-  useEffect(() => {
-    setHasAccess(checkAccess());
-  }, []);
 
   return (
     <DemoAccessContext.Provider value={{ hasAccess, grantAccess, checkAccess }}>
