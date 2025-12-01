@@ -409,7 +409,7 @@ prediction
                 <div>
                   <h3 className="text-base sm:text-lg font-bold" style={{ color: '#022610' }}>
                     SOC 2 Type 2<br />
-                    (In Progress)
+                    (Compliant)
                   </h3>
                 </div>
               </div>
@@ -423,8 +423,8 @@ prediction
                 />
                 <div>
                   <h3 className="text-base sm:text-lg font-bold" style={{ color: '#022610' }}>
-                    EU GDPR<br />
-                    (In Progress)
+                  GDPR<br />
+                    (Compliant)
                   </h3>
                 </div>
               </div>
