@@ -398,36 +398,34 @@ prediction
             </div>
 
             {/* Right Content - Compliance Badges and Button */}
-            <div className="flex flex-col items-center lg:items-end gap-6">
-              <div className="flex flex-col sm:flex-row gap-6 sm:gap-8 lg:gap-12">
-                {/* SOC 2 Badge */}
-                <div className="flex items-center gap-4 sm:gap-6">
-                  <img
-                    src="/SOCbadge.png"
-                    alt="SOC 2 Type 2 Compliance"
-                    className="w-20 h-20 sm:w-28 sm:h-28 object-contain"
-                  />
-                  <div>
-                    <h3 className="text-base sm:text-lg font-bold" style={{ color: '#022610' }}>
-                      SOC 2 Type 2<br />
-                      (Compliant)
-                    </h3>
-                  </div>
+            <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-8">
+              {/* SOC 2 Badge */}
+              <div className="flex items-center gap-4 sm:gap-6">
+                <img
+                  src="/SOCbadge.png"
+                  alt="SOC 2 Type 2 Compliance"
+                  className="w-20 h-20 sm:w-28 sm:h-28 object-contain"
+                />
+                <div>
+                  <h3 className="text-base sm:text-lg font-bold" style={{ color: '#022610' }}>
+                    SOC 2 Type 2<br />
+                    (Compliant)
+                  </h3>
                 </div>
+              </div>
 
-                {/* GDPR Badge */}
-                <div className="flex items-center gap-4 sm:gap-6">
-                  <img
-                    src="/GDPRBadge.png"
-                    alt="GDPR Compliance"
-                    className="w-24 h-24 sm:w-32 sm:h-32 object-contain"
-                  />
-                  <div>
-                    <h3 className="text-base sm:text-lg font-bold" style={{ color: '#022610' }}>
-                    GDPR<br />
-                      (Compliant)
-                    </h3>
-                  </div>
+              {/* GDPR Badge */}
+              <div className="flex items-center gap-4 sm:gap-6">
+                <img
+                  src="/GDPRBadge.png"
+                  alt="GDPR Compliance"
+                  className="w-24 h-24 sm:w-32 sm:h-32 object-contain"
+                />
+                <div>
+                  <h3 className="text-base sm:text-lg font-bold" style={{ color: '#022610' }}>
+                  GDPR<br />
+                    (Compliant)
+                  </h3>
                 </div>
               </div>
 
