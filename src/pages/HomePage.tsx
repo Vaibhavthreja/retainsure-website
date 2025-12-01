@@ -386,7 +386,7 @@ prediction
       {/* Data Security Section */}
       <section id="data-security" className="py-12 sm:py-16 bg-gradient-to-r from-gray-50 to-white border-t border-gray-100" aria-label="Data security and compliance">
         <div className="container mx-auto px-4 sm:px-6">
-          <div className="flex flex-col lg:flex-row items-center justify-between gap-8 sm:gap-12 lg:gap-16">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-6 sm:gap-8 lg:gap-12">
             {/* Left Content */}
             <div className="text-center lg:text-left">
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold" style={{ color: '#022610' }} itemProp="headline">
@@ -398,29 +398,31 @@ prediction
             </div>
 
             {/* Right Content - Compliance Badges and Button */}
-            <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-8">
-              {/* SOC 2 Badge */}
-              <div className="flex flex-col items-center gap-2">
-                <img
-                  src="/SOCbadge.png"
-                  alt="SOC 2 Type 2 Compliance"
-                  className="w-20 h-20 sm:w-28 sm:h-28 object-contain"
-                />
-                <h3 className="text-sm sm:text-base font-bold text-center" style={{ color: '#022610' }}>
-                  SOC 2 Type 2
-                </h3>
-              </div>
+            <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-12">
+              <div className="flex items-end gap-6 sm:gap-8">
+                {/* SOC 2 Badge */}
+                <div className="flex flex-col items-center gap-2">
+                  <img
+                    src="/SOCbadge.png"
+                    alt="SOC 2 Type 2 Compliance"
+                    className="w-20 h-20 sm:w-28 sm:h-28 object-contain"
+                  />
+                  <h3 className="text-sm sm:text-base font-bold text-center" style={{ color: '#022610' }}>
+                    SOC 2 Type 2
+                  </h3>
+                </div>
 
-              {/* GDPR Badge */}
-              <div className="flex flex-col items-center gap-2">
-                <img
-                  src="/GDPRBadge.png"
-                  alt="GDPR Compliance"
-                  className="w-24 h-24 sm:w-32 sm:h-32 object-contain"
-                />
-                <h3 className="text-sm sm:text-base font-bold text-center" style={{ color: '#022610' }}>
-                  GDPR
-                </h3>
+                {/* GDPR Badge */}
+                <div className="flex flex-col items-center gap-2">
+                  <img
+                    src="/GDPRBadge.png"
+                    alt="GDPR Compliance"
+                    className="w-20 h-20 sm:w-28 sm:h-28 object-contain"
+                  />
+                  <h3 className="text-sm sm:text-base font-bold text-center" style={{ color: '#022610' }}>
+                    GDPR
+                  </h3>
+                </div>
               </div>
 
               {/* Visit Trust Center Button */}
