@@ -114,11 +114,11 @@ function CaseStudies() {
                 className={`bg-gradient-to-br ${caseStudy.background_color} rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex flex-col space-y-6`}
               >
                 {/* Image Section */}
-                <div className="flex items-center justify-center bg-white rounded-xl p-6 min-h-[180px]">
+                <div className="flex items-center justify-center bg-white rounded-xl p-8 min-h-[180px]">
                   <img
                     src={caseStudy.image_url}
                     alt={caseStudy.company_name}
-                    className="max-h-24 w-auto object-contain px-4"
+                    className="max-h-24 w-auto object-contain px-8"
                   />
                 </div>
 
