@@ -80,7 +80,7 @@ function CaseStudies() {
                 style={{ minHeight: '400px' }}
               >
                 <div className="space-y-4">
-                  <div className="h-32 bg-gray-300 rounded-lg"></div>
+                  <div className="h-56 bg-gray-300 rounded-lg"></div>
                   <div className="h-8 bg-gray-300 rounded w-3/4"></div>
                   <div className="h-4 bg-gray-300 rounded w-full"></div>
                   <div className="h-4 bg-gray-300 rounded w-5/6"></div>
@@ -114,11 +114,11 @@ function CaseStudies() {
                 className={`bg-gradient-to-br ${caseStudy.background_color} rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex flex-col space-y-6`}
               >
                 {/* Image Section */}
-                <div className="flex items-center justify-center bg-white rounded-xl p-6 min-h-[180px]">
+                <div className="flex items-center justify-center bg-white rounded-xl p-6 sm:p-8 min-h-[280px]">
                   <img
                     src={caseStudy.image_url}
                     alt={caseStudy.company_name}
-                    className="max-h-24 w-auto object-contain"
+                    className="max-h-48 sm:max-h-56 w-auto object-contain"
                   />
                 </div>
 
