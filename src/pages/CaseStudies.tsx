@@ -118,7 +118,7 @@ function CaseStudies() {
                   <img
                     src={caseStudy.image_url}
                     alt={caseStudy.company_name}
-                    className="max-h-24 w-auto object-contain"
+                    className="max-h-24 w-auto object-contain px-4"
                   />
                 </div>
 
