@@ -41,7 +41,7 @@ function HomePage() {
           <div className="space-y-6 sm:space-y-8">
             <div className="space-y-4 sm:space-y-6">
               <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight" style={{ color: '#022610' }} itemProp="headline">
-                Your AI CSM{' '}
+                Your AI Customer Success Manager{' '}
                 <span className="block text-xl sm:text-2xl lg:text-4xl mt-4" style={{ color: '#039143' }}>
                   Onboarding. Retention. Expansion
                 </span>
