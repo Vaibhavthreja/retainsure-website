@@ -46,39 +46,63 @@ function Navigation() {
           
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-4 lg:space-x-8">
-            <button 
+            <button
               onClick={() => handleSectionNavigation('how-it-works')}
-              className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base" 
+              className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"
               style={{ color: '#022610' }}
               aria-label="Learn about our product"
             >
               Product
             </button>
-            <button 
+            <Link
+              to="/features"
+              className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"
+              style={{ color: '#022610' }}
+              aria-label="View features"
+            >
+              Features
+            </Link>
+            <Link
+              to="/case-studies"
+              className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"
+              style={{ color: '#022610' }}
+              aria-label="Read case studies"
+            >
+              Case Studies
+            </Link>
+            <Link
+              to="/pricing"
+              className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"
+              style={{ color: '#022610' }}
+              aria-label="View pricing"
+            >
+              Pricing
+            </Link>
+            <button
               onClick={() => handleSectionNavigation('testimonials')}
-              className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base" 
+              className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"
               style={{ color: '#022610' }}
               aria-label="Read customer testimonials"
             >
               Testimonials
             </button>
-            <button 
+            <button
               onClick={() => handleSectionNavigation('data-security')}
-              className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base" 
+              className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"
               style={{ color: '#022610' }}
               aria-label="Learn about our security measures"
             >
               Security
             </button>
-            <button 
+            <button
               onClick={() => handleSectionNavigation('faq')}
-              className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base" 
+              className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"
               style={{ color: '#022610' }}
               aria-label="View frequently asked questions"
             >
               FAQ
             </button>
-            <button 
+            <button
               onClick={() => window.location.href = 'https://app.retainsure.com'}
               className="border border-gray-300 px-4 lg:px-6 py-2 rounded-lg font-medium hover:bg-gray-50 transition-colors duration-200 cursor-pointer text-sm lg:text-base"
               style={{ color: '#022610' }}
@@ -86,7 +110,7 @@ function Navigation() {
             >
               Login
             </button>
-            <button 
+            <button
               onClick={() => window.location.href = '/book-a-demo'}
               className="text-white px-4 lg:px-6 py-2 rounded-lg font-medium hover:opacity-90 transition-opacity duration-200 cursor-pointer text-sm lg:text-base"
               style={{ backgroundColor: '#039143' }}

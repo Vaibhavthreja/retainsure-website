@@ -5,6 +5,9 @@ import { Play, CheckCircle, ArrowRight, Shield, ChevronDown } from 'lucide-react
 import HomePage from './pages/HomePage';
 import ContactUs from './pages/ContactUs';
 import BookDemo from './pages/BookDemo';
+import Features from './pages/Features';
+import CaseStudies from './pages/CaseStudies';
+import Pricing from './pages/Pricing';
 import TermsOfService from './pages/TermsOfService';
 import PrivacyPolicy from './pages/PrivacyPolicy';
 import DataProcessingAgreement from './pages/DataProcessingAgreement';
@@ -39,6 +42,9 @@ function App() {
       {!isDemoPage && <Navigation />}
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/features" element={<Features />} />
+        <Route path="/case-studies" element={<CaseStudies />} />
+        <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/book-a-demo" element={<BookDemo />} />
         <Route path="/terms-of-service" element={<TermsOfService />} />
