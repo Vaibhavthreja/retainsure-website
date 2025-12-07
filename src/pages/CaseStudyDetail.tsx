@@ -169,7 +169,7 @@ function CaseStudyDetail() {
             )}
 
             {caseStudy.approach_title && caseStudy.approach_content && (
-              <section className="flex flex-col lg:flex-row gap-8 lg:gap-12 bg-white bg-opacity-60 rounded-2xl p-6 sm:p-8 lg:p-10">
+              <section className="flex flex-col lg:flex-row gap-8 lg:gap-12">
                 <div className="flex-1 lg:w-3/4 space-y-4">
                   <h2 className="text-2xl sm:text-3xl font-bold" style={{ color: '#039143' }}>
                     {caseStudy.approach_title}
