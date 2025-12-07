@@ -7,6 +7,7 @@ import ContactUs from './pages/ContactUs';
 import BookDemo from './pages/BookDemo';
 import Features from './pages/Features';
 import CaseStudies from './pages/CaseStudies';
+import CaseStudyDetail from './pages/CaseStudyDetail';
 import Pricing from './pages/Pricing';
 import TermsOfService from './pages/TermsOfService';
 import PrivacyPolicy from './pages/PrivacyPolicy';
@@ -44,6 +45,7 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/features" element={<Features />} />
         <Route path="/case-studies" element={<CaseStudies />} />
+        <Route path="/case-studies/:slug" element={<CaseStudyDetail />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/book-a-demo" element={<BookDemo />} />

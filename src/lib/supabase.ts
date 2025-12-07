@@ -31,4 +31,15 @@ export interface CaseStudy {
   is_published: boolean;
   created_at: string;
   updated_at: string;
+  slug?: string;
+  heading?: string;
+  goal_title?: string;
+  goal_content?: string;
+  goal_image_url?: string;
+  approach_title?: string;
+  approach_content?: string;
+  approach_image_url?: string;
+  outcome_title?: string;
+  outcome_content?: string;
+  outcome_image_url?: string;
 }
