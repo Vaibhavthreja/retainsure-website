@@ -2,6 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { ArrowRight } from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { supabase, CaseStudy } from '../lib/supabase';
 
 function CaseStudyDetail() {
@@ -146,10 +148,10 @@ function CaseStudyDetail() {
                   <h2 className="text-2xl sm:text-3xl font-bold" style={{ color: '#039143' }}>
                     {caseStudy.goal_title}
                   </h2>
-                  <div className="prose prose-lg max-w-none">
-                    <p className="text-base sm:text-lg leading-relaxed whitespace-pre-line" style={{ color: '#022610', opacity: 0.8 }}>
+                  <div className="markdown-content text-base sm:text-lg leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
                       {caseStudy.goal_content}
-                    </p>
+                    </ReactMarkdown>
                   </div>
                 </div>
                 {caseStudy.goal_image_url && (
@@ -172,10 +174,10 @@ function CaseStudyDetail() {
                   <h2 className="text-2xl sm:text-3xl font-bold" style={{ color: '#039143' }}>
                     {caseStudy.approach_title}
                   </h2>
-                  <div className="prose prose-lg max-w-none">
-                    <p className="text-base sm:text-lg leading-relaxed whitespace-pre-line" style={{ color: '#022610', opacity: 0.8 }}>
+                  <div className="markdown-content text-base sm:text-lg leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
                       {caseStudy.approach_content}
-                    </p>
+                    </ReactMarkdown>
                   </div>
                 </div>
                 {caseStudy.approach_image_url && (
@@ -198,10 +200,10 @@ function CaseStudyDetail() {
                   <h2 className="text-2xl sm:text-3xl font-bold" style={{ color: '#039143' }}>
                     {caseStudy.outcome_title}
                   </h2>
-                  <div className="prose prose-lg max-w-none">
-                    <p className="text-base sm:text-lg leading-relaxed whitespace-pre-line" style={{ color: '#022610', opacity: 0.8 }}>
+                  <div className="markdown-content text-base sm:text-lg leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
+                    <ReactMarkdown remarkPlugins={[remarkGfm]}>
                       {caseStudy.outcome_content}
-                    </p>
+                    </ReactMarkdown>
                   </div>
                 </div>
                 {caseStudy.outcome_image_url && (
