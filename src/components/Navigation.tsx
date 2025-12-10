@@ -87,7 +87,7 @@ function Navigation() {
               Testimonials
             </button>
             <button
-              onClick={() => handleSectionNavigation('data-security')}
+              onClick={() => window.location.href = 'https://trust.retainsure.com'}
               className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"
               style={{ color: '#022610' }}
               aria-label="Learn about our security measures"
