@@ -136,107 +136,93 @@ function Pricing() {
           </button>
         </div>
 
-        {/* Pricing Comparison Cards */}
+        {/* Pricing Comparison Table */}
         <div className="max-w-6xl mx-auto mb-16">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 lg:gap-8">
+          <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
 
-            {/* Low Touch Plan Card */}
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-              {/* Plan Header */}
-              <div className="p-8 bg-gradient-to-br from-white to-gray-50 border-b border-gray-200">
-                <h2 className="text-2xl sm:text-3xl font-bold mb-2" style={{ color: '#022610' }}>
+            {/* Plan Headers */}
+            <div className="grid grid-cols-3 gap-4">
+              {/* Empty cell for feature column */}
+              <div className="p-6 bg-gradient-to-br from-white to-gray-50 border-b border-r border-gray-200"></div>
+
+              {/* Low Touch Header */}
+              <div className="p-6 bg-gradient-to-br from-white to-gray-50 border-b border-r border-gray-200">
+                <h2 className="text-xl sm:text-2xl font-bold mb-2" style={{ color: '#022610' }}>
                   Low Touch Accounts
                 </h2>
-                <p className="text-gray-600 mb-4">
+                <p className="text-sm text-gray-600 mb-3">
                   Perfect for teams managing high-volume customer bases
                 </p>
-                <div className="mb-6">
-                  <div className="text-3xl font-bold mb-1" style={{ color: '#039143' }}>
+                <div className="mb-4">
+                  <div className="text-2xl font-bold mb-1" style={{ color: '#039143' }}>
                     Custom Pricing
                   </div>
-                  <p className="text-sm text-gray-500">Tailored to your needs</p>
+                  <p className="text-xs text-gray-500">Tailored to your needs</p>
                 </div>
                 <button
                   onClick={handleTalkToFounder}
-                  className="w-full text-white px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-200"
+                  className="w-full text-white px-4 py-2 rounded-lg font-semibold text-sm shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-200"
                   style={{ backgroundColor: '#039143' }}
                 >
                   Talk to Founder
                 </button>
               </div>
 
-              {/* Features List */}
-              <div className="divide-y divide-gray-200">
-                {features.map((feature, index) => (
-                  <div
-                    key={index}
-                    className={`p-6 ${index % 2 === 0 ? 'bg-white' : 'bg-gray-50'} hover:bg-green-50/30 transition-colors duration-150`}
-                  >
-                    <div className="flex items-start justify-between space-x-4">
-                      <div className="flex items-center space-x-3 flex-1">
-                        <div className="flex-shrink-0" style={{ color: '#039143' }}>
-                          {feature.icon}
-                        </div>
-                        <span className="font-medium text-gray-800">{feature.name}</span>
-                      </div>
-                      <div className="flex-shrink-0">
-                        {renderFeatureValue(feature.lowTouch)}
-                      </div>
-                    </div>
+              {/* High Touch Header */}
+              <div className="p-6 bg-gradient-to-br from-green-50 to-white border-b border-gray-200 relative">
+                <div className="absolute top-0 right-0 text-white px-3 py-1 rounded-bl-lg text-xs font-semibold" style={{ backgroundColor: '#039143' }}>
+                  MOST POPULAR
+                </div>
+                <h2 className="text-xl sm:text-2xl font-bold mb-2" style={{ color: '#022610' }}>
+                  High Touch Accounts
+                </h2>
+                <p className="text-sm text-gray-600 mb-3">
+                  Complete solution for strategic customer relationships
+                </p>
+                <div className="mb-4">
+                  <div className="text-2xl font-bold mb-1" style={{ color: '#039143' }}>
+                    Custom Pricing
                   </div>
-                ))}
+                  <p className="text-xs text-gray-500">Tailored to your needs</p>
+                </div>
+                <button
+                  onClick={handleTalkToFounder}
+                  className="w-full text-white px-4 py-2 rounded-lg font-semibold text-sm shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-200"
+                  style={{ backgroundColor: '#039143' }}
+                >
+                  Talk to Founder
+                </button>
               </div>
             </div>
 
-            {/* High Touch Plan Card */}
-            <div className="bg-white rounded-2xl shadow-xl overflow-hidden">
-              {/* Plan Header */}
-              <div className="p-8 bg-gradient-to-br from-green-50 to-white border-b border-gray-200 relative">
-                <div className="absolute top-0 right-0 text-white px-4 py-1 rounded-bl-lg text-xs font-semibold" style={{ backgroundColor: '#039143' }}>
-                  MOST POPULAR
-                </div>
-                <h2 className="text-2xl sm:text-3xl font-bold mb-2" style={{ color: '#022610' }}>
-                  High Touch Accounts
-                </h2>
-                <p className="text-gray-600 mb-4">
-                  Complete solution for strategic customer relationships
-                </p>
-                <div className="mb-6">
-                  <div className="text-3xl font-bold mb-1" style={{ color: '#039143' }}>
-                    Custom Pricing
-                  </div>
-                  <p className="text-sm text-gray-500">Tailored to your needs</p>
-                </div>
-                <button
-                  onClick={handleTalkToFounder}
-                  className="w-full text-white px-6 py-3 rounded-lg font-semibold shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-200"
-                  style={{ backgroundColor: '#039143' }}
+            {/* Features Comparison Rows */}
+            <div className="divide-y divide-gray-200">
+              {features.map((feature, index) => (
+                <div
+                  key={index}
+                  className={`grid grid-cols-3 gap-4 ${index % 2 === 0 ? 'bg-white' : 'bg-gray-50'} hover:bg-green-50/30 transition-colors duration-150`}
                 >
-                  Talk to Founder
-                </button>
-              </div>
-
-              {/* Features List */}
-              <div className="divide-y divide-gray-200">
-                {features.map((feature, index) => (
-                  <div
-                    key={index}
-                    className={`p-6 ${index % 2 === 0 ? 'bg-white' : 'bg-gray-50'} hover:bg-green-50/30 transition-colors duration-150`}
-                  >
-                    <div className="flex items-start justify-between space-x-4">
-                      <div className="flex items-center space-x-3 flex-1">
-                        <div className="flex-shrink-0" style={{ color: '#039143' }}>
-                          {feature.icon}
-                        </div>
-                        <span className="font-medium text-gray-800">{feature.name}</span>
+                  {/* Feature Name Column */}
+                  <div className="p-6 border-r border-gray-200">
+                    <div className="flex items-center space-x-3">
+                      <div className="flex-shrink-0" style={{ color: '#039143' }}>
+                        {feature.icon}
                       </div>
-                      <div className="flex-shrink-0">
-                        {renderFeatureValue(feature.highTouch, true)}
-                      </div>
+                      <span className="font-medium text-gray-800">{feature.name}</span>
                     </div>
                   </div>
-                ))}
-              </div>
+
+                  {/* Low Touch Value Column */}
+                  <div className="p-6 border-r border-gray-200 flex items-center">
+                    {renderFeatureValue(feature.lowTouch)}
+                  </div>
+
+                  {/* High Touch Value Column */}
+                  <div className="p-6 flex items-center">
+                    {renderFeatureValue(feature.highTouch, true)}
+                  </div>
+                </div>
+              ))}
             </div>
 
           </div>
