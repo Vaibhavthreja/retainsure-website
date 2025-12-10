@@ -142,12 +142,8 @@ function Pricing() {
 
             {/* Plan Headers */}
             <div className="grid grid-cols-1 lg:grid-cols-3 border-b border-gray-200">
-              {/* Empty cell for features column */}
-              <div className="hidden lg:block p-6 bg-gray-50 border-r border-gray-200">
-                <h3 className="text-xl font-bold" style={{ color: '#022610' }}>
-                  Features
-                </h3>
-              </div>
+              {/* Empty cell for features column - maintains alignment */}
+              <div className="hidden lg:block border-r border-gray-200"></div>
 
               {/* Low Touch Plan Header */}
               <div className="p-8 border-b lg:border-b-0 lg:border-r border-gray-200 bg-gradient-to-br from-white to-gray-50">
