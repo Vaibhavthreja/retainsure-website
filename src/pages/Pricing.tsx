@@ -11,10 +11,10 @@ interface Feature {
 
 const features: Feature[] = [
   {
-    name: 'CSM seats',
-    icon: <Users className="w-5 h-5" />,
-    lowTouch: 'Unlimited seats',
-    highTouch: 'Unlimited seats'
+    name: 'AI Predictions for churn and upsell',
+    icon: <TrendingUp className="w-5 h-5" />,
+    lowTouch: true,
+    highTouch: true
   },
   {
     name: 'RetainAI (Chat with Data)',
@@ -26,6 +26,12 @@ const features: Feature[] = [
     name: 'Account Overviews',
     icon: <FileText className="w-5 h-5" />,
     lowTouch: false,
+    highTouch: true
+  },
+  {
+    name: 'AI automations builder',
+    icon: <Zap className="w-5 h-5" />,
+    lowTouch: true,
     highTouch: true
   },
   {
@@ -41,18 +47,6 @@ const features: Feature[] = [
     highTouch: 'Unlimited Segments'
   },
   {
-    name: 'AI automations builder',
-    icon: <Zap className="w-5 h-5" />,
-    lowTouch: true,
-    highTouch: true
-  },
-  {
-    name: 'AI Predictions for churn and upsell',
-    icon: <TrendingUp className="w-5 h-5" />,
-    lowTouch: true,
-    highTouch: true
-  },
-  {
     name: 'Tracked Metrics',
     icon: <Activity className="w-5 h-5" />,
     lowTouch: 'Unlimited',
@@ -63,6 +57,12 @@ const features: Feature[] = [
     icon: <Mail className="w-5 h-5" />,
     lowTouch: true,
     highTouch: true
+  },
+  {
+    name: 'CSM seats',
+    icon: <Users className="w-5 h-5" />,
+    lowTouch: 'Unlimited seats',
+    highTouch: 'Unlimited seats'
   }
 ];
 
