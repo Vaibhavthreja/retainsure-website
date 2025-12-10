@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Users, MessageSquare, FileText, BarChart3, Layers, Zap, TrendingUp, Activity, Mail, Check, X, ArrowRight } from 'lucide-react';
+import { Users, MessageSquare, FileText, ChartBar as BarChart3, Layers, Zap, TrendingUp, Activity, Mail, Check, X, ArrowRight } from 'lucide-react';
 
 interface Feature {
   name: string;
