@@ -150,15 +150,9 @@ function Pricing() {
                 <h2 className="text-xl sm:text-2xl font-bold mb-2" style={{ color: '#022610' }}>
                   Low Touch Accounts
                 </h2>
-                <p className="text-sm text-gray-600 mb-3">
+                <p className="text-sm text-gray-600 mb-6">
                   Perfect for teams managing high-volume customer bases
                 </p>
-                <div className="mb-4">
-                  <div className="text-2xl font-bold mb-1" style={{ color: '#039143' }}>
-                    Custom Pricing
-                  </div>
-                  <p className="text-xs text-gray-500">Tailored to your needs</p>
-                </div>
                 <button
                   onClick={handleTalkToFounder}
                   className="w-full text-white px-4 py-2 rounded-lg font-semibold text-sm shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-200"
@@ -176,15 +170,9 @@ function Pricing() {
                 <h2 className="text-xl sm:text-2xl font-bold mb-2" style={{ color: '#022610' }}>
                   High Touch Accounts
                 </h2>
-                <p className="text-sm text-gray-600 mb-3">
+                <p className="text-sm text-gray-600 mb-6">
                   Complete solution for strategic customer relationships
                 </p>
-                <div className="mb-4">
-                  <div className="text-2xl font-bold mb-1" style={{ color: '#039143' }}>
-                    Custom Pricing
-                  </div>
-                  <p className="text-xs text-gray-500">Tailored to your needs</p>
-                </div>
                 <button
                   onClick={handleTalkToFounder}
                   className="w-full text-white px-4 py-2 rounded-lg font-semibold text-sm shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-200"
