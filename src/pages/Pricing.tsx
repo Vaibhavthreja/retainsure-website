@@ -13,7 +13,7 @@ const features: Feature[] = [
   {
     name: 'CSM seats',
     icon: <Users className="w-5 h-5" />,
-    lowTouch: '2 included seats',
+    lowTouch: 'Unlimited seats',
     highTouch: 'Unlimited seats'
   },
   {
