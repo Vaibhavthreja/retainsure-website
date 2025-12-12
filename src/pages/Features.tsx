@@ -82,9 +82,11 @@ function Features() {
             {/* Feature 2: RetainAI - Content Right, Image Left */}
             <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div className="relative order-2 lg:order-1">
-                <div className="w-full aspect-[1650/1170] bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl shadow-lg border border-gray-200 flex items-center justify-center">
-                  <p className="text-gray-400 text-sm sm:text-base">RetainAI Feature Image</p>
-                </div>
+                <img
+                  src="/retainaichat.jpeg"
+                  alt="RetainAI - AI-powered copilot for customer success automation and intelligent recommendations"
+                  className="w-full aspect-[1650/1170] object-cover rounded-2xl shadow-lg border border-gray-200"
+                />
               </div>
 
               <div className="space-y-6 sm:space-y-8 order-1 lg:order-2">
@@ -143,18 +145,22 @@ function Features() {
               </div>
 
               <div className="relative order-2">
-                <div className="w-full aspect-[1650/1170] bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl shadow-lg border border-gray-200 flex items-center justify-center">
-                  <p className="text-gray-400 text-sm sm:text-base">Account Overviews Feature Image</p>
-                </div>
+                <img
+                  src="/accountoverview.jpeg"
+                  alt="Account Overviews - 360-degree view of customer accounts with comprehensive insights"
+                  className="w-full aspect-[1650/1170] object-cover rounded-2xl shadow-lg border border-gray-200"
+                />
               </div>
             </div>
 
             {/* Feature 4: AI Automation Builder - Content Right, Image Left */}
             <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div className="relative order-2 lg:order-1">
-                <div className="w-full aspect-[1650/1170] bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl shadow-lg border border-gray-200 flex items-center justify-center">
-                  <p className="text-gray-400 text-sm sm:text-base">AI Automation Builder Feature Image</p>
-                </div>
+                <img
+                  src="/aiworkflowbuilder.jpeg"
+                  alt="AI Automation Builder - Build intelligent workflows without coding"
+                  className="w-full aspect-[1650/1170] object-cover rounded-2xl shadow-lg border border-gray-200"
+                />
               </div>
 
               <div className="space-y-6 sm:space-y-8 order-1 lg:order-2">
@@ -213,9 +219,11 @@ function Features() {
               </div>
 
               <div className="relative order-2">
-                <div className="w-full aspect-[1650/1170] bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl shadow-lg border border-gray-200 flex items-center justify-center">
-                  <p className="text-gray-400 text-sm sm:text-base">Dashboarding Feature Image</p>
-                </div>
+                <img
+                  src="/dashboarding.jpeg"
+                  alt="Dashboarding - Unified view of customer success metrics and insights"
+                  className="w-full aspect-[1650/1170] object-cover rounded-2xl shadow-lg border border-gray-200"
+                />
               </div>
             </div>
 
