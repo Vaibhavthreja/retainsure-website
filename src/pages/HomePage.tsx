@@ -214,7 +214,7 @@ function HomePage() {
                   "It's messy to look at 100 dashboards… why can't I get proactive insghts?"
                 </blockquote>
                 <p className="text-lg sm:text-xl lg:text-2xl leading-relaxed" style={{ color: '#022610', opacity: 0.75 }}>
-                  All they wanted was insight on demand
+                  All they wanted was someone (maybe AI) to give proactive insights
                 </p>
               </div>
             </div>
