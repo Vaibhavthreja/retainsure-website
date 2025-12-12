@@ -191,24 +191,22 @@ function HomePage() {
               </div>
 
               <div className="relative order-2 lg:order-2">
-                <div
-                  className="w-full rounded-2xl shadow-lg border border-gray-200 bg-gray-100 flex items-center justify-center"
-                  style={{ aspectRatio: '1650/1170' }}
-                >
-                  <p className="text-gray-400 text-sm">1650 × 1170 Image</p>
-                </div>
+                <img
+                  src="/automation_homepage.jpeg"
+                  alt="Automation workflows with human touch and CSM tasks"
+                  className="w-full h-auto rounded-2xl shadow-lg border border-gray-200"
+                />
               </div>
             </div>
 
             {/* Third Subsection - Image Left, Content Right */}
             <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div className="relative order-2 lg:order-1">
-                <div
-                  className="w-full rounded-2xl shadow-lg border border-gray-200 bg-gray-100 flex items-center justify-center"
-                  style={{ aspectRatio: '1650/1170' }}
-                >
-                  <p className="text-gray-400 text-sm">1650 × 1170 Image</p>
-                </div>
+                <img
+                  src="/dashboards_homepage.jpeg"
+                  alt="Multiple dashboards showing the complexity of data management"
+                  className="w-full h-auto rounded-2xl shadow-lg border border-gray-200"
+                />
               </div>
 
               <div className="space-y-6 sm:space-y-8 order-1 lg:order-2">
