@@ -230,9 +230,11 @@ function Features() {
             {/* Feature 6: Account Segmentation - Content Right, Image Left */}
             <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div className="relative order-2 lg:order-1">
-                <div className="w-full aspect-[1650/1170] bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl shadow-lg border border-gray-200 flex items-center justify-center">
-                  <p className="text-gray-400 text-sm sm:text-base">Account Segmentation Feature Image</p>
-                </div>
+                <img
+                  src="/aisegmentation copy.jpeg"
+                  alt="Account Segmentation - AI-powered customer segmentation with dynamic grouping"
+                  className="w-full aspect-[1650/1170] object-cover rounded-2xl shadow-lg border border-gray-200"
+                />
               </div>
 
               <div className="space-y-6 sm:space-y-8 order-1 lg:order-2">
