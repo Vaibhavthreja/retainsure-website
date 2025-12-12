@@ -192,8 +192,8 @@ function HomePage() {
 
               <div className="relative order-2 lg:order-2">
                 <img
-                  src="/automation_homepage.jpeg"
-                  alt="Automation workflows with human touch and CSM tasks"
+                  src="/auatomation_error_homepage.jpeg"
+                  alt="Automation errors and parameter issues in workflows"
                   className="w-full h-auto rounded-2xl shadow-lg border border-gray-200"
                 />
               </div>
