@@ -211,7 +211,7 @@ function HomePage() {
 
               <div className="space-y-6 sm:space-y-8 order-1 lg:order-2">
                 <blockquote className="text-2xl sm:text-3xl lg:text-4xl font-medium italic leading-tight" style={{ color: '#022610' }}>
-                  "It's messy to look at 100 dashboards… why can't I chat with data?"
+                  "It's messy to look at 100 dashboards… why can't I get proactive insghts?"
                 </blockquote>
                 <p className="text-lg sm:text-xl lg:text-2xl leading-relaxed" style={{ color: '#022610', opacity: 0.75 }}>
                   All they wanted was insight on demand
