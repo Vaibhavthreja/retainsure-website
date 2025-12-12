@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Play, CheckCircle, ArrowRight, Shield, ChevronDown } from 'lucide-react';
+import { Play, CheckCircle, ArrowRight, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 
@@ -149,125 +149,76 @@ function HomePage() {
       </section>
 
       {/* How it works Section */}
-      <section id="how-it-works" className="py-12 sm:py-20 bg-gradient-to-br from-gray-50 to-white" aria-label="How RetainSure works">
+      <section id="how-it-works" className="py-12 sm:py-20 bg-gradient-to-br from-gray-50 to-white" aria-label="CS Leader Insights">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-16">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6" style={{ color: '#022610' }} itemProp="headline">
-              How it works?
+              80% CS leaders told us this. Do you feel the same?
             </h2>
-            
+
           </div>
 
           <div className="space-y-16 sm:space-y-24">
             {/* First Subsection - Image Left, Content Right */}
             <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div className="relative order-2 lg:order-1">
-                <img 
-                  src="/Predictions.png" 
-                  alt="AI-powered churn and upsell predictions dashboard" 
-                  className="w-full h-auto rounded-2xl shadow-lg border border-gray-200"
-                />
-              </div>
-              
-              <div className="space-y-4 sm:space-y-6 order-1 lg:order-2">
-                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold" style={{ color: '#022610' }}>
-                  Most accurate churn and upsell 
-prediction
-                </h3>
-                <div className="space-y-3 sm:space-y-4">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 mt-1 flex-shrink-0" style={{ color: '#039143' }} />
-                    <p className="text-base sm:text-lg" style={{ color: '#022610', opacity: 0.8 }}>
-                      AI-powered accurate churn and upsell prediction scores
-                    </p>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 mt-1 flex-shrink-0" style={{ color: '#039143' }} />
-                    <p className="text-base sm:text-lg" style={{ color: '#022610', opacity: 0.8 }}>
-                      An actionable explanation on each prediction
-                    </p>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 mt-1 flex-shrink-0" style={{ color: '#039143' }} />
-                    <p className="text-base sm:text-lg" style={{ color: '#022610', opacity: 0.8 }}>
-                      Automate personalized action taking at scale
-                    </p>
-                  </div>
+                <div
+                  className="w-full rounded-2xl shadow-lg border border-gray-200 bg-gray-100 flex items-center justify-center"
+                  style={{ aspectRatio: '1650/1170' }}
+                >
+                  <p className="text-gray-400 text-sm">1650 × 1170 Image</p>
                 </div>
+              </div>
+
+              <div className="space-y-6 sm:space-y-8 order-1 lg:order-2">
+                <blockquote className="text-2xl sm:text-3xl lg:text-4xl font-medium italic leading-tight" style={{ color: '#022610' }}>
+                  "My health scores are not accurate. I see so many watermelon accounts."
+                </blockquote>
+                <p className="text-lg sm:text-xl lg:text-2xl leading-relaxed" style={{ color: '#022610', opacity: 0.75 }}>
+                  Health looked green, reality was red. They needed truth, not dashboards pretending everything was fine.
+                </p>
               </div>
             </div>
 
             {/* Second Subsection - Content Left, Image Right */}
             <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
-              <div className="space-y-4 sm:space-y-6 order-1">
-                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold" style={{ color: '#022610' }}>
-                  Stay on top of your customers' data
-                </h3>
-                <div className="space-y-3 sm:space-y-4">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 mt-1 flex-shrink-0" style={{ color: '#039143' }} />
-                    <p className="text-base sm:text-lg" style={{ color: '#022610', opacity: 0.8 }}>
-                      A personal assistant who knows your customers in and out
-                    </p>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 mt-1 flex-shrink-0" style={{ color: '#039143' }} />
-                    <p className="text-base sm:text-lg" style={{ color: '#022610', opacity: 0.8 }}>
-                      Ask custom questions and let it take action for you
-                    </p>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 mt-1 flex-shrink-0" style={{ color: '#039143' }} />
-                    <p className="text-base sm:text-lg" style={{ color: '#022610', opacity: 0.8 }}>
-                      Create QBR decks in minutes
-                    </p>
-                  </div>
-                </div>
+              <div className="space-y-6 sm:space-y-8 order-1">
+                <blockquote className="text-2xl sm:text-3xl lg:text-4xl font-medium italic leading-tight" style={{ color: '#022610' }}>
+                  "My CSMs are short on bandwidth— I want to automate a lot of workflows without missing the human touch."
+                </blockquote>
+                <p className="text-lg sm:text-xl lg:text-2xl leading-relaxed" style={{ color: '#022610', opacity: 0.75 }}>
+                  They needed automation without templates, so the human touch isn't lost
+                </p>
               </div>
-              
+
               <div className="relative order-2 lg:order-2">
-                <img 
-                  src="/Chat.png" 
-                  alt="AI assistant chat interface for customer data insights" 
-                  className="w-full h-auto rounded-2xl shadow-lg border border-gray-200"
-                />
+                <div
+                  className="w-full rounded-2xl shadow-lg border border-gray-200 bg-gray-100 flex items-center justify-center"
+                  style={{ aspectRatio: '1650/1170' }}
+                >
+                  <p className="text-gray-400 text-sm">1650 × 1170 Image</p>
+                </div>
               </div>
             </div>
 
             {/* Third Subsection - Image Left, Content Right */}
             <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div className="relative order-2 lg:order-1">
-                <img 
-                  src="/Social.png" 
-                  alt="Customer social presence tracking dashboard" 
-                  className="w-full h-auto rounded-2xl shadow-lg border border-gray-200"
-                />
-              </div>
-              
-              <div className="space-y-4 sm:space-y-6 order-1 lg:order-2">
-                <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold" style={{ color: '#022610' }}>
-                  Track customer's social presence
-                </h3>
-                <div className="space-y-3 sm:space-y-4">
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 mt-1 flex-shrink-0" style={{ color: '#039143' }} />
-                    <p className="text-base sm:text-lg" style={{ color: '#022610', opacity: 0.8 }}>
-                      Keep track of your customers' funding, layoff and hiring status
-                    </p>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 mt-1 flex-shrink-0" style={{ color: '#039143' }} />
-                    <p className="text-base sm:text-lg" style={{ color: '#022610', opacity: 0.8 }}>
-                      Get alerts on customer news that can impact churn or expansion
-                    </p>
-                  </div>
-                  <div className="flex items-start space-x-3">
-                    <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 mt-1 flex-shrink-0" style={{ color: '#039143' }} />
-                    <p className="text-base sm:text-lg" style={{ color: '#022610', opacity: 0.8 }}>
-                      Track your champions on LinkedIn
-                    </p>
-                  </div>
+                <div
+                  className="w-full rounded-2xl shadow-lg border border-gray-200 bg-gray-100 flex items-center justify-center"
+                  style={{ aspectRatio: '1650/1170' }}
+                >
+                  <p className="text-gray-400 text-sm">1650 × 1170 Image</p>
                 </div>
+              </div>
+
+              <div className="space-y-6 sm:space-y-8 order-1 lg:order-2">
+                <blockquote className="text-2xl sm:text-3xl lg:text-4xl font-medium italic leading-tight" style={{ color: '#022610' }}>
+                  "It's messy to look at 100 dashboards… why can't I chat with data?"
+                </blockquote>
+                <p className="text-lg sm:text-xl lg:text-2xl leading-relaxed" style={{ color: '#022610', opacity: 0.75 }}>
+                  All they wanted was insight on demand
+                </p>
               </div>
             </div>
           </div>
