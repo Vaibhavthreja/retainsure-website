@@ -46,14 +46,6 @@ function Navigation() {
           
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-4 lg:space-x-8">
-            <button
-              onClick={() => handleSectionNavigation('how-it-works')}
-              className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"
-              style={{ color: '#022610' }}
-              aria-label="Learn about our product"
-            >
-              Product
-            </button>
             <Link
               to="/features"
               className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"
@@ -78,14 +70,6 @@ function Navigation() {
             >
               Pricing
             </Link>
-            <button
-              onClick={() => handleSectionNavigation('testimonials')}
-              className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"
-              style={{ color: '#022610' }}
-              aria-label="Read customer testimonials"
-            >
-              Testimonials
-            </button>
             <button
               onClick={() => window.location.href = 'https://trust.retainsure.com'}
               className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"
