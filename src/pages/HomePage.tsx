@@ -175,7 +175,7 @@ function HomePage() {
                   "My health scores are not accurate. I see so many watermelon accounts."
                 </blockquote>
                 <p className="text-lg sm:text-xl lg:text-2xl leading-relaxed" style={{ color: '#022610', opacity: 0.75 }}>
-                  Health looked green, reality was red. They needed truth, not dashboards pretending everything was fine.
+                  Health looked green, reality was red. They needed truth, not scores pretending everything was fine.
                 </p>
               </div>
             </div>
