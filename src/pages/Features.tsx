@@ -71,9 +71,11 @@ function Features() {
               </div>
 
               <div className="relative order-2">
-                <div className="w-full aspect-[1650/1170] bg-gradient-to-br from-gray-100 to-gray-200 rounded-2xl shadow-lg border border-gray-200 flex items-center justify-center">
-                  <p className="text-gray-400 text-sm sm:text-base">AI Predictions Feature Image</p>
-                </div>
+                <img
+                  src="/prediction.jpeg"
+                  alt="AI Predictions for Churn and Upsell - Dashboard showing churn risk and expansion opportunities"
+                  className="w-full aspect-[1650/1170] object-cover rounded-2xl shadow-lg border border-gray-200"
+                />
               </div>
             </div>
 
