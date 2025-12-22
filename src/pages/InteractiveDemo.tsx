@@ -22,9 +22,10 @@ function InteractiveDemo() {
   };
   const agents = [
     {
-      title: 'Product Adoption Agent',
-      description: 'Accelerate user onboarding and feature adoption with intelligent guidance',
-      icon: Zap,
+      title: 'Co-pilot Agent',
+      description: 'Empower your team with AI-driven recommendations and workflows',
+      icon: Bot,
+      id: 'copilot'
     },
     {
       title: 'Meeting Agent',
@@ -32,10 +33,9 @@ function InteractiveDemo() {
       icon: Users,
     },
     {
-      title: 'Co-pilot Agent',
-      description: 'Empower your team with AI-driven recommendations and workflows',
-      icon: Bot,
-      id: 'copilot'
+      title: 'Product Adoption Agent',
+      description: 'Accelerate user onboarding and feature adoption with intelligent guidance',
+      icon: Zap,
     }
   ];
 
