@@ -70,6 +70,14 @@ function Navigation() {
             >
               Pricing
             </Link>
+            <Link
+              to="/free-ai-tools"
+              className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"
+              style={{ color: '#039143' }}
+              aria-label="Free AI tools for customer success"
+            >
+              Free AI Tools
+            </Link>
             <button
               onClick={() => window.location.href = 'https://trust.retainsure.com'}
               className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"

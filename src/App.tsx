@@ -32,15 +32,18 @@ import CopilotAgentDemo from './pages/CopilotAgentDemo/CopilotAgentDemo';
 
 import ProductAdoptionDemo from './pages/ProductAdoptionDemo/ProductAdoptionDemo';
 import MeetingAgent from './pages/MeetingAgent/MeetingAgent';
+import FreeAiTools from './pages/FreeAiTools/FreeAiTools';
 
 function App() {
   const location = useLocation();
   const isDemoPage = location.pathname.startsWith('/interactive-demo/');
+  const isFreeToolsPage = location.pathname === '/free-ai-tools';
+  const hideChrome = isDemoPage || isFreeToolsPage;
 
   return (
     <>
-      {!isDemoPage && <ScrollToTop />}
-      {!isDemoPage && <Navigation />}
+      {!hideChrome && <ScrollToTop />}
+      {!hideChrome && <Navigation />}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/features" element={<Features />} />
@@ -56,8 +59,9 @@ function App() {
         <Route path="/interactive-demo/copilot-agent" element={<ProtectedDemoRoute><CopilotAgentDemo /></ProtectedDemoRoute>} />
         <Route path="/interactive-demo/product-adoption-agent" element={<ProtectedDemoRoute><ProductAdoptionDemo /></ProtectedDemoRoute>} />
         <Route path="/interactive-demo/meeting-agent" element={<ProtectedDemoRoute><MeetingAgent /></ProtectedDemoRoute>} />
+        <Route path="/free-ai-tools" element={<FreeAiTools />} />
       </Routes>
-      {!isDemoPage && <Footer />}
+      {!hideChrome && <Footer />}
       <CookieBanner />
     </>
   );
