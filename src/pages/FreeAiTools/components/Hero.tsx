@@ -1,4 +1,5 @@
 import { ArrowRight, ChevronDown } from 'lucide-react';
+import QbrIllustration from './QbrIllustration';
 
 function Hero() {
   const scrollToHowItWorks = () => {
@@ -70,43 +71,7 @@ function Hero() {
           </div>
 
           <div className="hidden lg:flex items-center justify-center">
-            <div className="relative w-full max-w-lg">
-              <div
-                className="absolute inset-0 rounded-2xl opacity-20 blur-2xl"
-                style={{ background: 'linear-gradient(135deg, #039143 0%, #027a38 100%)' }}
-              />
-              <div className="relative rounded-2xl border border-gray-200 bg-white shadow-xl overflow-hidden">
-                <img
-                  src="/hero-tools.png"
-                  alt="RetainSure micro CS tools dashboard"
-                  className="w-full h-auto"
-                  onError={(e) => {
-                    const target = e.currentTarget;
-                    target.style.display = 'none';
-                    const placeholder = target.nextElementSibling as HTMLElement;
-                    if (placeholder) placeholder.style.display = 'flex';
-                  }}
-                />
-                <div
-                  className="hidden items-center justify-center py-32 px-8 text-center"
-                  style={{ color: '#6b8575' }}
-                >
-                  <div>
-                    <div
-                      className="w-16 h-16 rounded-2xl flex items-center justify-center mx-auto mb-4"
-                      style={{ backgroundColor: '#edfcf2' }}
-                    >
-                      <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#039143" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
-                        <circle cx="8.5" cy="8.5" r="1.5" />
-                        <polyline points="21 15 16 10 5 21" />
-                      </svg>
-                    </div>
-                    <p className="text-sm font-medium">Hero image coming soon</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+            <QbrIllustration />
           </div>
         </div>
       </div>
