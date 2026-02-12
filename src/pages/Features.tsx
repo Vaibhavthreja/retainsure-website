@@ -231,7 +231,7 @@ function Features() {
             <div className="grid lg:grid-cols-2 gap-8 sm:gap-12 lg:gap-16 items-center">
               <div className="relative order-2 lg:order-1">
                 <img
-                  src="/aisegmentation copy.jpeg"
+                  src="/aisegmentation-alt.jpeg"
                   alt="Account Segmentation - AI-powered customer segmentation with dynamic grouping"
                   className="w-full aspect-[1650/1170] object-cover rounded-2xl shadow-lg border border-gray-200"
                 />
