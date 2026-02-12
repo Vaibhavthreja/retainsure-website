@@ -20,28 +20,10 @@ function Hero() {
         />
       </div>
 
-      <nav className="relative z-10 container mx-auto px-4 sm:px-6 py-4 flex items-center justify-between">
+      <nav className="relative z-10 container mx-auto px-4 sm:px-6 py-4">
         <Link to="/" className="hover:opacity-80 transition-opacity">
           <img src="/RetainSureFullLogo.png" alt="RetainSure" className="h-5 sm:h-6 w-auto" />
         </Link>
-        <div className="flex items-center gap-3">
-          <Link
-            to="/"
-            className="hidden sm:inline-flex text-sm font-medium hover:opacity-70 transition-opacity"
-            style={{ color: '#022610' }}
-          >
-            Back to RetainSure
-          </Link>
-          <a
-            href="https://tools.retainsure.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-white text-sm font-semibold px-5 py-2.5 rounded-lg hover:opacity-90 transition-opacity"
-            style={{ backgroundColor: '#039143' }}
-          >
-            Get Started - Free Always
-          </a>
-        </div>
       </nav>
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 pt-12 sm:pt-20 pb-16 sm:pb-24">
