@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { ArrowRight, ArrowLeft } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 function FreeToolsNav() {
   const scrollTo = (id: string) => {
@@ -54,14 +54,6 @@ function FreeToolsNav() {
             >
               Who It's For
             </button>
-            <Link
-              to="/"
-              className="flex items-center gap-1.5 text-sm lg:text-base font-medium hover:opacity-70 transition-opacity duration-200"
-              style={{ color: '#6b8575' }}
-            >
-              <ArrowLeft className="w-4 h-4" />
-              RetainSure Platform
-            </Link>
             <a
               href="https://tools.retainsure.com"
               target="_blank"
