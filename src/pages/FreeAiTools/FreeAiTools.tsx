@@ -5,7 +5,6 @@ import Features from './components/Features';
 import HowItWorks from './components/HowItWorks';
 import WhoItsFor from './components/WhoItsFor';
 import FinalCta from './components/FinalCta';
-import MicroToolsFooter from './components/MicroToolsFooter';
 import { useScrollReveal } from './useScrollReveal';
 
 function FreeAiTools() {
@@ -27,7 +26,6 @@ function FreeAiTools() {
         <HowItWorks />
         <WhoItsFor />
         <FinalCta />
-        <MicroToolsFooter />
       </div>
     </>
   );

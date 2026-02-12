@@ -37,8 +37,7 @@ import FreeAiTools from './pages/FreeAiTools/FreeAiTools';
 function App() {
   const location = useLocation();
   const isDemoPage = location.pathname.startsWith('/interactive-demo/');
-  const isFreeToolsPage = location.pathname === '/free-ai-tools';
-  const hideChrome = isDemoPage || isFreeToolsPage;
+  const hideChrome = isDemoPage;
 
   return (
     <>

@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import { ArrowRight, ChevronDown } from 'lucide-react';
 
 function Hero() {
@@ -19,12 +18,6 @@ function Hero() {
           style={{ background: 'radial-gradient(circle, #039143 0%, transparent 70%)' }}
         />
       </div>
-
-      <nav className="relative z-10 container mx-auto px-4 sm:px-6 py-4">
-        <Link to="/" className="hover:opacity-80 transition-opacity">
-          <img src="/RetainSureFullLogo.png" alt="RetainSure" className="h-5 sm:h-6 w-auto" />
-        </Link>
-      </nav>
 
       <div className="relative z-10 container mx-auto px-4 sm:px-6 pt-12 sm:pt-20 pb-16 sm:pb-24">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
