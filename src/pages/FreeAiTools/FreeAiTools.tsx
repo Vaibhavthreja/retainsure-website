@@ -359,7 +359,7 @@ function FreeAiTools() {
                   className="text-4xl sm:text-5xl lg:text-[3.5rem] font-extrabold leading-[1.1] tracking-tight mb-6"
                   style={{ color: '#022610' }}
                 >
-                  Micro Customer Success Tools{' '}
+                   Customer Success Tools{' '}
                   <span style={{ color: '#039143' }}>That Deliver</span>
                 </h1>
 
