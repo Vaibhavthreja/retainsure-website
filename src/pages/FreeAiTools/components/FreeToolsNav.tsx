@@ -26,7 +26,7 @@ function FreeToolsNav() {
             <div className="hidden sm:block w-px h-5 bg-gray-200" />
             <span
               className="hidden sm:inline-flex items-center gap-1.5 text-xs font-semibold tracking-wide uppercase px-2.5 py-1 rounded-md"
-              style={{ backgroundColor: '#edfcf2', color: '#039143' }}
+              style={{ backgroundColor: '#edfcf2', color: '#022610' }}
             >
               Free AI Tools
             </span>
