@@ -73,7 +73,7 @@ function Navigation() {
             <Link
               to="/free-ai-tools"
               className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"
-              style={{ color: '#039143' }}
+              style={{ color: '#022610' }}
               aria-label="Free AI tools for customer success"
             >
               Free AI Tools
