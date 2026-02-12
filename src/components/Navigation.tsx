@@ -72,11 +72,14 @@ function Navigation() {
             </Link>
             <Link
               to="/free-ai-tools"
-              className="font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"
-              style={{ color: '#027A35' }}
+              className="relative font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"
+              style={{ color: '#022610' }}
               aria-label="Free AI tools for customer success"
             >
               Free AI Tools
+              <span className="absolute -top-2.5 -right-8 bg-emerald-600 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full leading-none nav-new-badge">
+                new
+              </span>
             </Link>
             <button
               onClick={() => window.location.href = 'https://trust.retainsure.com'}
