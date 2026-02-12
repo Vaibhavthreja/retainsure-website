@@ -23,7 +23,7 @@ function FreeToolsNav() {
                 className="h-5 sm:h-6 w-auto"
               />
             </Link>
-            
+          </div>
 
           <div className="hidden md:flex items-center gap-6 lg:gap-8">
             <button
