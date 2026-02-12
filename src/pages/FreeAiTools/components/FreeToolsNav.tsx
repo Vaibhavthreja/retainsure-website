@@ -23,14 +23,7 @@ function FreeToolsNav() {
                 className="h-5 sm:h-6 w-auto"
               />
             </Link>
-            <div className="hidden sm:block w-px h-5 bg-gray-200" />
-            <span
-              className="hidden sm:inline-flex items-center gap-1.5 text-xs font-semibold tracking-wide uppercase px-2.5 py-1 rounded-md"
-              style={{ backgroundColor: '#edfcf2', color: '#022610' }}
-            >
-              Free AI Tools
-            </span>
-          </div>
+            
 
           <div className="hidden md:flex items-center gap-6 lg:gap-8">
             <button
