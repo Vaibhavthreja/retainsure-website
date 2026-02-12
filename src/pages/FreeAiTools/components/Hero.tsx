@@ -1,8 +1,8 @@
 import { ArrowRight, ChevronDown } from 'lucide-react';
 
 function Hero() {
-  const scrollToFeatures = () => {
-    const el = document.getElementById('features');
+  const scrollToHowItWorks = () => {
+    const el = document.getElementById('how-it-works');
     if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
@@ -55,7 +55,7 @@ function Hero() {
                 <ArrowRight className="w-5 h-5" />
               </a>
               <button
-                onClick={scrollToFeatures}
+                onClick={scrollToHowItWorks}
                 className="inline-flex items-center justify-center gap-2 font-semibold px-7 py-3.5 rounded-xl border-2 transition-all duration-200 hover:bg-gray-50 text-base"
                 style={{ color: '#022610', borderColor: '#d1d5db' }}
               >
