@@ -2,7 +2,7 @@ import { Users, Briefcase, Crown } from 'lucide-react';
 
 const personas = [
   { icon: Users, label: 'Customer Success Managers' },
-  { icon: Briefcase, label: 'Account Executives' },
+  { icon: Briefcase, label: 'Account Managers' },
   { icon: Crown, label: 'CS Leaders' },
 ];
 
