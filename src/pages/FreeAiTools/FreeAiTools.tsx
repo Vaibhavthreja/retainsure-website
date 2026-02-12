@@ -1,4 +1,5 @@
 import { Helmet } from 'react-helmet-async';
+import FreeToolsNav from './components/FreeToolsNav';
 import Hero from './components/Hero';
 import StatsBar from './components/StatsBar';
 import Features from './components/Features';
@@ -19,6 +20,7 @@ function FreeAiTools() {
           content="Free AI-powered micro tools for Customer Success teams. Generate QBR decks, identify churn risks, and uncover upsell opportunities in minutes."
         />
       </Helmet>
+      <FreeToolsNav />
       <div className="min-h-screen bg-white" style={{ scrollBehavior: 'smooth' }}>
         <Hero />
         <StatsBar />

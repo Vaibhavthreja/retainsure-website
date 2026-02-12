@@ -37,12 +37,14 @@ import FreeAiTools from './pages/FreeAiTools/FreeAiTools';
 function App() {
   const location = useLocation();
   const isDemoPage = location.pathname.startsWith('/interactive-demo/');
-  const hideChrome = isDemoPage;
+  const isFreeToolsPage = location.pathname === '/free-ai-tools';
+  const hideNav = isDemoPage || isFreeToolsPage;
+  const hideAll = isDemoPage;
 
   return (
     <>
-      {!hideChrome && <ScrollToTop />}
-      {!hideChrome && <Navigation />}
+      {!hideAll && <ScrollToTop />}
+      {!hideNav && <Navigation />}
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/features" element={<Features />} />
@@ -60,7 +62,7 @@ function App() {
         <Route path="/interactive-demo/meeting-agent" element={<ProtectedDemoRoute><MeetingAgent /></ProtectedDemoRoute>} />
         <Route path="/free-ai-tools" element={<FreeAiTools />} />
       </Routes>
-      {!hideChrome && <Footer />}
+      {!hideAll && <Footer />}
       <CookieBanner />
     </>
   );

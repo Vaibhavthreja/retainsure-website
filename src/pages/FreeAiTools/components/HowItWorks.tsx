@@ -26,7 +26,7 @@ const steps = [
 
 function HowItWorks() {
   return (
-    <section className="scroll-reveal py-20 sm:py-28" style={{ backgroundColor: '#fafbfc' }}>
+    <section id="how-it-works" className="scroll-reveal py-20 sm:py-28" style={{ backgroundColor: '#fafbfc' }}>
       <div className="container mx-auto px-4 sm:px-6">
         <div className="text-center max-w-2xl mx-auto mb-14">
           <h2

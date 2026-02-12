@@ -8,7 +8,7 @@ const personas = [
 
 function WhoItsFor() {
   return (
-    <section className="scroll-reveal bg-white py-20 sm:py-28">
+    <section id="who-its-for" className="scroll-reveal bg-white py-20 sm:py-28">
       <div className="container mx-auto px-4 sm:px-6">
         <div className="max-w-3xl mx-auto text-center">
           <h2
