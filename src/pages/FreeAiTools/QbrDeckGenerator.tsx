@@ -550,29 +550,7 @@ function QbrDeckGenerator() {
           </div>
         </section>
 
-        {/* Security Note */}
-        <section className="scroll-reveal bg-white py-14">
-          <div className="container mx-auto px-4 sm:px-6">
-            <div className="max-w-2xl mx-auto flex items-center gap-4 p-6 rounded-2xl border border-gray-200" style={{ backgroundColor: '#fafbfc' }}>
-              <div
-                className="w-12 h-12 rounded-xl flex items-center justify-center flex-shrink-0"
-                style={{ backgroundColor: '#edfcf2' }}
-              >
-                <Shield className="w-6 h-6" style={{ color: '#039143' }} />
-              </div>
-              <div>
-                <p className="font-semibold text-base mb-1" style={{ color: '#022610' }}>
-                  Your Data is Safe
-                </p>
-                <p className="text-sm leading-relaxed" style={{ color: '#3d5a47' }}>
-                  Customer data you input is processed securely and never stored or used for AI training.
-                  We follow industry-standard encryption and data handling practices.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
+        
         {/* Final CTA */}
         <section className="scroll-reveal relative overflow-hidden py-20 sm:py-28">
           <div
