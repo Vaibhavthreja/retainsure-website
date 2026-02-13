@@ -145,15 +145,15 @@ const useCases = [
 const faqs = [
   {
     q: 'What data do I need to provide?',
-    a: 'At minimum, basic account info like ARR, product usage metrics, and renewal date. For richer output, include support ticket history, NPS scores, customer goals, and any relevant notes. The more context you provide, the more detailed and accurate the deck.',
+    a: 'At minimum, basic account info like Product usage metrics, and renewal date. For richer output, include support ticket history, NPS scores, customer goals, and any relevant notes. The more context you provide, the more detailed and accurate the deck.',
   },
   {
     q: 'How long does generation take?',
-    a: 'Most decks are generated in under 60 seconds. Complex accounts with extensive data may take slightly longer, but you\'ll always have your deck in under 2 minutes.',
+    a: 'Most decks are generated in under 3 minutes. Complex accounts with extensive data may take slightly longer, but you\'ll always have your deck in under 5 minutes.',
   },
   {
     q: 'Can I customize the output?',
-    a: 'Yes. The generated deck gives you a strong starting point with all the analysis done. You can review each section, edit the narrative, and adjust recommendations before downloading.',
+    a: 'Yes. The generated deck gives you a strong starting point with all the analysis done. You get to export the generated presentation in pptx format and edit as yo like',
   },
   {
     q: 'Is my customer data secure?',
@@ -161,7 +161,7 @@ const faqs = [
   },
   {
     q: 'What format is the output?',
-    a: 'The deck is generated as a structured, formatted document that you can download and present directly or import into your preferred presentation tool.',
+    a: 'The deck is generated as a structured, formatted pptx that you can download and present directly or import into your preferred presentation tool.',
   },
   {
     q: 'Do I need technical skills to use this?',
