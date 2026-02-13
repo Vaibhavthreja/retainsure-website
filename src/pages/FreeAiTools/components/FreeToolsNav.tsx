@@ -63,7 +63,7 @@ function FreeToolsNav({ showBackLink = false, sectionLinks }: FreeToolsNavProps)
               </button>
             ))}
             <a
-              href="https://tools.retainsure.com"
+              href="https://tools.retainsure.com?ref=website"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-white font-medium px-5 py-2 rounded-lg hover:opacity-90 transition-opacity duration-200 text-sm lg:text-base"
@@ -86,7 +86,7 @@ function FreeToolsNav({ showBackLink = false, sectionLinks }: FreeToolsNavProps)
               </Link>
             )}
             <a
-              href="https://tools.retainsure.com"
+              href="https://tools.retainsure.com?ref=website"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 text-white font-medium px-4 py-2 rounded-lg text-sm"
