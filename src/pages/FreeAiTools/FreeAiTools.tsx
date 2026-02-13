@@ -52,7 +52,7 @@ const tools = [
     icon: BarChart3,
     title: 'QBR Deck Generator',
     description:
-      'Input your customer data and get a polished, executive-ready QBR presentation in minutes. Includes usage trends, health scores, and strategic recommendations.',
+      'Input your customer data and get a polished, executive-ready QBR presentation in minutes. Includes usage trends, whats working well, whats not working well and strategic recommendations.',
     badge: 'Available Now',
     available: true,
     detailPath: '/free-customer-success-ai-tools/qbr-deck-generator',
