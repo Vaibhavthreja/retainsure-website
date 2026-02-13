@@ -446,7 +446,7 @@ function QbrDeckGenerator() {
         />
       </Helmet>
 
-      <FreeToolsNav showBackLink sectionLinks={navSections} />
+      <FreeToolsNav sectionLinks={navSections} />
 
       <div className="min-h-screen bg-white" style={{ scrollBehavior: 'smooth' }}>
         {/* Hero */}
