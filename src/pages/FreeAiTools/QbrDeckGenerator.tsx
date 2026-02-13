@@ -17,7 +17,6 @@ import {
   Layers,
   PieChart,
   AlertTriangle,
-  CheckCircle,
   Lightbulb,
   Palette,
   FileDown,
@@ -79,21 +78,18 @@ const steps = [
     icon: FileText,
     title: 'Enter Your Customer Context',
     description: 'Paste key account details -- ARR, product usage, support history, renewal date. The more context, the sharper the output.',
-    details: ['CRM data & account info', 'Usage metrics & adoption data', 'Support tickets & NPS scores', 'Customer goals & objectives'],
   },
   {
     number: '02',
     icon: Sparkles,
     title: 'AI Generates Your Deck',
     description: 'Our AI analyzes your data and produces a structured, executive-ready QBR deck with insights, trends, and recommendations.',
-    details: ['Pattern recognition', 'Health score computation', 'Risk & opportunity analysis', 'Narrative generation'],
   },
   {
     number: '03',
     icon: Download,
     title: 'Download and Present',
     description: 'Export your polished deck and walk into your next QBR fully prepared. Customize further or present as-is.',
-    details: ['Instant preview', 'Section-by-section editing', 'One-click download', 'Ready to present'],
   },
 ];
 
@@ -414,15 +410,6 @@ function QbrDeckGenerator() {
                     >
                       {step.description}
                     </p>
-
-                    <div className="space-y-2">
-                      {step.details.map((detail) => (
-                        <div key={detail} className="flex items-center gap-2 text-sm justify-center">
-                          <CheckCircle className="w-4 h-4 flex-shrink-0" style={{ color: '#039143' }} />
-                          <span style={{ color: '#3d5a47' }}>{detail}</span>
-                        </div>
-                      ))}
-                    </div>
                   </div>
                 </div>
               ))}
