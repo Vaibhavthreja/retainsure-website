@@ -488,7 +488,7 @@ function QbrDeckGenerator() {
 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="https://tools.retainsure.com"
+                    href="https://tools.retainsure.com?ref=website"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 text-white font-semibold px-7 py-3.5 rounded-xl hover:opacity-90 transition-all duration-200 hover:shadow-lg text-base"
