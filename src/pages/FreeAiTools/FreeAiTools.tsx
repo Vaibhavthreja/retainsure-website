@@ -373,7 +373,7 @@ function FreeAiTools() {
 
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="https://tools.retainsure.com"
+                    href="https://tools.retainsure.com?ref=website"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center justify-center gap-2 text-white font-semibold px-7 py-3.5 rounded-xl hover:opacity-90 transition-all duration-200 hover:shadow-lg text-base"
@@ -477,7 +477,7 @@ function FreeAiTools() {
                   {tool.available && (
                     <div className="flex items-center gap-5 mt-6">
                       <a
-                        href="https://tools.retainsure.com"
+                        href="https://tools.retainsure.com?ref=website"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70"
@@ -634,7 +634,7 @@ function FreeAiTools() {
             </p>
 
             <a
-              href="https://tools.retainsure.com"
+              href="https://tools.retainsure.com?ref=website"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 font-bold px-8 py-4 rounded-xl transition-all duration-200 hover:shadow-xl hover:-translate-y-0.5 text-base"
