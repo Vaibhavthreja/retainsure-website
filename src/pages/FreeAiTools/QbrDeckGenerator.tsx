@@ -804,7 +804,7 @@ function QbrDeckGenerator() {
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-6 leading-tight">
               Your Next QBR Deck is
               <br className="hidden sm:block" />
-              <span className="opacity-90"> 60 Seconds Away.</span>
+              <span className="opacity-90"> 2 Minutes Away.</span>
             </h2>
 
             <p className="text-lg text-white/80 max-w-xl mx-auto mb-10">
@@ -824,7 +824,7 @@ function QbrDeckGenerator() {
             </a>
 
             <p className="mt-5 text-sm text-white/60">
-              No credit card required. No signup needed. Work email only.
+              No credit card required. Work email only.
             </p>
           </div>
         </section>
