@@ -359,46 +359,7 @@ function QbrDeckGenerator() {
           </div>
         </section>
 
-        {/* Features Grid */}
-        <section id="features" className="scroll-reveal py-20 sm:py-28" style={{ backgroundColor: '#fafbfc' }}>
-          <div className="container mx-auto px-4 sm:px-6">
-            <div className="text-center max-w-2xl mx-auto mb-14">
-              <h2
-                className="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4"
-                style={{ color: '#022610' }}
-              >
-                Everything You Need for a{' '}
-                <span style={{ color: '#039143' }}>Perfect QBR</span>
-              </h2>
-              <p className="text-lg" style={{ color: '#3d5a47' }}>
-                From data analysis to strategic recommendations -- every section of your QBR is handled by AI.
-              </p>
-            </div>
-
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {features.map((feature) => (
-                <div
-                  key={feature.title}
-                  className="group rounded-2xl border border-gray-200 bg-white p-6 transition-all duration-300 hover:shadow-lg hover:border-gray-300 hover:-translate-y-1"
-                >
-                  <div
-                    className="w-12 h-12 rounded-xl flex items-center justify-center mb-4"
-                    style={{ backgroundColor: '#edfcf2' }}
-                  >
-                    <feature.icon className="w-6 h-6" style={{ color: '#039143' }} />
-                  </div>
-                  <h3 className="text-base font-bold mb-2" style={{ color: '#022610' }}>
-                    {feature.title}
-                  </h3>
-                  <p className="text-sm leading-relaxed" style={{ color: '#3d5a47' }}>
-                    {feature.description}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </section>
-
+        
         {/* How It Works - Detailed */}
         <section id="how-it-works" className="scroll-reveal bg-white py-20 sm:py-28">
           <div className="container mx-auto px-4 sm:px-6">
