@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import {
   ArrowRight,
@@ -55,6 +56,7 @@ const tools = [
       'Input your customer data and get a polished, executive-ready QBR presentation in minutes. Includes usage trends, health scores, and strategic recommendations.',
     badge: 'Available Now',
     available: true,
+    detailPath: '/free-customer-success-ai-tools/qbr-deck-generator',
   },
   {
     icon: TrendingUp,
@@ -63,6 +65,7 @@ const tools = [
       'AI scans customer usage patterns, contract data, and engagement signals to surface high-confidence upsell and cross-sell opportunities.',
     badge: 'Coming Soon',
     available: false,
+    detailPath: null,
   },
   {
     icon: Zap,
@@ -71,6 +74,7 @@ const tools = [
       'Predict at-risk accounts before they churn. Get actionable retention plays based on behavioral signals, support trends, and engagement drops.',
     badge: 'Coming Soon',
     available: false,
+    detailPath: null,
   },
 ];
 
@@ -472,16 +476,28 @@ function FreeAiTools() {
                   </p>
 
                   {tool.available && (
-                    <a
-                      href="https://tools.retainsure.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1.5 mt-6 text-sm font-semibold transition-opacity hover:opacity-70"
-                      style={{ color: '#039143' }}
-                    >
-                      Try it now
-                      <span className="transition-transform duration-200 group-hover:translate-x-1">&rarr;</span>
-                    </a>
+                    <div className="flex items-center gap-5 mt-6">
+                      <a
+                        href="https://tools.retainsure.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70"
+                        style={{ color: '#039143' }}
+                      >
+                        Try it now
+                        <span className="transition-transform duration-200 group-hover:translate-x-1">&rarr;</span>
+                      </a>
+                      {tool.detailPath && (
+                        <Link
+                          to={tool.detailPath}
+                          className="inline-flex items-center gap-1.5 text-sm font-semibold transition-opacity hover:opacity-70"
+                          style={{ color: '#022610' }}
+                        >
+                          Learn more
+                          <span className="transition-transform duration-200 group-hover:translate-x-1">&rarr;</span>
+                        </Link>
+                      )}
+                    </div>
                   )}
                 </div>
               ))}

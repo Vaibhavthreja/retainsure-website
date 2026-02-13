@@ -71,7 +71,7 @@ function Navigation() {
               Pricing
             </Link>
             <Link
-              to="/free-ai-tools"
+              to="/free-customer-success-ai-tools"
               className="relative font-medium hover:opacity-70 transition-opacity duration-200 text-sm lg:text-base"
               style={{ color: '#022610' }}
               aria-label="Free AI tools for customer success"

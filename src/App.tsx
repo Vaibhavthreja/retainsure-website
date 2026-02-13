@@ -33,11 +33,12 @@ import CopilotAgentDemo from './pages/CopilotAgentDemo/CopilotAgentDemo';
 import ProductAdoptionDemo from './pages/ProductAdoptionDemo/ProductAdoptionDemo';
 import MeetingAgent from './pages/MeetingAgent/MeetingAgent';
 import FreeAiTools from './pages/FreeAiTools/FreeAiTools';
+import QbrDeckGenerator from './pages/FreeAiTools/QbrDeckGenerator';
 
 function App() {
   const location = useLocation();
   const isDemoPage = location.pathname.startsWith('/interactive-demo/');
-  const isFreeToolsPage = location.pathname === '/free-ai-tools';
+  const isFreeToolsPage = location.pathname.startsWith('/free-customer-success-ai-tools');
   const hideNav = isDemoPage || isFreeToolsPage;
   const hideAll = isDemoPage;
 
@@ -60,7 +61,8 @@ function App() {
         <Route path="/interactive-demo/copilot-agent" element={<ProtectedDemoRoute><CopilotAgentDemo /></ProtectedDemoRoute>} />
         <Route path="/interactive-demo/product-adoption-agent" element={<ProtectedDemoRoute><ProductAdoptionDemo /></ProtectedDemoRoute>} />
         <Route path="/interactive-demo/meeting-agent" element={<ProtectedDemoRoute><MeetingAgent /></ProtectedDemoRoute>} />
-        <Route path="/free-ai-tools" element={<FreeAiTools />} />
+        <Route path="/free-customer-success-ai-tools" element={<FreeAiTools />} />
+        <Route path="/free-customer-success-ai-tools/qbr-deck-generator" element={<QbrDeckGenerator />} />
       </Routes>
       {!hideAll && <Footer />}
       <CookieBanner />
