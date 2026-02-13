@@ -29,21 +29,21 @@ const steps = [
     icon: Target,
     title: 'Choose Your Tool',
     description:
-      'Pick the AI micro-tool that fits your need -- QBR deck generation, churn analysis, or upsell identification.',
+      'Pick the AI micro-tool that fits your need - QBR deck generation, churn analysis, or upsell identification.',
   },
   {
     number: '02',
     icon: FileText,
     title: 'Input Your Data',
     description:
-      'Paste your customer context -- account details, usage metrics, support history, or any relevant data points.',
+      'Paste your customer context - account details, usage metrics, support history, or any relevant data points.',
   },
   {
     number: '03',
     icon: Sparkles,
     title: 'Get Results',
     description:
-      'Receive polished, actionable output in seconds. Download, share, or present -- no extra formatting needed.',
+      'Receive polished, actionable output in seconds. Download, share, or present - no extra formatting needed.',
   },
 ];
 
