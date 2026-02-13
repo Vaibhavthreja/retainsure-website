@@ -367,7 +367,7 @@ function FreeAiTools() {
                 </h1>
 
                 <p className="text-lg sm:text-xl leading-relaxed mb-8" style={{ color: '#3d5a47' }}>
-                  Generate QBR decks, identify churn risks, and uncover upsell opportunities --
+                  Generate QBR decks, identify churn risks, and uncover upsell opportunities -
                   all powered by AI. Built for CS teams that need results, not complexity.
                 </p>
 
