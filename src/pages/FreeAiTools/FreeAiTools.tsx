@@ -11,7 +11,6 @@ import {
   Zap,
   FileText,
   Sparkles,
-  Download,
   Users,
   Briefcase,
   Crown,
@@ -27,24 +26,24 @@ const stats = [
 const steps = [
   {
     number: '01',
-    icon: FileText,
-    title: 'Enter Your Customer Context',
+    icon: Target,
+    title: 'Choose Your Tool',
     description:
-      'Paste key account details -- ARR, product usage, support history, renewal date. The more context, the sharper the output.',
+      'Pick the AI micro-tool that fits your need -- QBR deck generation, churn analysis, or upsell identification.',
   },
   {
     number: '02',
-    icon: Sparkles,
-    title: 'AI Generates Your Deck',
+    icon: FileText,
+    title: 'Input Your Data',
     description:
-      'Our AI analyzes your data and produces a structured, executive-ready QBR deck with insights, trends, and recommendations.',
+      'Paste your customer context -- account details, usage metrics, support history, or any relevant data points.',
   },
   {
     number: '03',
-    icon: Download,
-    title: 'Download and Present',
+    icon: Sparkles,
+    title: 'Get Results',
     description:
-      'Export your polished deck and walk into your next QBR fully prepared. Customize further or present as-is.',
+      'Receive polished, actionable output in seconds. Download, share, or present -- no extra formatting needed.',
   },
 ];
 
@@ -516,7 +515,7 @@ function FreeAiTools() {
                 How It Works
               </h2>
               <p className="text-lg" style={{ color: '#3d5a47' }}>
-                From raw customer data to a polished QBR deck in three simple steps.
+                Pick a tool, drop in your data, and get actionable results in seconds.
               </p>
             </div>
 

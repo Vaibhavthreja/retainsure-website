@@ -77,22 +77,22 @@ const steps = [
   {
     number: '01',
     icon: FileText,
-    title: 'Input Customer Data',
-    description: 'Paste your account details -- ARR, product usage metrics, support ticket history, renewal dates, customer goals, and any relevant notes.',
+    title: 'Enter Your Customer Context',
+    description: 'Paste key account details -- ARR, product usage, support history, renewal date. The more context, the sharper the output.',
     details: ['CRM data & account info', 'Usage metrics & adoption data', 'Support tickets & NPS scores', 'Customer goals & objectives'],
   },
   {
     number: '02',
     icon: Sparkles,
-    title: 'AI Analyzes & Generates',
-    description: 'Our AI processes your data, identifies trends, calculates health scores, spots risks and opportunities, and structures everything into a coherent narrative.',
+    title: 'AI Generates Your Deck',
+    description: 'Our AI analyzes your data and produces a structured, executive-ready QBR deck with insights, trends, and recommendations.',
     details: ['Pattern recognition', 'Health score computation', 'Risk & opportunity analysis', 'Narrative generation'],
   },
   {
     number: '03',
     icon: Download,
-    title: 'Review & Download',
-    description: 'Get your polished, executive-ready QBR deck. Review the output, make any adjustments, and download it for your next meeting.',
+    title: 'Download and Present',
+    description: 'Export your polished deck and walk into your next QBR fully prepared. Customize further or present as-is.',
     details: ['Instant preview', 'Section-by-section editing', 'One-click download', 'Ready to present'],
   },
 ];
