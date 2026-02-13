@@ -101,7 +101,7 @@ const sampleSections = [
       'Summary of product usage over time',
       'Key milestones and adoption trends',
       'Engagement and activity overview',
-      'Account health trajectory',
+      
     ],
   },
   {
