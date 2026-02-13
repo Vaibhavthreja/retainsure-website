@@ -119,8 +119,7 @@ const sampleSections = [
     lines: [
       'Underutilized features and gaps',
       'Declining engagement areas',
-      'Unresolved pain points',
-      'Missed targets and blockers',
+      'Unresolved pain points'
     ],
   },
   {
