@@ -95,43 +95,43 @@ const steps = [
 
 const sampleSections = [
   {
-    title: 'Executive Summary',
+    title: 'Journey Till Now',
     color: '#039143',
     lines: [
-      'Account overview & relationship timeline',
-      'Key metrics at a glance',
-      'Period-over-period performance',
-      'Top achievements & milestones',
+      'Summary of product usage over time',
+      'Key milestones and adoption trends',
+      'Engagement and activity overview',
+      'Account health trajectory',
     ],
   },
   {
-    title: 'Usage & Adoption Trends',
+    title: 'What Worked Well',
     color: '#0369a1',
     lines: [
-      'Feature adoption breakdown',
-      'Active users trend analysis',
-      'Engagement depth scoring',
-      'Comparison to similar accounts',
+      'High-impact features and workflows',
+      'Goals achieved and targets met',
+      'Positive engagement patterns',
+      'Successful initiatives and wins',
     ],
   },
   {
-    title: 'Health & Risk Assessment',
+    title: 'What Is Not Working Well',
     color: '#dc2626',
     lines: [
-      'Composite health score',
-      'Risk factors identified',
-      'Support sentiment analysis',
-      'Engagement drop indicators',
+      'Underutilized features and gaps',
+      'Declining engagement areas',
+      'Unresolved pain points',
+      'Missed targets and blockers',
     ],
   },
   {
-    title: 'Strategic Recommendations',
+    title: 'Actionable Recommendations',
     color: '#d97706',
     lines: [
-      'Actionable next steps',
-      'Expansion opportunities',
-      'Success plan alignment',
-      'Renewal readiness assessment',
+      'Specific steps to address problem areas',
+      'Quick wins to drive immediate impact',
+      'Strategic initiatives for long-term success',
+      'Resources and support needed',
     ],
   },
 ];
