@@ -624,7 +624,7 @@ function FreeAiTools() {
 
           <div className="relative z-10 container mx-auto px-4 sm:px-6 text-center">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-6 leading-tight">
-              Stop Spending Hours on what
+              Stop spending hours on what
               <br className="hidden sm:block" />
               <span className="opacity-90"> AI can do in minutes</span>
             </h2>
