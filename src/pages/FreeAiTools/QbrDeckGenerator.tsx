@@ -100,7 +100,7 @@ const sampleSections = [
     lines: [
       'Summary of product usage over time',
       'Key milestones and adoption trends',
-      'Engagement and activity overview',
+      'Engagement and activity overview'
       
     ],
   },
@@ -110,8 +110,7 @@ const sampleSections = [
     lines: [
       'High-impact features and workflows',
       'Goals achieved and targets met',
-      'Positive engagement patterns',
-      'Successful initiatives and wins',
+      'Successful initiatives and wins'
     ],
   },
   {
