@@ -553,7 +553,7 @@ function QbrDeckGenerator() {
               </h2>
               <p className="text-lg" style={{ color: '#3d5a47' }}>
                 Every quarter, CS teams spend hours gathering data, building slides, and crafting narratives.
-                Time that could be spent on what actually moves the needle -- deepening customer relationships.
+                Time that could be spent on what actually moves the needle - deepening customer relationships.
               </p>
             </div>
 
