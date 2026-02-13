@@ -437,7 +437,7 @@ function FreeAiTools() {
                 <span style={{ color: '#039143' }}>Zero Complexity.</span>
               </h2>
               <p className="text-lg" style={{ color: '#3d5a47' }}>
-                Each tool does one thing exceptionally well -- so you can focus on your customers, not your software.
+                Each tool does one thing exceptionally well so you can focus on your customers, not your software.
               </p>
             </div>
 
