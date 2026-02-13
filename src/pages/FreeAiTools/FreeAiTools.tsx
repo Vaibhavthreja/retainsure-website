@@ -624,7 +624,7 @@ function FreeAiTools() {
 
           <div className="relative z-10 container mx-auto px-4 sm:px-6 text-center">
             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-6 leading-tight">
-              Stop Spending Hours on QBRs.
+              Stop Spending Hours on what AI can do in minutes.
               <br className="hidden sm:block" />
               <span className="opacity-90"> Start in Minutes.</span>
             </h2>
@@ -640,7 +640,7 @@ function FreeAiTools() {
               className="inline-flex items-center gap-2 font-bold px-8 py-4 rounded-xl transition-all duration-200 hover:shadow-xl hover:-translate-y-0.5 text-base"
               style={{ backgroundColor: 'white', color: '#039143' }}
             >
-              Generate QBR Deck for free - always
+              Try micro toos - free always
               <ArrowRight className="w-5 h-5" />
             </a>
 
