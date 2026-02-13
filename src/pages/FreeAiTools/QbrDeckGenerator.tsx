@@ -269,7 +269,7 @@ function QbrDeckGenerator() {
                   className="inline-flex items-center justify-center gap-2 text-white font-semibold px-7 py-3.5 rounded-xl hover:opacity-90 transition-all duration-200 hover:shadow-lg text-base"
                   style={{ backgroundColor: '#039143' }}
                 >
-                  Generate Your QBR Deck - Free
+                  Generate Your QBR Deck - Free Always
                   <ArrowRight className="w-5 h-5" />
                 </a>
                 <button
