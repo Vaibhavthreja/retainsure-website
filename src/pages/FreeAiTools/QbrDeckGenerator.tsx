@@ -77,7 +77,7 @@ const steps = [
     number: '01',
     icon: FileText,
     title: 'Enter Your Customer Context',
-    description: 'Paste key account details -- ARR, product usage, support history, renewal date. The more context, the sharper the output.',
+    description: 'Paste key account details - Product usage, support history, renewal date. The more context, the sharper the output.',
   },
   {
     number: '02',
