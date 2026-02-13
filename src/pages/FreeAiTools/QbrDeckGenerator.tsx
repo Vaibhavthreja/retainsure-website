@@ -179,7 +179,6 @@ const personas = [
 ];
 
 const navSections = [
-  { id: 'features', label: 'Features' },
   { id: 'how-it-works', label: 'How It Works' },
   { id: 'sample-output', label: 'Sample Output' },
   { id: 'faq', label: 'FAQ' },
