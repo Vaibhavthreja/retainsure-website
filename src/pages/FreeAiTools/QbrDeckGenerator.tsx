@@ -127,9 +127,8 @@ const sampleSections = [
     color: '#d97706',
     lines: [
       'Specific steps to address problem areas',
-      'Quick wins to drive immediate impact',
       'Strategic initiatives for long-term success',
-      'Resources and support needed',
+      'Resources and support needed'
     ],
   },
 ];
