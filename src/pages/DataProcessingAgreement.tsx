@@ -660,6 +660,17 @@ function DataProcessingAgreement() {
                               SOC 2 Type 2
                             </td>
                           </tr>
+                          <tr className="hover:bg-gray-50 transition-colors duration-200">
+                            <td className="border border-gray-300 px-4 py-3 font-medium" style={{ color: '#022610' }}>
+                              Google Cloud
+                            </td>
+                            <td className="border border-gray-300 px-4 py-3" style={{ color: '#022610', opacity: 0.8 }}>
+                              Gmail Integration OAuth
+                            </td>
+                            <td className="border border-gray-300 px-4 py-3" style={{ color: '#022610', opacity: 0.8 }}>
+                              SOC 2 Type 2, GDPR, ISO 27001
+                            </td>
+                          </tr>
                         </tbody>
                       </table>
                     </div>
