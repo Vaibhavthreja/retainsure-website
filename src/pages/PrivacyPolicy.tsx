@@ -154,10 +154,56 @@ function PrivacyPolicy() {
                   </p>
                 </section>
 
+
                 {/* Section 6 */}
+                <section id="sensitive-data-security">
+                  <h2 className="text-2xl font-bold mb-4" style={{ color: '#022610' }}>
+                    6. Data Protection and Security
+                  </h2>
+                  <p className="text-base leading-relaxed mb-4" style={{ color: '#022610', opacity: 0.8 }}>
+                    RetainSure implements appropriate technical and organizational safeguards to protect sensitive information processed through the platform, including data obtained via third-party integrations and connected accounts.
+                  </p>
+
+                  <h3 className="text-lg font-bold mb-3 mt-6" style={{ color: '#022610' }}>
+                    • Encryption in Transit
+                  </h3>
+                  <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                  All data transmitted between users, third-party services, and RetainSure is encrypted in transit using industry-standard security protocols, including HTTPS and Transport Layer Security (TLS).
+                  </p>
+
+                  <h3 className="text-lg font-bold mb-3 mt-6" style={{ color: '#022610' }}>
+                    • Encryption at Rest
+                  </h3>
+                  <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                    Sensitive data, including authentication credentials, access tokens, and customer data, is encrypted at rest. Access and refresh tokens are encrypted using managed key services, and customer data is stored in encrypted databases within our cloud infrastructure.
+                  </p>
+
+                  <h3 className="text-lg font-bold mb-3 mt-6" style={{ color: '#022610' }}>
+                    • Access Controls and Data Isolation
+                  </h3>
+                  <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                    Access to sensitive data is restricted using role-based access controls and the principle of least privilege. RetainSure enforces per-company data isolation and row-level security to ensure that customer data is accessible only to authorized users and systems associated with the relevant account.
+                  </p>
+                  <h3 className="text-lg font-bold mb-3 mt-6" style={{ color: '#022610' }}>
+                    • Token Handling and Revocation
+                  </h3>
+                  <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                    Authentication tokens used to connect third-party services are stored in encrypted form and used solely to provide user-authorized functionality. Users may disconnect integrated accounts at any time, upon which associated tokens are revoked and no further access to connected service data occurs.
+                  </p>
+                  <h3 className="text-lg font-bold mb-3 mt-6" style={{ color: '#022610' }}>
+                    • Compliance with API Data Use Policies
+                  </h3>
+                  <p className="text-base leading-relaxed mb-2" style={{ color: '#022610', opacity: 0.8 }}>
+                    RetainSure’s use and handling of data obtained from third-party APIs complies with applicable API provider data protection requirements, including restrictions on use, sharing, and security of such data.
+                  </p>
+                  
+                </section>
+
+
+                {/* Section 7 */}
                 <section>
                   <h2 className="text-2xl font-bold mb-4" style={{ color: '#022610' }}>
-                    6. Your Rights
+                    7. Your Rights
                   </h2>
                   <p className="text-base leading-relaxed mb-6" style={{ color: '#022610', opacity: 0.8 }}>
                     Depending on your location, you may have the following rights:
@@ -273,10 +319,10 @@ function PrivacyPolicy() {
                   </div>
                 </section>
 
-                {/* Section 7 */}
+                {/* Section 8 */}
                 <section id="cookies">
                   <h2 className="text-2xl font-bold mb-4" style={{ color: '#022610' }}>
-                    7. Cookie Policy
+                    8. Cookie Policy
                   </h2>
                   <p className="text-base leading-relaxed mb-4" style={{ color: '#022610', opacity: 0.8 }}>
                     This Cookie Policy explains how we use cookies and similar technologies to recognize you when you visit our website. It also explains the types of cookies we use, why we use them, and how you can control your preferences.
@@ -325,10 +371,10 @@ function PrivacyPolicy() {
                   </p>
                 </section>
 
-                {/* Section 8 */}
+                {/* Section 9 */}
                 <section>
                   <h2 className="text-2xl font-bold mb-4" style={{ color: '#022610' }}>
-                    8. Data Retention
+                    9. Data Retention
                   </h2>
                   <p className="text-base leading-relaxed mb-4" style={{ color: '#022610', opacity: 0.8 }}>
                     We retain our customer/prospect data as long as necessary for the purposes described in this policy or to meet legal obligations. You can exercise your right to get your data deleted by reaching out to us at support@retainsure.com.
@@ -338,20 +384,20 @@ function PrivacyPolicy() {
                   </p>
                 </section>
 
-                {/* Section 9 */}
+                {/* Section 10 */}
                 <section>
                   <h2 className="text-2xl font-bold mb-4" style={{ color: '#022610' }}>
-                    9. Children's Privacy
+                    10. Children's Privacy
                   </h2>
                   <p className="text-base leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
                     Our Services are not intended for individuals under the age of 13 (or equivalent minimum age in relevant jurisdictions). We do not knowingly collect personal data from children.
                   </p>
                 </section>
 
-                {/* Section 10 */}
+                {/* Section 11 */}
                 <section>
                   <h2 className="text-2xl font-bold mb-4" style={{ color: '#022610' }}>
-                    10. Changes to This Policy
+                    11. Changes to This Policy
                   </h2>
                   <p className="text-base leading-relaxed mb-4" style={{ color: '#022610', opacity: 0.8 }}>
                     We may update this Privacy Policy periodically. We will notify you of significant changes by posting the updated version on our website and updating the "Effective Date" at the top.
@@ -361,20 +407,20 @@ function PrivacyPolicy() {
                   </p>
                 </section>
 
-                {/* Section 11 */}
+                {/* Section 12 */}
                 <section>
                   <h2 className="text-2xl font-bold mb-4" style={{ color: '#022610' }}>
-                    11. Incident Management
+                    12. Incident Management
                   </h2>
                   <p className="text-base leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
                     We take the best security practices to avoid any kind of incidents or breach. In case of any breach or incident, we would let our customers and concerned parties know about the incident within 72 hours of the incident's occurrence.
                   </p>
                 </section>
 
-                {/* Section 12 */}
+                {/* Section 13 */}
                 <section>
                   <h2 className="text-2xl font-bold mb-4" style={{ color: '#022610' }}>
-                    12. Contact Us
+                    13. Contact Us
                   </h2>
                   <p className="text-base leading-relaxed mb-4" style={{ color: '#022610', opacity: 0.8 }}>
                     If you have any questions or concerns about this Privacy Policy or our data practices, please contact us at:
