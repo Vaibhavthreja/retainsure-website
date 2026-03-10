@@ -59,7 +59,7 @@ function BookDemo() {
                     <div className="w-12 h-12 rounded-full flex items-center justify-center" style={{ backgroundColor: '#039143' }}>
                       <Play className="w-6 h-6 text-white" />
                     </div>
-                    <h1 className="text-3xl lg:text-4xl font-bold" style={{ color: '#022610' }} itemProp="headline">
+                    <h1 className="text-3xl lg:text-4xl font-bold" style={{ color: '#022610' }}>
                       Book a Demo
                     </h1>
                   </div>

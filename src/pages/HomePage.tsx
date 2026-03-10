@@ -13,72 +13,6 @@ function HomePage() {
         <meta name="description" content="Transform your customer success strategy with RetainSure's AI-powered platform. Get accurate churn predictions, spot upsell opportunities, and take personalized action at scale. Trusted by leading CS teams." />
         <meta name="keywords" content="customer success, churn prediction, upsell opportunities, AI customer success, customer retention, SaaS analytics, customer success platform, churn prevention" />
         <link rel="canonical" href="https://www.retainsure.com/" />
-        
-        {/* Structured Data for WebPage */}
-        <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "WebPage",
-          "name": "RetainSure - AI-Powered Customer Success Platform",
-          "description": "Stop churn, unlock upsell opportunities, and grow smarter with RetainSure's AI-powered customer success platform.",
-          "url": "https://www.retainsure.com/",
-          "mainEntity": {
-            "@type": "SoftwareApplication",
-            "name": "RetainSure",
-            "description": "AI-powered customer success platform for churn prediction and upsell identification"
-          }
-        })}
-        </script>
-
-        {/* Structured Data for FAQPage */}
-        <script type="application/ld+json">
-        {JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "FAQPage",
-          "mainEntity": [
-            {
-              "@type": "Question",
-              "name": "How accurate are RetainSure's churn/upsell predictions?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "RetainSure's predictions are 1.5 to 2 times more accurate than traditional health scores. The models learn from your historical churn and expansion data, factoring in sentiment across communication channels, behaviour patterns, product usage, and industry or regional context to deliver highly personalised insights."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "How long does it take to set up RetainSure?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Most customers are up and running within 48 hours. The integration process is simple, and since insights are powered by AI, there's minimal setup required after connecting your data sources."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What integrations does RetainSure support?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "RetainSure currently integrates with HubSpot, Salesforce, Metabase, Amplitude, Mixpanel, Chargebee, and Stripe. We also build new integrations on request—typically within 7 days."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "Is my customer data secure with RetainSure?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "Absolutely. RetainSure is SOC 2 Type 2 compliant and GDPR ready. We use enterprise-grade encryption, regular security audits, and follow industry best practices for data protection. Your data is processed securely with RetainSure."
-              }
-            },
-            {
-              "@type": "Question",
-              "name": "What kind of support do you provide?",
-              "acceptedAnswer": {
-                "@type": "Answer",
-                "text": "We provide comprehensive onboarding, dedicated customer success managers, 24/7 technical support, regular training sessions, and a dedicated Slack channel for swift communication. Our team is committed to ensuring you get maximum value from RetainSure."
-              }
-            }
-          ]
-        })}
-        </script>
       </Helmet>
       
       
@@ -286,24 +220,22 @@ function HomePage() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 lg:gap-12">
             {/* Testimonial 1 */}
-            <article className="bg-gradient-to-br from-gray-50 to-white p-6 sm:p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300 flex flex-col md:col-span-2 lg:col-span-1" itemScope itemType="https://schema.org/Review">
+            <article className="bg-gradient-to-br from-gray-50 to-white p-6 sm:p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300 flex flex-col md:col-span-2 lg:col-span-1">
               <div className="text-center mb-4 sm:mb-6">
-                <img 
-                  src="/WendyHeadshot.jpeg" 
-                  alt="Wendy Zingher" 
+                <img
+                  src="/WendyHeadshot.jpeg"
+                  alt="Wendy Zingher"
                   className="w-16 h-16 sm:w-20 sm:h-20 rounded-full mx-auto mb-3 sm:mb-4 object-cover border-2 border-gray-200"
                 />
-                <h3 className="text-lg sm:text-xl font-bold mb-1" style={{ color: '#022610' }} itemProp="author" itemScope itemType="https://schema.org/Person">
-                  <span itemProp="name">
+                <h3 className="text-lg sm:text-xl font-bold mb-1" style={{ color: '#022610' }}>
                   Wendy Zingher
-                  </span>
                 </h3>
-                <p className="text-xs sm:text-sm font-medium" style={{ color: '#039143' }} itemProp="jobTitle">
+                <p className="text-xs sm:text-sm font-medium" style={{ color: '#039143' }}>
                   VP of Customer Success, LambdaTest
                 </p>
               </div>
               <blockquote className="text-center flex-1 flex flex-col">
-                <p className="text-sm sm:text-base lg:text-lg leading-relaxed mb-4" style={{ color: '#022610', opacity: 0.8 }} itemProp="reviewBody">
+                <p className="text-sm sm:text-base lg:text-lg leading-relaxed mb-4" style={{ color: '#022610', opacity: 0.8 }}>
                   "I just love RetainSure's predictions. Accurate predictions and concise, actionable explanations of churn risk and upsell saving my team and me 2+ hours daily. I love that it reflects all the right reasons that accounts are at risk without us handcrafting a health score."
                 </p>
                 <div className="flex justify-center mt-auto pt-4 sm:pt-6">
@@ -317,24 +249,22 @@ function HomePage() {
             </article>
 
             {/* Testimonial 2 */}
-            <article className="bg-gradient-to-br from-gray-50 to-white p-6 sm:p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300 flex flex-col" itemScope itemType="https://schema.org/Review">
+            <article className="bg-gradient-to-br from-gray-50 to-white p-6 sm:p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300 flex flex-col">
               <div className="text-center mb-4 sm:mb-6">
-                <img 
-                  src="/SridharHeadshot.jpg" 
-                  alt="Sridhar Kowtal" 
+                <img
+                  src="/SridharHeadshot.jpg"
+                  alt="Sridhar Kowtal"
                   className="w-16 h-16 sm:w-20 sm:h-20 rounded-full mx-auto mb-3 sm:mb-4 object-cover border-2 border-gray-200"
                 />
-                <h3 className="text-lg sm:text-xl font-bold mb-1" style={{ color: '#022610' }} itemProp="author" itemScope itemType="https://schema.org/Person">
-                  <span itemProp="name">
+                <h3 className="text-lg sm:text-xl font-bold mb-1" style={{ color: '#022610' }}>
                   Sridhar Kowtal
-                  </span>
                 </h3>
-                <p className="text-xs sm:text-sm font-medium" style={{ color: '#039143' }} itemProp="jobTitle">
+                <p className="text-xs sm:text-sm font-medium" style={{ color: '#039143' }}>
                   Head of Customer Success, LimeChat
                 </p>
               </div>
               <blockquote className="text-center flex-1 flex flex-col">
-                <p className="text-sm sm:text-base lg:text-lg leading-relaxed mb-4" style={{ color: '#022610', opacity: 0.8 }} itemProp="reviewBody">
+                <p className="text-sm sm:text-base lg:text-lg leading-relaxed mb-4" style={{ color: '#022610', opacity: 0.8 }}>
                   "RetainSure has put our customer success program on steroids. Preparing MBRs used to take up the entire last week of the month, but now it's down to just 2 minutes per customer. The AI gives us everything we need, data, insights, and next steps, so our team can focus on driving real outcomes."
                 </p>
                 <div className="flex justify-center mt-auto pt-4 sm:pt-6">
@@ -348,24 +278,22 @@ function HomePage() {
             </article>
 
             {/* Testimonial 3 */}
-            <article className="bg-gradient-to-br from-gray-50 to-white p-6 sm:p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300 flex flex-col md:col-span-2 lg:col-span-1" itemScope itemType="https://schema.org/Review">
+            <article className="bg-gradient-to-br from-gray-50 to-white p-6 sm:p-8 rounded-2xl shadow-lg border border-gray-100 hover:shadow-xl transition-shadow duration-300 flex flex-col md:col-span-2 lg:col-span-1">
               <div className="text-center mb-4 sm:mb-6">
-                <img 
-                  src="/SanjanaHeadShot.jpg" 
-                  alt="Sanjana Shankar" 
+                <img
+                  src="/SanjanaHeadShot.jpg"
+                  alt="Sanjana Shankar"
                   className="w-16 h-16 sm:w-20 sm:h-20 rounded-full mx-auto mb-3 sm:mb-4 object-cover border-2 border-gray-200"
                 />
-                <h3 className="text-lg sm:text-xl font-bold mb-1" style={{ color: '#022610' }} itemProp="author" itemScope itemType="https://schema.org/Person">
-                  <span itemProp="name">
+                <h3 className="text-lg sm:text-xl font-bold mb-1" style={{ color: '#022610' }}>
                   Sanjana Shankar
-                  </span>
                 </h3>
-                <p className="text-xs sm:text-sm font-medium" style={{ color: '#039143' }} itemProp="jobTitle">
+                <p className="text-xs sm:text-sm font-medium" style={{ color: '#039143' }}>
                   Head of Customer Success, Mailmodo
                 </p>
               </div>
               <blockquote className="text-center flex-1 flex flex-col">
-                <p className="text-sm sm:text-base lg:text-lg leading-relaxed mb-4" style={{ color: '#022610', opacity: 0.8 }} itemProp="reviewBody">
+                <p className="text-sm sm:text-base lg:text-lg leading-relaxed mb-4" style={{ color: '#022610', opacity: 0.8 }}>
                   "Upsell is a key motion for our CS team, especially with our self-serve customers—but doing it at scale was always a challenge. RetainSure's upsell predictions changed that. It helped us zero in on high-potential accounts, understand exactly what they needed to upgrade, and even gave us personalized email drafts to reach out. We saw a 20x ROI from just the first month of using it."
                 </p>
                 <div className="flex justify-center mt-auto pt-4 sm:pt-6">

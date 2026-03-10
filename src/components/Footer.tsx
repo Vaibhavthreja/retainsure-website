@@ -19,8 +19,7 @@ function Footer() {
                 RetainSure Technologies Private Limited
               </h3>
               <div className="text-sm space-y-1" style={{ color: '#022610', opacity: 0.7 }} itemProp="address" itemScope itemType="https://schema.org/PostalAddress">
-                <p itemProp="streetAddress">#17, 2nd floor, 7th Main Road</p>
-                <p itemProp="addressLocality">ll Stage Indiranagar</p>
+                <p itemProp="streetAddress">#17, 2nd floor, 7th Main Road, ll Stage Indiranagar</p>
                 <p><span itemProp="addressLocality">Bangalore</span> - <span itemProp="postalCode">560038</span></p>
               </div>
             </div>
@@ -55,7 +54,7 @@ function Footer() {
         {/* Bottom Copyright */}
         <div className="mt-6 sm:mt-8 pt-6 sm:pt-8 border-t border-gray-100">
           <div className="text-center">
-            <p className="text-sm" style={{ color: '#022610', opacity: 0.6 }} itemProp="copyrightNotice">
+            <p className="text-sm" style={{ color: '#022610', opacity: 0.6 }}>
               © 2025 RetainSure Technologies Private Limited. All rights reserved.
             </p>
           </div>

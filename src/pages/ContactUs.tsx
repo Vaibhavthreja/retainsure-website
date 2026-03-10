@@ -52,7 +52,7 @@ function ContactUs() {
       <header className="py-12 bg-gradient-to-r from-white to-gray-50">
         <div className="container mx-auto px-6">
           <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-4xl lg:text-5xl font-bold mb-6" style={{ color: '#022610' }} itemProp="headline">
+            <h1 className="text-4xl lg:text-5xl font-bold mb-6" style={{ color: '#022610' }}>
               Get in Touch
             </h1>
           </div>
@@ -99,16 +99,15 @@ function ContactUs() {
                     <MapPin className="w-8 h-8 text-white" />
                   </div>
                   <div className="flex-1">
-                    <h3 className="text-2xl font-bold mb-3" style={{ color: '#022610' }} itemProp="name">
+                    <h3 className="text-2xl font-bold mb-3" style={{ color: '#022610' }}>
                       Office Address
                     </h3>
                     <p className="text-lg leading-relaxed mb-4" style={{ color: '#022610', opacity: 0.8 }}>
                       Send mail to our headquarters:
                     </p>
                     <div className="text-base space-y-1" style={{ color: '#022610', opacity: 0.7 }}>
-                      <p className="font-semibold" itemProp="name">RetainSure Technologies Private Limited</p>
-                      <p itemProp="streetAddress">#17, 2nd floor, 7th Main Road</p>
-                      <p itemProp="addressLocality">ll Stage Indiranagar</p>
+                      <p className="font-semibold">RetainSure Technologies Private Limited</p>
+                      <p itemProp="streetAddress">#17, 2nd floor, 7th Main Road, ll Stage Indiranagar</p>
                       <p><span itemProp="addressLocality">Bangalore</span> - <span itemProp="postalCode">560038</span>, <span itemProp="addressCountry">India</span></p>
                     </div>
                   </div>
@@ -124,7 +123,7 @@ function ContactUs() {
                     <div className="w-12 h-12 rounded-full flex items-center justify-center" style={{ backgroundColor: '#039143' }}>
                       <Calendar className="w-6 h-6 text-white" />
                     </div>
-                    <h2 className="text-3xl lg:text-4xl font-bold" style={{ color: '#022610' }} itemProp="headline">
+                    <h2 className="text-3xl lg:text-4xl font-bold" style={{ color: '#022610' }}>
                       Book a Free Consultation
                     </h2>
                   </div>

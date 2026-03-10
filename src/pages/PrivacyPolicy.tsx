@@ -44,7 +44,7 @@ function PrivacyPolicy() {
                 <Shield className="w-8 h-8 text-white" />
               </div>
               <div>
-                <h1 className="text-4xl lg:text-5xl font-bold" style={{ color: '#022610' }} itemProp="headline">
+                <h1 className="text-4xl lg:text-5xl font-bold" style={{ color: '#022610' }}>
                   Privacy Policy
                 </h1>
                 <p className="text-lg font-medium mt-2" style={{ color: '#039143' }}>
