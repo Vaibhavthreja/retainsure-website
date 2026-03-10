@@ -90,7 +90,7 @@ function HomePage() {
           {/* Left Content */}
           <div className="space-y-6 sm:space-y-8">
             <div className="space-y-4 sm:space-y-6">
-              <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight" style={{ color: '#022610' }} itemProp="headline">
+              <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight" style={{ color: '#022610' }}>
                 Your AI Customer Success Manager{' '}
                 <span className="block text-xl sm:text-2xl lg:text-4xl mt-4" style={{ color: '#039143' }}>
                   Onboarding. Retention. Expansion
@@ -169,7 +169,7 @@ function HomePage() {
       <section className="bg-white py-8 sm:py-12 border-t border-gray-100" aria-label="Trusted by leading companies">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-8 sm:mb-12">
-            <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6" style={{ color: '#022610' }} itemProp="headline">
+            <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6" style={{ color: '#022610' }}>
               Trusted by customer success teams at
             </h2>
           
@@ -202,7 +202,7 @@ function HomePage() {
       <section id="how-it-works" className="py-12 sm:py-20 bg-gradient-to-br from-gray-50 to-white" aria-label="CS Leader Insights">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6" style={{ color: '#022610' }} itemProp="headline">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6" style={{ color: '#022610' }}>
               80% CS leaders told us this. Do you feel the same?
             </h2>
 
@@ -276,7 +276,7 @@ function HomePage() {
       <section id="testimonials" className="py-12 sm:py-20 bg-white" aria-label="Customer testimonials">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6" style={{ color: '#022610' }} itemProp="headline">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6" style={{ color: '#022610' }}>
               What our customers say about us
             </h2>
             <p className="text-lg sm:text-xl max-w-3xl mx-auto" style={{ color: '#022610', opacity: 0.7 }}>
@@ -387,7 +387,7 @@ function HomePage() {
           <div className="flex flex-col lg:flex-row items-center justify-between gap-6 sm:gap-8 lg:gap-12">
             {/* Left Content */}
             <div className="text-center lg:text-left">
-              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold" style={{ color: '#022610' }} itemProp="headline">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold" style={{ color: '#022610' }}>
                 Your Data, Our Priority
               </h2>
               <p className="text-base sm:text-lg mt-3 sm:mt-4 max-w-md" style={{ color: '#022610', opacity: 0.7 }}>
@@ -440,10 +440,10 @@ function HomePage() {
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" className="py-12 sm:py-20 bg-gradient-to-br from-gray-50 to-white" aria-label="Frequently asked questions" itemScope itemType="https://schema.org/FAQPage">
+      <section id="faq" className="py-12 sm:py-20 bg-gradient-to-br from-gray-50 to-white" aria-label="Frequently asked questions">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 sm:mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6" style={{ color: '#022610' }} itemProp="headline">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6" style={{ color: '#022610' }}>
               Frequently Asked Questions
             </h2>
             <p className="text-lg sm:text-xl max-w-3xl mx-auto" style={{ color: '#022610', opacity: 0.7 }}>
@@ -453,18 +453,18 @@ function HomePage() {
 
           <div className="max-w-4xl mx-auto space-y-4 sm:space-y-6">
             {/* FAQ Item 1 */}
-            <div className="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300" itemScope itemType="https://schema.org/Question">
+            <div className="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="p-6 sm:p-8 cursor-pointer">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-lg sm:text-xl font-bold group-hover:text-opacity-80 transition-all duration-200 pr-4" style={{ color: '#022610' }} itemProp="name">
+                  <h3 className="text-lg sm:text-xl font-bold group-hover:text-opacity-80 transition-all duration-200 pr-4" style={{ color: '#022610' }}>
                     How accurate are RetainSure's churn/upsell predictions?
                   </h3>
                   <ChevronDown className="w-5 h-5 sm:w-6 sm:h-6 group-hover:rotate-180 transition-transform duration-300 flex-shrink-0" style={{ color: '#039143' }} />
                 </div>
-                <div className="mt-4 sm:mt-6 opacity-0 max-h-0 group-hover:opacity-100 group-hover:max-h-96 transition-all duration-500 overflow-hidden" itemScope itemType="https://schema.org/Answer">
+                <div className="mt-4 sm:mt-6 opacity-0 max-h-0 group-hover:opacity-100 group-hover:max-h-96 transition-all duration-500 overflow-hidden">
                   <div className="border-t border-gray-100 pt-4 sm:pt-6">
-                    <p className="text-base sm:text-lg leading-relaxed" style={{ color: '#022610', opacity: 0.8 }} itemProp="text">
-                      RetainSure's predictions are 1.5 to 2 times more accurate than traditional health scores. The models learn from your historical churn and expansion data, factoring in sentiment across communication channels, behaviour patterns, product usage, and industry or regional context to deliver highly personalised insights. 
+                    <p className="text-base sm:text-lg leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
+                      RetainSure's predictions are 1.5 to 2 times more accurate than traditional health scores. The models learn from your historical churn and expansion data, factoring in sentiment across communication channels, behaviour patterns, product usage, and industry or regional context to deliver highly personalised insights.
                     </p>
                   </div>
                 </div>
@@ -472,17 +472,17 @@ function HomePage() {
             </div>
 
             {/* FAQ Item 2 */}
-            <div className="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300" itemScope itemType="https://schema.org/Question">
+            <div className="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="p-6 sm:p-8 cursor-pointer">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-lg sm:text-xl font-bold group-hover:text-opacity-80 transition-all duration-200 pr-4" style={{ color: '#022610' }} itemProp="name">
+                  <h3 className="text-lg sm:text-xl font-bold group-hover:text-opacity-80 transition-all duration-200 pr-4" style={{ color: '#022610' }}>
                     How long does it take to set up RetainSure?
                   </h3>
                   <ChevronDown className="w-5 h-5 sm:w-6 sm:h-6 group-hover:rotate-180 transition-transform duration-300 flex-shrink-0" style={{ color: '#039143' }} />
                 </div>
-                <div className="mt-4 sm:mt-6 opacity-0 max-h-0 group-hover:opacity-100 group-hover:max-h-96 transition-all duration-500 overflow-hidden" itemScope itemType="https://schema.org/Answer">
+                <div className="mt-4 sm:mt-6 opacity-0 max-h-0 group-hover:opacity-100 group-hover:max-h-96 transition-all duration-500 overflow-hidden">
                   <div className="border-t border-gray-100 pt-4 sm:pt-6">
-                    <p className="text-base sm:text-lg leading-relaxed" style={{ color: '#022610', opacity: 0.8 }} itemProp="text">
+                    <p className="text-base sm:text-lg leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
                       Most customers are up and running within 48 hours. The integration process is simple, and since insights are powered by AI, there's minimal setup required after connecting your data sources.
                     </p>
                   </div>
@@ -491,17 +491,17 @@ function HomePage() {
             </div>
 
             {/* FAQ Item 3 */}
-            <div className="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300" itemScope itemType="https://schema.org/Question">
+            <div className="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="p-6 sm:p-8 cursor-pointer">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-lg sm:text-xl font-bold group-hover:text-opacity-80 transition-all duration-200 pr-4" style={{ color: '#022610' }} itemProp="name">
+                  <h3 className="text-lg sm:text-xl font-bold group-hover:text-opacity-80 transition-all duration-200 pr-4" style={{ color: '#022610' }}>
                     What integrations does RetainSure support?
                   </h3>
                   <ChevronDown className="w-5 h-5 sm:w-6 sm:h-6 group-hover:rotate-180 transition-transform duration-300 flex-shrink-0" style={{ color: '#039143' }} />
                 </div>
-                <div className="mt-4 sm:mt-6 opacity-0 max-h-0 group-hover:opacity-100 group-hover:max-h-96 transition-all duration-500 overflow-hidden" itemScope itemType="https://schema.org/Answer">
+                <div className="mt-4 sm:mt-6 opacity-0 max-h-0 group-hover:opacity-100 group-hover:max-h-96 transition-all duration-500 overflow-hidden">
                   <div className="border-t border-gray-100 pt-4 sm:pt-6">
-                    <p className="text-base sm:text-lg leading-relaxed" style={{ color: '#022610', opacity: 0.8 }} itemProp="text">
+                    <p className="text-base sm:text-lg leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
                       RetainSure currently integrates with HubSpot, Salesforce, Metabase, Amplitude, Mixpanel, Chargebee, and Stripe. We also build new integrations on request—typically within 7 days.
                     </p>
                   </div>
@@ -510,17 +510,17 @@ function HomePage() {
             </div>
 
             {/* FAQ Item 4 */}
-            <div className="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300" itemScope itemType="https://schema.org/Question">
+            <div className="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="p-6 sm:p-8 cursor-pointer">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-lg sm:text-xl font-bold group-hover:text-opacity-80 transition-all duration-200 pr-4" style={{ color: '#022610' }} itemProp="name">
+                  <h3 className="text-lg sm:text-xl font-bold group-hover:text-opacity-80 transition-all duration-200 pr-4" style={{ color: '#022610' }}>
                     Is my customer data secure with RetainSure?
                   </h3>
                   <ChevronDown className="w-5 h-5 sm:w-6 sm:h-6 group-hover:rotate-180 transition-transform duration-300 flex-shrink-0" style={{ color: '#039143' }} />
                 </div>
-                <div className="mt-4 sm:mt-6 opacity-0 max-h-0 group-hover:opacity-100 group-hover:max-h-96 transition-all duration-500 overflow-hidden" itemScope itemType="https://schema.org/Answer">
+                <div className="mt-4 sm:mt-6 opacity-0 max-h-0 group-hover:opacity-100 group-hover:max-h-96 transition-all duration-500 overflow-hidden">
                   <div className="border-t border-gray-100 pt-4 sm:pt-6">
-                    <p className="text-base sm:text-lg leading-relaxed" style={{ color: '#022610', opacity: 0.8 }} itemProp="text">
+                    <p className="text-base sm:text-lg leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
                       Absolutely. RetainSure is SOC 2 Type 2 compliant and GDPR ready. We use enterprise-grade encryption, regular security audits, and follow industry best practices for data protection. Your data is processed securely with RetainSure.
                     </p>
                   </div>
@@ -528,18 +528,18 @@ function HomePage() {
               </div>
             </div>
 
-            {/* FAQ Item 6 */}
-            <div className="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300" itemScope itemType="https://schema.org/Question">
+            {/* FAQ Item 5 */}
+            <div className="group bg-white rounded-2xl shadow-lg border border-gray-100 overflow-hidden hover:shadow-xl transition-all duration-300">
               <div className="p-6 sm:p-8 cursor-pointer">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-lg sm:text-xl font-bold group-hover:text-opacity-80 transition-all duration-200 pr-4" style={{ color: '#022610' }} itemProp="name">
+                  <h3 className="text-lg sm:text-xl font-bold group-hover:text-opacity-80 transition-all duration-200 pr-4" style={{ color: '#022610' }}>
                     What kind of support do you provide?
                   </h3>
                   <ChevronDown className="w-5 h-5 sm:w-6 sm:h-6 group-hover:rotate-180 transition-transform duration-300 flex-shrink-0" style={{ color: '#039143' }} />
                 </div>
-                <div className="mt-4 sm:mt-6 opacity-0 max-h-0 group-hover:opacity-100 group-hover:max-h-96 transition-all duration-500 overflow-hidden" itemScope itemType="https://schema.org/Answer">
+                <div className="mt-4 sm:mt-6 opacity-0 max-h-0 group-hover:opacity-100 group-hover:max-h-96 transition-all duration-500 overflow-hidden">
                   <div className="border-t border-gray-100 pt-4 sm:pt-6">
-                    <p className="text-base sm:text-lg leading-relaxed" style={{ color: '#022610', opacity: 0.8 }} itemProp="text">
+                    <p className="text-base sm:text-lg leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
                       We provide comprehensive onboarding, dedicated customer success managers, 24/7 technical support, regular training sessions, and a dedicated Slack channel for swift communication. Our team is committed to ensuring you get maximum value from RetainSure.
                     </p>
                   </div>
