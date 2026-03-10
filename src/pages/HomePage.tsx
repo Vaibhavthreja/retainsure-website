@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import { Play, CheckCircle, ArrowRight, ChevronDown } from 'lucide-react';
+import { Play, CircleCheck as CheckCircle, ArrowRight, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 
