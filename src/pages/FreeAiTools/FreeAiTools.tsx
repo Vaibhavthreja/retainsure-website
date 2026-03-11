@@ -1,20 +1,7 @@
 import { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import {
-  ArrowRight,
-  ChevronDown,
-  Clock,
-  TrendingUp,
-  Target,
-  BarChart3,
-  Zap,
-  FileText,
-  Sparkles,
-  Users,
-  Briefcase,
-  Crown,
-} from 'lucide-react';
+import { ArrowRight, ChevronDown, Clock, TrendingUp, Target, ChartBar as BarChart3, Zap, FileText, Sparkles, Users, Briefcase, Crown } from 'lucide-react';
 import FreeToolsNav from './components/FreeToolsNav';
 
 const stats = [

@@ -1,26 +1,6 @@
 import { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
-import {
-  ArrowRight,
-  ChevronDown,
-  Clock,
-  TrendingUp,
-  Target,
-  BarChart3,
-  FileText,
-  Sparkles,
-  Download,
-  Users,
-  Briefcase,
-  Crown,
-  Shield,
-  Layers,
-  PieChart,
-  AlertTriangle,
-  Lightbulb,
-  Palette,
-  FileDown,
-} from 'lucide-react';
+import { ArrowRight, ChevronDown, Clock, TrendingUp, Target, ChartBar as BarChart3, FileText, Sparkles, Download, Users, Briefcase, Crown, Shield, Layers, ChartPie as PieChart, TriangleAlert as AlertTriangle, Lightbulb, Palette, FileDown } from 'lucide-react';
 import FreeToolsNav from './components/FreeToolsNav';
 
 const stats = [
