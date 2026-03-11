@@ -16,6 +16,12 @@ function TermsOfService() {
         <meta name="description" content="RetainSure's Terms of Service govern your use of our AI-powered customer success platform. Read our legal terms and conditions." />
         <meta name="robots" content="noindex, nofollow" />
         <link rel="canonical" href="https://www.retainsure.com/terms-of-service" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.retainsure.com/terms-of-service" />
+        <meta property="og:title" content="Terms of Service - RetainSure" />
+        <meta property="og:description" content="RetainSure's Terms of Service govern your use of our AI-powered customer success platform." />
+        <meta property="og:image" content="https://www.retainsure.com/og-image.jpg" />
+        <meta property="og:site_name" content="RetainSure" />
       </Helmet>
       
       

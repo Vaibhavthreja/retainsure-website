@@ -15,8 +15,19 @@ function CopilotAgentDemo() {
     <div id="copilot-demo-wrapper">
       <Helmet>
         <title>Copilot Agent Demo - RetainSure</title>
-        <meta name="description" content="Interactive demo of RetainSure's Copilot Agent." />
+        <meta name="description" content="Interactive demo of RetainSure's Copilot Agent. Chat with your customer data using AI to get instant insights and recommendations." />
         <link rel="canonical" href="https://www.retainsure.com/interactive-demo/copilot-agent" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.retainsure.com/interactive-demo/copilot-agent" />
+        <meta property="og:title" content="Copilot Agent Demo - RetainSure" />
+        <meta property="og:description" content="Interactive demo of RetainSure's Copilot Agent. Chat with your customer data using AI to get instant insights and recommendations." />
+        <meta property="og:image" content="https://www.retainsure.com/og-image.jpg" />
+        <meta property="og:site_name" content="RetainSure" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.retainsure.com/interactive-demo/copilot-agent" />
+        <meta property="twitter:title" content="Copilot Agent Demo - RetainSure" />
+        <meta property="twitter:description" content="Interactive demo of RetainSure's Copilot Agent. Chat with your customer data using AI to get instant insights and recommendations." />
+        <meta property="twitter:image" content="https://www.retainsure.com/og-image.jpg" />
       </Helmet>
       {isLoggedIn ? <ChatInterface /> : <LoginScreen onLogin={handleLogin} />}
     </div>

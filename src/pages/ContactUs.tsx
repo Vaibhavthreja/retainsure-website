@@ -44,6 +44,17 @@ function ContactUs() {
         <meta name="description" content="Contact RetainSure for support, demos, or questions about our AI-powered customer success platform. Email us at support@retainsure.com or book a free consultation." />
         <meta name="keywords" content="contact RetainSure, customer success support, demo booking, RetainSure contact information" />
         <link rel="canonical" href="https://www.retainsure.com/contact-us" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.retainsure.com/contact-us" />
+        <meta property="og:title" content="Contact Us - RetainSure | Get in Touch" />
+        <meta property="og:description" content="Contact RetainSure for support, demos, or questions about our AI-powered customer success platform." />
+        <meta property="og:image" content="https://www.retainsure.com/og-image.jpg" />
+        <meta property="og:site_name" content="RetainSure" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.retainsure.com/contact-us" />
+        <meta property="twitter:title" content="Contact Us - RetainSure | Get in Touch" />
+        <meta property="twitter:description" content="Contact RetainSure for support, demos, or questions about our AI-powered customer success platform." />
+        <meta property="twitter:image" content="https://www.retainsure.com/og-image.jpg" />
       </Helmet>
       
       

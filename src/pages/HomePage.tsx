@@ -13,6 +13,17 @@ function HomePage() {
         <meta name="description" content="Transform your customer success strategy with RetainSure's AI-powered platform. Get accurate churn predictions, spot upsell opportunities, and take personalized action at scale. Trusted by leading CS teams." />
         <meta name="keywords" content="customer success, churn prediction, upsell opportunities, AI customer success, customer retention, SaaS analytics, customer success platform, churn prevention" />
         <link rel="canonical" href="https://www.retainsure.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.retainsure.com/" />
+        <meta property="og:title" content="RetainSure - Stop Churn, Unlock Upsell, Grow Smarter" />
+        <meta property="og:description" content="Transform your customer success strategy with RetainSure's AI-powered platform. Get accurate churn predictions, spot upsell opportunities, and take personalized action at scale." />
+        <meta property="og:image" content="https://www.retainsure.com/og-image.jpg" />
+        <meta property="og:site_name" content="RetainSure" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.retainsure.com/" />
+        <meta property="twitter:title" content="RetainSure - Stop Churn, Unlock Upsell, Grow Smarter" />
+        <meta property="twitter:description" content="Transform your customer success strategy with RetainSure's AI-powered platform. Get accurate churn predictions, spot upsell opportunities, and take personalized action at scale." />
+        <meta property="twitter:image" content="https://www.retainsure.com/og-image.jpg" />
       </Helmet>
       
       

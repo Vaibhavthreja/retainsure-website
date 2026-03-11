@@ -104,6 +104,17 @@ function Pricing() {
         <meta name="description" content="Flexible pricing plans designed for teams of all sizes. Choose between Low-Touch and High-Touch accounts with custom pricing tailored to your needs." />
         <meta name="keywords" content="customer success pricing, CS platform pricing, custom pricing, enterprise pricing, customer retention pricing" />
         <link rel="canonical" href="https://www.retainsure.com/pricing" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.retainsure.com/pricing" />
+        <meta property="og:title" content="Pricing - RetainSure | Custom Plans for Every Team" />
+        <meta property="og:description" content="Flexible pricing plans designed for teams of all sizes. Choose between Low-Touch and High-Touch accounts with custom pricing tailored to your needs." />
+        <meta property="og:image" content="https://www.retainsure.com/og-image.jpg" />
+        <meta property="og:site_name" content="RetainSure" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.retainsure.com/pricing" />
+        <meta property="twitter:title" content="Pricing - RetainSure | Custom Plans for Every Team" />
+        <meta property="twitter:description" content="Flexible pricing plans designed for teams of all sizes. Choose between Low-Touch and High-Touch accounts with custom pricing." />
+        <meta property="twitter:image" content="https://www.retainsure.com/og-image.jpg" />
 
         <script type="application/ld+json">
         {JSON.stringify({

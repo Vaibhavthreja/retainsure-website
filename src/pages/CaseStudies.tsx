@@ -40,6 +40,17 @@ function CaseStudies() {
         <meta name="description" content="Explore how leading companies use RetainSure to reduce churn, increase retention, and drive customer success. Real case studies with proven results." />
         <meta name="keywords" content="customer success case studies, churn reduction, retention stories, RetainSure customers, customer success examples" />
         <link rel="canonical" href="https://www.retainsure.com/case-studies" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.retainsure.com/case-studies" />
+        <meta property="og:title" content="Customer Success Stories | RetainSure Case Studies" />
+        <meta property="og:description" content="Explore how leading companies use RetainSure to reduce churn, increase retention, and drive customer success. Real case studies with proven results." />
+        <meta property="og:image" content="https://www.retainsure.com/og-image.jpg" />
+        <meta property="og:site_name" content="RetainSure" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.retainsure.com/case-studies" />
+        <meta property="twitter:title" content="Customer Success Stories | RetainSure Case Studies" />
+        <meta property="twitter:description" content="Explore how leading companies use RetainSure to reduce churn, increase retention, and drive customer success." />
+        <meta property="twitter:image" content="https://www.retainsure.com/og-image.jpg" />
       </Helmet>
 
       {/* Header Section */}

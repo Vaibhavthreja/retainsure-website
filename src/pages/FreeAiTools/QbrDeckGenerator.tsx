@@ -441,6 +441,18 @@ function QbrDeckGenerator() {
           name="description"
           content="Generate professional QBR decks in minutes with AI. Input customer data, get executive-ready presentations with usage trends, health scores, and strategic recommendations."
         />
+        <link rel="canonical" href="https://www.retainsure.com/free-customer-success-ai-tools/qbr-deck-generator" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.retainsure.com/free-customer-success-ai-tools/qbr-deck-generator" />
+        <meta property="og:title" content="Free AI QBR Deck Generator | RetainSure" />
+        <meta property="og:description" content="Generate professional QBR decks in minutes with AI. Input customer data, get executive-ready presentations with usage trends, health scores, and strategic recommendations." />
+        <meta property="og:image" content="https://www.retainsure.com/og-image.jpg" />
+        <meta property="og:site_name" content="RetainSure" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.retainsure.com/free-customer-success-ai-tools/qbr-deck-generator" />
+        <meta property="twitter:title" content="Free AI QBR Deck Generator | RetainSure" />
+        <meta property="twitter:description" content="Generate professional QBR decks in minutes with AI. Input customer data, get executive-ready presentations with usage trends, health scores, and strategic recommendations." />
+        <meta property="twitter:image" content="https://www.retainsure.com/og-image.jpg" />
       </Helmet>
 
       <FreeToolsNav sectionLinks={navSections} />

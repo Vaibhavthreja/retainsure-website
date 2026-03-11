@@ -47,8 +47,19 @@ function InteractiveDemo() {
     <>
       <Helmet>
         <title>Interactive Demo - RetainSure</title>
-        <meta name="description" content="Interactive demo of RetainSure's AI-powered customer success platform." />
+        <meta name="description" content="Interactive demo of RetainSure's AI-powered customer success platform. Experience churn prediction, upsell identification, and AI-powered workflows." />
         <link rel="canonical" href="https://www.retainsure.com/interactive-demo" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.retainsure.com/interactive-demo" />
+        <meta property="og:title" content="Interactive Demo - RetainSure" />
+        <meta property="og:description" content="Interactive demo of RetainSure's AI-powered customer success platform. Experience churn prediction, upsell identification, and AI-powered workflows." />
+        <meta property="og:image" content="https://www.retainsure.com/og-image.jpg" />
+        <meta property="og:site_name" content="RetainSure" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.retainsure.com/interactive-demo" />
+        <meta property="twitter:title" content="Interactive Demo - RetainSure" />
+        <meta property="twitter:description" content="Interactive demo of RetainSure's AI-powered customer success platform. Experience churn prediction, upsell identification, and AI-powered workflows." />
+        <meta property="twitter:image" content="https://www.retainsure.com/og-image.jpg" />
       </Helmet>
 
       {showGate && <EmailGateModal onSuccess={handleAccessGranted} />}

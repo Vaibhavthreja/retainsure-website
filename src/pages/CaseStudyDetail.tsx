@@ -108,6 +108,17 @@ function CaseStudyDetail() {
         <meta name="description" content={caseStudy.subtitle} />
         <meta name="keywords" content={`${caseStudy.company_name}, customer success, case study, churn reduction, retention`} />
         <link rel="canonical" href={`https://www.retainsure.com/case-studies/${slug}`} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={`https://www.retainsure.com/case-studies/${slug}`} />
+        <meta property="og:title" content={`${caseStudy.heading || caseStudy.title} | RetainSure Case Study`} />
+        <meta property="og:description" content={caseStudy.subtitle} />
+        <meta property="og:image" content={caseStudy.image_url || 'https://www.retainsure.com/og-image.jpg'} />
+        <meta property="og:site_name" content="RetainSure" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content={`https://www.retainsure.com/case-studies/${slug}`} />
+        <meta property="twitter:title" content={`${caseStudy.heading || caseStudy.title} | RetainSure Case Study`} />
+        <meta property="twitter:description" content={caseStudy.subtitle} />
+        <meta property="twitter:image" content={caseStudy.image_url || 'https://www.retainsure.com/og-image.jpg'} />
       </Helmet>
 
       <div className="container mx-auto px-4 sm:px-6 py-12 sm:py-16 lg:py-20">

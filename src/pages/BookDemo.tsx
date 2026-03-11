@@ -44,6 +44,17 @@ function BookDemo() {
         <meta name="description" content="Book a personalized demo of RetainSure's AI-powered customer success platform. See how we help reduce churn and identify upsell opportunities with accurate predictions." />
         <meta name="keywords" content="RetainSure demo, customer success demo, AI platform demo, churn prediction demo, book demo" />
         <link rel="canonical" href="https://www.retainsure.com/book-a-demo" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.retainsure.com/book-a-demo" />
+        <meta property="og:title" content="Book a Demo - RetainSure | See Our AI Platform in Action" />
+        <meta property="og:description" content="Book a personalized demo of RetainSure's AI-powered customer success platform. See how we help reduce churn and identify upsell opportunities." />
+        <meta property="og:image" content="https://www.retainsure.com/og-image.jpg" />
+        <meta property="og:site_name" content="RetainSure" />
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="https://www.retainsure.com/book-a-demo" />
+        <meta property="twitter:title" content="Book a Demo - RetainSure | See Our AI Platform in Action" />
+        <meta property="twitter:description" content="Book a personalized demo of RetainSure's AI-powered customer success platform. See how we help reduce churn and identify upsell opportunities." />
+        <meta property="twitter:image" content="https://www.retainsure.com/og-image.jpg" />
       </Helmet>
       
       
