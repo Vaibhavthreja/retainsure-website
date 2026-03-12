@@ -88,7 +88,7 @@ function ContactUs() {
                       Email Support
                     </h3>
                     <p className="text-lg leading-relaxed mb-4" style={{ color: '#022610', opacity: 0.8 }}>
-                      For general inquiries, support, or questions about our platform:
+                      For inquiries, support, or questions about our platform:
                     </p>
                     <a 
                       href="mailto:support@retainsure.com"
