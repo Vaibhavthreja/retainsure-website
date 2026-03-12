@@ -1,26 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import './MeetingAgent.css';
-import {
-  Mic,
-  MicOff,
-  Video,
-  VideoOff,
-  Phone,
-  MessageSquare,
-  Users,
-  Settings,
-  Bot,
-  CheckCircle,
-  Clock,
-  ArrowRight,
-  X,
-  ChevronDown,
-  AlertTriangle,
-  TrendingDown,
-  DollarSign,
-  Award
-} from 'lucide-react';
+import { Mic, MicOff, Video, VideoOff, Phone, MessageSquare, Users, Settings, Bot, CircleCheck as CheckCircle, Clock, ArrowRight, X, ChevronDown, TriangleAlert as AlertTriangle, TrendingDown, DollarSign, Award } from 'lucide-react';
 
 interface SmartSuggestion {
   id: string;
