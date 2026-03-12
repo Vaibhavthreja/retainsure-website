@@ -39,7 +39,7 @@ function Features() {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6" style={{ color: '#022610' }}>
-              Powerful Features Built for Modern Customer Success
+              Powerful Features Built for AI first Customer Success
             </h1>
             <p className="text-lg sm:text-xl lg:text-2xl leading-relaxed" style={{ color: '#022610', opacity: 0.75 }}>
               Everything you need to predict, prevent, and prosper. Our AI-driven platform gives you the tools to transform customer success from reactive to proactive.
