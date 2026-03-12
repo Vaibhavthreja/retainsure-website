@@ -135,7 +135,7 @@ function Pricing() {
             Simple, Transparent Pricing
           </h1>
           <p className="text-lg sm:text-xl lg:text-2xl mb-8 text-gray-600 leading-relaxed">
-            Choose the plan that fits your team's needs. Custom pricing designed to scale with your business.
+            Choose the plan that fits your team's needs. Custom pricing designed to scale with your growth.
           </p>
           <button
             onClick={handleTalkToFounder}
