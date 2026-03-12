@@ -24,6 +24,65 @@ function HomePage() {
         <meta property="twitter:title" content="RetainSure - Stop Churn, Unlock Upsell, Grow Smarter" />
         <meta property="twitter:description" content="Transform your customer success strategy with RetainSure's AI-powered platform. Get accurate churn predictions, spot upsell opportunities, and take personalized action at scale." />
         <meta property="twitter:image" content="https://www.retainsure.com/og-image.jpg" />
+
+        <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "RetainSure - AI-Powered Customer Success Platform",
+          "description": "Stop churn, unlock upsell opportunities, and grow smarter with RetainSure's AI-powered customer success platform.",
+          "url": "https://www.retainsure.com/"
+        })}
+        </script>
+
+        <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "How accurate are RetainSure's churn/upsell predictions?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RetainSure's predictions are 1.5 to 2 times more accurate than traditional health scores. The models learn from your historical churn and expansion data, factoring in sentiment across communication channels, behaviour patterns, product usage, and industry or regional context to deliver highly personalised insights."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How long does it take to set up RetainSure?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Most customers are up and running within 48 hours. The integration process is simple, and since insights are powered by AI, there's minimal setup required after connecting your data sources."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What integrations does RetainSure support?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "RetainSure currently integrates with HubSpot, Salesforce, Metabase, Amplitude, Mixpanel, Chargebee, and Stripe. We also build new integrations on request—typically within 7 days."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Is my customer data secure with RetainSure?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Absolutely. RetainSure is SOC 2 Type 2 compliant and GDPR ready. We use enterprise-grade encryption, regular security audits, and follow industry best practices for data protection. Your data is processed securely with RetainSure."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What kind of support do you provide?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "We provide comprehensive onboarding, dedicated customer success managers, 24/7 technical support, regular training sessions, and a dedicated Slack channel for swift communication. Our team is committed to ensuring you get maximum value from RetainSure."
+              }
+            }
+          ]
+        })}
+        </script>
       </Helmet>
       
       

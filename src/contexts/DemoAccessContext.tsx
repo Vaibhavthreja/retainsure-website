@@ -10,6 +10,7 @@ const DemoAccessContext = createContext<DemoAccessContextType | undefined>(undef
 
 export function DemoAccessProvider({ children }: { children: ReactNode }) {
   const checkAccess = (): boolean => {
+    if (typeof window === 'undefined') return false;
     const pendingEmail = localStorage.getItem('demo_pending_email');
     const verificationToken = localStorage.getItem('demo_verification_token');
 
