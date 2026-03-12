@@ -62,7 +62,7 @@ function CaseStudies() {
               Customer success stories that drive results
             </h1>
             <p className="text-base sm:text-lg lg:text-xl max-w-3xl mx-auto" style={{ color: '#022610', opacity: 0.7 }}>
-              Discover how customer success teams are using RetainSure to predict churn, identify upsell opportunities, and take action at scale
+              Discover how customer success teams are using RetainSure to predict churn, identify upsell opportunities, and take personalized action at scale
             </p>
           </div>
 
