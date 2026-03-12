@@ -1,13 +1,12 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { Routes, Route, useLocation } from 'react-router-dom';
-import { Play, CheckCircle, ArrowRight, Shield, ChevronDown } from 'lucide-react';
 import HomePage from './pages/HomePage';
 import ContactUs from './pages/ContactUs';
 import BookDemo from './pages/BookDemo';
 import Features from './pages/Features';
 import CaseStudies from './pages/CaseStudies';
-import CaseStudyDetail from './pages/CaseStudyDetail';
+import NotFound from './pages/NotFound';
 import Pricing from './pages/Pricing';
 import TermsOfService from './pages/TermsOfService';
 import PrivacyPolicy from './pages/PrivacyPolicy';
@@ -50,7 +49,6 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/features" element={<Features />} />
         <Route path="/case-studies" element={<CaseStudies />} />
-        <Route path="/case-studies/:slug" element={<CaseStudyDetail />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/book-a-demo" element={<BookDemo />} />
@@ -63,6 +61,7 @@ function App() {
         <Route path="/interactive-demo/meeting-agent" element={<ProtectedDemoRoute><MeetingAgent /></ProtectedDemoRoute>} />
         <Route path="/free-customer-success-ai-tools" element={<FreeAiTools />} />
         <Route path="/free-customer-success-ai-tools/qbr-deck-generator" element={<QbrDeckGenerator />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       {!hideAll && <Footer />}
       <CookieBanner />

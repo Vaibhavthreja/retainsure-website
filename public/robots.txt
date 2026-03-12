@@ -1,7 +1,7 @@
 User-agent: *
 Allow: /
-Disallow: /privacy-policy
-Disallow: /terms-of-service
-Disallow: /data-processing-agreement
+Disallow: /interactive-demo/copilot-agent
+Disallow: /interactive-demo/product-adoption-agent
+Disallow: /interactive-demo/meeting-agent
 
 Sitemap: https://www.retainsure.com/sitemap.xml

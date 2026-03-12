@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import './MeetingAgent.css';
 import {
   Mic,
@@ -529,6 +530,12 @@ Key Metrics to Track:
 
   return (
     <div className="min-h-screen bg-gray-900 relative overflow-hidden">
+      <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
+        <title>Meeting Agent Demo - RetainSure</title>
+        <meta name="description" content="Interactive demo of RetainSure's AI Meeting Agent. See real-time smart suggestions and automated actions during customer success meetings." />
+        <link rel="canonical" href="https://www.retainsure.com/interactive-demo/meeting-agent" />
+      </Helmet>
       {/* Zoom Meeting Interface */}
       <div className="relative w-full h-screen">
         {/* Video Grid */}

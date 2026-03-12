@@ -1,11 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { ArrowRight } from 'lucide-react';
 import { supabase, CaseStudy } from '../lib/supabase';
 
 function CaseStudies() {
-  const navigate = useNavigate();
   const [caseStudies, setCaseStudies] = useState<CaseStudy[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
@@ -124,8 +122,7 @@ function CaseStudies() {
             {caseStudies.map((caseStudy) => (
               <article
                 key={caseStudy.id}
-                onClick={() => caseStudy.slug && navigate(`/case-studies/${caseStudy.slug}`)}
-                className={`bg-gradient-to-br ${caseStudy.background_color} rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex flex-col space-y-6 ${caseStudy.slug ? 'cursor-pointer' : ''}`}
+                className={`bg-gradient-to-br ${caseStudy.background_color} rounded-2xl p-6 sm:p-8 shadow-lg border border-gray-100 hover:shadow-xl transition-all duration-300 transform hover:scale-105 flex flex-col space-y-6`}
               >
                 {/* Image Section */}
                 <div className="flex items-center justify-center bg-white rounded-xl p-6 min-h-[180px]">
@@ -157,13 +154,10 @@ function CaseStudies() {
                 </div>
 
                 {/* Company Name Badge */}
-                <div className="pt-4 border-t border-gray-200 flex items-center justify-between">
+                <div className="pt-4 border-t border-gray-200">
                   <p className="text-sm font-semibold" style={{ color: '#039143' }}>
                     {caseStudy.company_name}
                   </p>
-                  {caseStudy.slug && (
-                    <ArrowRight className="w-5 h-5" style={{ color: '#039143' }} />
-                  )}
                 </div>
               </article>
             ))}

@@ -14,6 +14,7 @@ function CopilotAgentDemo() {
   return (
     <div id="copilot-demo-wrapper">
       <Helmet>
+        <meta name="robots" content="noindex, nofollow" />
         <title>Copilot Agent Demo - RetainSure</title>
         <meta name="description" content="Interactive demo of RetainSure's Copilot Agent. Chat with your customer data using AI to get instant insights and recommendations." />
         <link rel="canonical" href="https://www.retainsure.com/interactive-demo/copilot-agent" />

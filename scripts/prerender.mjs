@@ -1,6 +1,5 @@
 import { config } from 'dotenv';
 import { execSync } from 'child_process';
-import { createClient } from '@supabase/supabase-js';
 import puppeteer from 'puppeteer-core';
 import { createServer } from 'http';
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
@@ -26,30 +25,6 @@ const STATIC_ROUTES = [
   '/free-customer-success-ai-tools',
   '/free-customer-success-ai-tools/qbr-deck-generator',
 ];
-
-async function fetchDynamicRoutes() {
-  const supabaseUrl = process.env.VITE_SUPABASE_URL;
-  const supabaseKey = process.env.VITE_SUPABASE_ANON_KEY;
-
-  if (!supabaseUrl || !supabaseKey) {
-    console.warn('Supabase env vars not found, skipping dynamic routes');
-    return [];
-  }
-
-  const supabase = createClient(supabaseUrl, supabaseKey);
-  const { data, error } = await supabase
-    .from('case_studies')
-    .select('slug')
-    .eq('is_published', true)
-    .not('slug', 'is', null);
-
-  if (error) {
-    console.warn('Failed to fetch case studies:', error.message);
-    return [];
-  }
-
-  return data.map((cs) => `/case-studies/${cs.slug}`);
-}
 
 function startStaticServer(dir, port) {
   return new Promise((resolve) => {
@@ -165,10 +140,8 @@ function deduplicateMetaTags(html) {
 }
 
 async function prerender() {
-  console.log('Fetching dynamic routes from Supabase...');
-  const dynamicRoutes = await fetchDynamicRoutes();
-  const allRoutes = [...STATIC_ROUTES, ...dynamicRoutes];
-  console.log(`Pre-rendering ${allRoutes.length} routes (${STATIC_ROUTES.length} static + ${dynamicRoutes.length} dynamic)`);
+  const allRoutes = STATIC_ROUTES;
+  console.log(`Pre-rendering ${allRoutes.length} routes`);
 
   const port = 4173;
   const server = await startStaticServer(distDir, port);
