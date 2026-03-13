@@ -93,8 +93,18 @@ async function staticRender() {
 
         if (helmet.script) {
           const scriptStr = helmet.script.toString();
-          if (scriptStr.includes('application/ld+json')) {
-            pageHtml = pageHtml.replace('</head>', `    ${scriptStr}\n  </head>`);
+          const scriptBlocks = scriptStr.match(/<script[^>]*type="application\/ld\+json"[^>]*>[\s\S]*?<\/script>/g) || [];
+          for (const block of scriptBlocks) {
+            const jsonMatch = block.match(/>([^<]+)</);
+            if (!jsonMatch) continue;
+            try {
+              const parsed = JSON.parse(jsonMatch[1]);
+              const topType = parsed['@type'];
+              if (topType && pageHtml.includes(`"@type":"${topType}"`) || pageHtml.includes(`"@type": "${topType}"`)) {
+                continue;
+              }
+            } catch {}
+            pageHtml = pageHtml.replace('</head>', `    ${block}\n  </head>`);
           }
         }
       }
