@@ -14,13 +14,13 @@ function TermsOfService() {
       <Helmet>
         <title>Terms of Service - RetainSure | Legal Terms and Conditions</title>
         <meta name="description" content="RetainSure's Terms of Service govern your use of our AI-powered customer success platform. Read our legal terms and conditions." />
-        <meta name="robots" content="noindex, nofollow" />
-        <link rel="canonical" href="https://www.retainsure.com/terms-of-service" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://retainsure.com/terms-of-service" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.retainsure.com/terms-of-service" />
+        <meta property="og:url" content="https://retainsure.com/terms-of-service" />
         <meta property="og:title" content="Terms of Service - RetainSure" />
         <meta property="og:description" content="RetainSure's Terms of Service govern your use of our AI-powered customer success platform." />
-        <meta property="og:image" content="https://www.retainsure.com/og-image.jpg" />
+        <meta property="og:image" content="https://retainsure.com/og-image.jpg" />
         <meta property="og:site_name" content="RetainSure" />
       </Helmet>
       
@@ -205,7 +205,7 @@ function TermsOfService() {
                     14. Data Processing Agreement
                   </h2>
                   <p className="text-base leading-relaxed" style={{ color: '#022610', opacity: 0.8 }}>
-                    Customers who subscribe to RetainSure's product or services automatically accept Data Processing Agreement found here: <a href="https://www.retainsure.com/data-processing-agreement" className="underline hover:opacity-70 transition-opacity" style={{ color: '#039143' }}>https://www.retainsure.com/data-processing-agreement</a>
+                    Customers who subscribe to RetainSure's product or services automatically accept Data Processing Agreement found here: <a href="https://retainsure.com/data-processing-agreement" className="underline hover:opacity-70 transition-opacity" style={{ color: '#039143' }}>https://retainsure.com/data-processing-agreement</a>
                   </p>
                 </section>
 

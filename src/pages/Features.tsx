@@ -10,18 +10,18 @@ function Features() {
         <title>Features - AI-Powered Customer Success Tools | RetainSure</title>
         <meta name="description" content="Discover RetainSure's powerful AI features: churn predictions, RetainAI copilot, account overviews, automation builder, dashboards, and segmentation tools to transform your customer success strategy." />
         <meta name="keywords" content="AI predictions, churn prediction, upsell opportunities, RetainAI, account management, automation builder, customer success dashboards, account segmentation" />
-        <link rel="canonical" href="https://www.retainsure.com/features" />
+        <link rel="canonical" href="https://retainsure.com/features" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.retainsure.com/features" />
+        <meta property="og:url" content="https://retainsure.com/features" />
         <meta property="og:title" content="Features - AI-Powered Customer Success Tools | RetainSure" />
         <meta property="og:description" content="Discover RetainSure's powerful AI features: churn predictions, RetainAI copilot, account overviews, automation builder, dashboards, and segmentation tools." />
-        <meta property="og:image" content="https://www.retainsure.com/og-image.jpg" />
+        <meta property="og:image" content="https://retainsure.com/og-image.jpg" />
         <meta property="og:site_name" content="RetainSure" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.retainsure.com/features" />
+        <meta property="twitter:url" content="https://retainsure.com/features" />
         <meta property="twitter:title" content="Features - AI-Powered Customer Success Tools | RetainSure" />
         <meta property="twitter:description" content="Discover RetainSure's powerful AI features: churn predictions, RetainAI copilot, account overviews, automation builder, dashboards, and segmentation tools." />
-        <meta property="twitter:image" content="https://www.retainsure.com/og-image.jpg" />
+        <meta property="twitter:image" content="https://retainsure.com/og-image.jpg" />
 
         <script type="application/ld+json">
         {JSON.stringify({
@@ -29,7 +29,7 @@ function Features() {
           "@type": "WebPage",
           "name": "RetainSure Features",
           "description": "Comprehensive AI-powered customer success features including churn predictions, automation, and intelligent insights.",
-          "url": "https://www.retainsure.com/features"
+          "url": "https://retainsure.com/features"
         })}
         </script>
       </Helmet>

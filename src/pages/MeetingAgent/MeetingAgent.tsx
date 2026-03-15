@@ -515,7 +515,7 @@ Key Metrics to Track:
         <meta name="robots" content="noindex, nofollow" />
         <title>Meeting Agent Demo - RetainSure</title>
         <meta name="description" content="Interactive demo of RetainSure's AI Meeting Agent. See real-time smart suggestions and automated actions during customer success meetings." />
-        <link rel="canonical" href="https://www.retainsure.com/interactive-demo/meeting-agent" />
+        <link rel="canonical" href="https://retainsure.com/interactive-demo/meeting-agent" />
       </Helmet>
       {/* Zoom Meeting Interface */}
       <div className="relative w-full h-screen">

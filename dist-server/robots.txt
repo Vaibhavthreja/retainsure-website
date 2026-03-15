@@ -4,4 +4,4 @@ Disallow: /interactive-demo/copilot-agent
 Disallow: /interactive-demo/product-adoption-agent
 Disallow: /interactive-demo/meeting-agent
 
-Sitemap: https://www.retainsure.com/sitemap.xml
+Sitemap: https://retainsure.com/sitemap.xml

@@ -30,12 +30,12 @@ function PrivacyPolicy() {
         <title>Privacy Policy - RetainSure | Data Protection and Privacy Practices</title>
         <meta name="description" content="RetainSure's Privacy Policy explains how we collect, use, and protect your data. Learn about our commitment to data security and your privacy rights." />
         <meta name="robots" content="noindex, nofollow" />
-        <link rel="canonical" href="https://www.retainsure.com/privacy-policy" />
+        <link rel="canonical" href="https://retainsure.com/privacy-policy" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.retainsure.com/privacy-policy" />
+        <meta property="og:url" content="https://retainsure.com/privacy-policy" />
         <meta property="og:title" content="Privacy Policy - RetainSure" />
         <meta property="og:description" content="RetainSure's Privacy Policy explains how we collect, use, and protect your data." />
-        <meta property="og:image" content="https://www.retainsure.com/og-image.jpg" />
+        <meta property="og:image" content="https://retainsure.com/og-image.jpg" />
         <meta property="og:site_name" content="RetainSure" />
       </Helmet>
       

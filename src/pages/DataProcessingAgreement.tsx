@@ -14,13 +14,13 @@ function DataProcessingAgreement() {
       <Helmet>
         <title>Data Processing Agreement - RetainSure | GDPR Compliance and Data Protection</title>
         <meta name="description" content="RetainSure's Data Processing Agreement outlines our GDPR compliance and data protection measures for EU customers and data subjects." />
-        <meta name="robots" content="noindex, nofollow" />
-        <link rel="canonical" href="https://www.retainsure.com/data-processing-agreement" />
+        <meta name="robots" content="index, follow" />
+        <link rel="canonical" href="https://retainsure.com/data-processing-agreement" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.retainsure.com/data-processing-agreement" />
+        <meta property="og:url" content="https://retainsure.com/data-processing-agreement" />
         <meta property="og:title" content="Data Processing Agreement - RetainSure" />
         <meta property="og:description" content="RetainSure's Data Processing Agreement outlines our GDPR compliance and data protection measures." />
-        <meta property="og:image" content="https://www.retainsure.com/og-image.jpg" />
+        <meta property="og:image" content="https://retainsure.com/og-image.jpg" />
         <meta property="og:site_name" content="RetainSure" />
       </Helmet>
       

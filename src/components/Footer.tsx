@@ -27,23 +27,37 @@ function Footer() {
 
           {/* Right Side - Legal Links */}
           <nav className="flex flex-col sm:flex-row gap-4 sm:gap-6 lg:gap-8" aria-label="Legal links">
-            <Link 
-              to="/privacy-policy" 
-              className="text-sm font-medium hover:opacity-70 transition-opacity duration-200" 
+            <Link
+              to="/book-a-demo"
+              className="text-sm font-medium hover:opacity-70 transition-opacity duration-200"
+              style={{ color: '#022610' }}
+            >
+              Book a Demo
+            </Link>
+            <Link
+              to="/privacy-policy"
+              className="text-sm font-medium hover:opacity-70 transition-opacity duration-200"
               style={{ color: '#022610' }}
             >
               Privacy Policy
             </Link>
-            <Link 
-              to="/terms-of-service" 
-              className="text-sm font-medium hover:opacity-70 transition-opacity duration-200" 
+            <Link
+              to="/terms-of-service"
+              className="text-sm font-medium hover:opacity-70 transition-opacity duration-200"
               style={{ color: '#022610' }}
             >
               Terms of Service
             </Link>
-            <Link 
-              to="/contact-us" 
-              className="text-sm font-medium hover:opacity-70 transition-opacity duration-200" 
+            <Link
+              to="/data-processing-agreement"
+              className="text-sm font-medium hover:opacity-70 transition-opacity duration-200"
+              style={{ color: '#022610' }}
+            >
+              Data Processing Agreement
+            </Link>
+            <Link
+              to="/contact-us"
+              className="text-sm font-medium hover:opacity-70 transition-opacity duration-200"
               style={{ color: '#022610' }}
             >
               Contact Us

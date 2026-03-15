@@ -54,7 +54,7 @@ function ProductAdoptionDemo() {
         <meta name="robots" content="noindex, nofollow" />
         <title>Product Adoption Agent Demo - RetainSure</title>
         <meta name="description" content="Interactive demo of RetainSure's Product Adoption Agent. Explore AI-powered customer journey orchestration and product adoption tracking." />
-        <link rel="canonical" href="https://www.retainsure.com/interactive-demo/product-adoption-agent" />
+        <link rel="canonical" href="https://retainsure.com/interactive-demo/product-adoption-agent" />
       </Helmet>
       <div className={`w-64 flex-shrink-0 ${isAIMinimized ? 'filter blur-sm' : ''}`}>
         <Sidebar activeSection={activeSection} setActiveSection={setActiveSection} />

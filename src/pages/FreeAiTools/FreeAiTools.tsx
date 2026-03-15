@@ -316,18 +316,28 @@ function FreeAiTools() {
           name="description"
           content="Free AI-powered micro tools for Customer Success teams. Generate QBR decks, identify churn risks, and uncover upsell opportunities in minutes."
         />
-        <link rel="canonical" href="https://www.retainsure.com/free-customer-success-ai-tools" />
+        <link rel="canonical" href="https://retainsure.com/free-customer-success-ai-tools" />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.retainsure.com/free-customer-success-ai-tools" />
+        <meta property="og:url" content="https://retainsure.com/free-customer-success-ai-tools" />
         <meta property="og:title" content="Free AI Customer Success Tools | RetainSure" />
         <meta property="og:description" content="Free AI-powered micro tools for Customer Success teams. Generate QBR decks, identify churn risks, and uncover upsell opportunities in minutes." />
-        <meta property="og:image" content="https://www.retainsure.com/og-image.jpg" />
+        <meta property="og:image" content="https://retainsure.com/og-image.jpg" />
         <meta property="og:site_name" content="RetainSure" />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://www.retainsure.com/free-customer-success-ai-tools" />
+        <meta property="twitter:url" content="https://retainsure.com/free-customer-success-ai-tools" />
         <meta property="twitter:title" content="Free AI Customer Success Tools | RetainSure" />
         <meta property="twitter:description" content="Free AI-powered micro tools for Customer Success teams. Generate QBR decks, identify churn risks, and uncover upsell opportunities in minutes." />
-        <meta property="twitter:image" content="https://www.retainsure.com/og-image.jpg" />
+        <meta property="twitter:image" content="https://retainsure.com/og-image.jpg" />
+
+        <script type="application/ld+json">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebPage",
+          "name": "Free AI Customer Success Tools | RetainSure",
+          "description": "Free AI-powered micro tools for Customer Success teams. Generate QBR decks, identify churn risks, and uncover upsell opportunities in minutes.",
+          "url": "https://retainsure.com/free-customer-success-ai-tools"
+        })}
+        </script>
       </Helmet>
 
       <FreeToolsNav />

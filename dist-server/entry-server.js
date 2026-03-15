@@ -821,18 +821,18 @@ function HomePage() {
       /* @__PURE__ */ jsx("title", { children: "RetainSure - Stop Churn, Unlock Upsell, Grow Smarter | AI-Powered Customer Success" }),
       /* @__PURE__ */ jsx("meta", { name: "description", content: "Transform your customer success strategy with RetainSure's AI-powered platform. Get accurate churn predictions, spot upsell opportunities, and take personalized action at scale. Trusted by leading CS teams." }),
       /* @__PURE__ */ jsx("meta", { name: "keywords", content: "customer success, churn prediction, upsell opportunities, AI customer success, customer retention, SaaS analytics, customer success platform, churn prevention" }),
-      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://www.retainsure.com/" }),
+      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://retainsure.com/" }),
       /* @__PURE__ */ jsx("meta", { property: "og:type", content: "website" }),
-      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://www.retainsure.com/" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://retainsure.com/" }),
       /* @__PURE__ */ jsx("meta", { property: "og:title", content: "RetainSure - Stop Churn, Unlock Upsell, Grow Smarter" }),
       /* @__PURE__ */ jsx("meta", { property: "og:description", content: "Transform your customer success strategy with RetainSure's AI-powered platform. Get accurate churn predictions, spot upsell opportunities, and take personalized action at scale." }),
-      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://www.retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://retainsure.com/og-image.jpg" }),
       /* @__PURE__ */ jsx("meta", { property: "og:site_name", content: "RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:card", content: "summary_large_image" }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://www.retainsure.com/" }),
+      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://retainsure.com/" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:title", content: "RetainSure - Stop Churn, Unlock Upsell, Grow Smarter" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:description", content: "Transform your customer success strategy with RetainSure's AI-powered platform. Get accurate churn predictions, spot upsell opportunities, and take personalized action at scale." }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://www.retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://retainsure.com/og-image.jpg" }),
       /* @__PURE__ */ jsx("script", { type: "application/ld+json", children: JSON.stringify({
         "@context": "https://schema.org",
         "@graph": [
@@ -840,7 +840,7 @@ function HomePage() {
             "@type": "WebPage",
             "name": "RetainSure - AI-Powered Customer Success Platform",
             "description": "Stop churn, unlock upsell opportunities, and grow smarter with RetainSure's AI-powered customer success platform.",
-            "url": "https://www.retainsure.com/"
+            "url": "https://retainsure.com/"
           },
           {
             "@type": "FAQPage",
@@ -1247,18 +1247,25 @@ function ContactUs() {
       /* @__PURE__ */ jsx("title", { children: "Contact Us - RetainSure | Get in Touch with Our Customer Success Experts" }),
       /* @__PURE__ */ jsx("meta", { name: "description", content: "Contact RetainSure for support, demos, or questions about our AI-powered customer success platform. Email us at support@retainsure.com or book a free consultation." }),
       /* @__PURE__ */ jsx("meta", { name: "keywords", content: "contact RetainSure, customer success support, demo booking, RetainSure contact information" }),
-      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://www.retainsure.com/contact-us" }),
+      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://retainsure.com/contact-us" }),
       /* @__PURE__ */ jsx("meta", { property: "og:type", content: "website" }),
-      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://www.retainsure.com/contact-us" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://retainsure.com/contact-us" }),
       /* @__PURE__ */ jsx("meta", { property: "og:title", content: "Contact Us - RetainSure | Get in Touch" }),
       /* @__PURE__ */ jsx("meta", { property: "og:description", content: "Contact RetainSure for support, demos, or questions about our AI-powered customer success platform." }),
-      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://www.retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://retainsure.com/og-image.jpg" }),
       /* @__PURE__ */ jsx("meta", { property: "og:site_name", content: "RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:card", content: "summary_large_image" }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://www.retainsure.com/contact-us" }),
+      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://retainsure.com/contact-us" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:title", content: "Contact Us - RetainSure | Get in Touch" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:description", content: "Contact RetainSure for support, demos, or questions about our AI-powered customer success platform." }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://www.retainsure.com/og-image.jpg" })
+      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("script", { type: "application/ld+json", children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "ContactPage",
+        "name": "Contact Us - RetainSure",
+        "description": "Contact RetainSure for support, demos, or questions about our AI-powered customer success platform.",
+        "url": "https://retainsure.com/contact-us"
+      }) })
     ] }),
     /* @__PURE__ */ jsx("header", { className: "py-12 bg-gradient-to-r from-white to-gray-50", children: /* @__PURE__ */ jsx("div", { className: "container mx-auto px-6", children: /* @__PURE__ */ jsx("div", { className: "text-center max-w-3xl mx-auto", children: /* @__PURE__ */ jsx("h1", { className: "text-4xl lg:text-5xl font-bold mb-6", style: { color: "#022610" }, children: "Get in Touch" }) }) }) }),
     /* @__PURE__ */ jsx("main", { className: "py-12", children: /* @__PURE__ */ jsx("div", { className: "container mx-auto px-6", children: /* @__PURE__ */ jsxs("div", { className: "max-w-7xl mx-auto", children: [
@@ -1342,18 +1349,25 @@ function BookDemo() {
       /* @__PURE__ */ jsx("title", { children: "Book a Demo - RetainSure | See Our AI-Powered Customer Success Platform in Action" }),
       /* @__PURE__ */ jsx("meta", { name: "description", content: "Book a personalized demo of RetainSure's AI-powered customer success platform. See how we help reduce churn and identify upsell opportunities with accurate predictions." }),
       /* @__PURE__ */ jsx("meta", { name: "keywords", content: "RetainSure demo, customer success demo, AI platform demo, churn prediction demo, book demo" }),
-      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://www.retainsure.com/book-a-demo" }),
+      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://retainsure.com/book-a-demo" }),
       /* @__PURE__ */ jsx("meta", { property: "og:type", content: "website" }),
-      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://www.retainsure.com/book-a-demo" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://retainsure.com/book-a-demo" }),
       /* @__PURE__ */ jsx("meta", { property: "og:title", content: "Book a Demo - RetainSure | See Our AI Platform in Action" }),
       /* @__PURE__ */ jsx("meta", { property: "og:description", content: "Book a personalized demo of RetainSure's AI-powered customer success platform. See how we help reduce churn and identify upsell opportunities." }),
-      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://www.retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://retainsure.com/og-image.jpg" }),
       /* @__PURE__ */ jsx("meta", { property: "og:site_name", content: "RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:card", content: "summary_large_image" }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://www.retainsure.com/book-a-demo" }),
+      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://retainsure.com/book-a-demo" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:title", content: "Book a Demo - RetainSure | See Our AI Platform in Action" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:description", content: "Book a personalized demo of RetainSure's AI-powered customer success platform. See how we help reduce churn and identify upsell opportunities." }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://www.retainsure.com/og-image.jpg" })
+      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("script", { type: "application/ld+json", children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Book a Demo - RetainSure",
+        "description": "Book a personalized demo of RetainSure's AI-powered customer success platform. See how we help reduce churn and identify upsell opportunities with accurate predictions.",
+        "url": "https://retainsure.com/book-a-demo"
+      }) })
     ] }),
     /* @__PURE__ */ jsx("main", { className: "py-16", children: /* @__PURE__ */ jsx("div", { className: "container mx-auto px-6", children: /* @__PURE__ */ jsx("div", { className: "max-w-4xl mx-auto", children: /* @__PURE__ */ jsxs("section", { className: "bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden", "aria-label": "Demo booking", children: [
       /* @__PURE__ */ jsx("div", { className: "bg-gradient-to-r from-gray-50 to-white p-8 border-b border-gray-100", children: /* @__PURE__ */ jsxs("div", { className: "text-center max-w-2xl mx-auto", children: [
@@ -1380,24 +1394,24 @@ function Features() {
       /* @__PURE__ */ jsx("title", { children: "Features - AI-Powered Customer Success Tools | RetainSure" }),
       /* @__PURE__ */ jsx("meta", { name: "description", content: "Discover RetainSure's powerful AI features: churn predictions, RetainAI copilot, account overviews, automation builder, dashboards, and segmentation tools to transform your customer success strategy." }),
       /* @__PURE__ */ jsx("meta", { name: "keywords", content: "AI predictions, churn prediction, upsell opportunities, RetainAI, account management, automation builder, customer success dashboards, account segmentation" }),
-      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://www.retainsure.com/features" }),
+      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://retainsure.com/features" }),
       /* @__PURE__ */ jsx("meta", { property: "og:type", content: "website" }),
-      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://www.retainsure.com/features" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://retainsure.com/features" }),
       /* @__PURE__ */ jsx("meta", { property: "og:title", content: "Features - AI-Powered Customer Success Tools | RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "og:description", content: "Discover RetainSure's powerful AI features: churn predictions, RetainAI copilot, account overviews, automation builder, dashboards, and segmentation tools." }),
-      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://www.retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://retainsure.com/og-image.jpg" }),
       /* @__PURE__ */ jsx("meta", { property: "og:site_name", content: "RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:card", content: "summary_large_image" }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://www.retainsure.com/features" }),
+      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://retainsure.com/features" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:title", content: "Features - AI-Powered Customer Success Tools | RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:description", content: "Discover RetainSure's powerful AI features: churn predictions, RetainAI copilot, account overviews, automation builder, dashboards, and segmentation tools." }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://www.retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://retainsure.com/og-image.jpg" }),
       /* @__PURE__ */ jsx("script", { type: "application/ld+json", children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "RetainSure Features",
         "description": "Comprehensive AI-powered customer success features including churn predictions, automation, and intelligent insights.",
-        "url": "https://www.retainsure.com/features"
+        "url": "https://retainsure.com/features"
       }) })
     ] }),
     /* @__PURE__ */ jsx("section", { className: "py-12 sm:py-20 bg-gradient-to-br from-white to-green-50", children: /* @__PURE__ */ jsx("div", { className: "container mx-auto px-4 sm:px-6", children: /* @__PURE__ */ jsxs("div", { className: "text-center max-w-4xl mx-auto", children: [
@@ -1628,18 +1642,25 @@ function CaseStudies() {
       /* @__PURE__ */ jsx("title", { children: "Customer Success Stories | RetainSure Case Studies" }),
       /* @__PURE__ */ jsx("meta", { name: "description", content: "Explore how leading companies use RetainSure to reduce churn, increase retention, and drive customer success. Real case studies with proven results." }),
       /* @__PURE__ */ jsx("meta", { name: "keywords", content: "customer success case studies, churn reduction, retention stories, RetainSure customers, customer success examples" }),
-      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://www.retainsure.com/case-studies" }),
+      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://retainsure.com/case-studies" }),
       /* @__PURE__ */ jsx("meta", { property: "og:type", content: "website" }),
-      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://www.retainsure.com/case-studies" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://retainsure.com/case-studies" }),
       /* @__PURE__ */ jsx("meta", { property: "og:title", content: "Customer Success Stories | RetainSure Case Studies" }),
       /* @__PURE__ */ jsx("meta", { property: "og:description", content: "Explore how leading companies use RetainSure to reduce churn, increase retention, and drive customer success. Real case studies with proven results." }),
-      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://www.retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://retainsure.com/og-image.jpg" }),
       /* @__PURE__ */ jsx("meta", { property: "og:site_name", content: "RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:card", content: "summary_large_image" }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://www.retainsure.com/case-studies" }),
+      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://retainsure.com/case-studies" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:title", content: "Customer Success Stories | RetainSure Case Studies" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:description", content: "Explore how leading companies use RetainSure to reduce churn, increase retention, and drive customer success." }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://www.retainsure.com/og-image.jpg" })
+      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("script", { type: "application/ld+json", children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "CollectionPage",
+        "name": "Customer Success Stories | RetainSure Case Studies",
+        "description": "Explore how leading companies use RetainSure to reduce churn, increase retention, and drive customer success. Real case studies with proven results.",
+        "url": "https://retainsure.com/case-studies"
+      }) })
     ] }),
     /* @__PURE__ */ jsx("header", { className: "container mx-auto px-4 sm:px-6 py-12 sm:py-16 lg:py-20", children: /* @__PURE__ */ jsxs("div", { className: "text-center max-w-4xl mx-auto space-y-6 sm:space-y-8", children: [
       /* @__PURE__ */ jsxs("div", { className: "space-y-4 sm:space-y-6", children: [
@@ -1832,24 +1853,24 @@ function Pricing() {
       /* @__PURE__ */ jsx("title", { children: "Pricing - RetainSure | Custom Plans for Every Team" }),
       /* @__PURE__ */ jsx("meta", { name: "description", content: "Flexible pricing plans designed for teams of all sizes. Choose between Low-Touch and High-Touch accounts with custom pricing tailored to your needs." }),
       /* @__PURE__ */ jsx("meta", { name: "keywords", content: "customer success pricing, CS platform pricing, custom pricing, enterprise pricing, customer retention pricing" }),
-      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://www.retainsure.com/pricing" }),
+      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://retainsure.com/pricing" }),
       /* @__PURE__ */ jsx("meta", { property: "og:type", content: "website" }),
-      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://www.retainsure.com/pricing" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://retainsure.com/pricing" }),
       /* @__PURE__ */ jsx("meta", { property: "og:title", content: "Pricing - RetainSure | Custom Plans for Every Team" }),
       /* @__PURE__ */ jsx("meta", { property: "og:description", content: "Flexible pricing plans designed for teams of all sizes. Choose between Low-Touch and High-Touch accounts with custom pricing tailored to your needs." }),
-      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://www.retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://retainsure.com/og-image.jpg" }),
       /* @__PURE__ */ jsx("meta", { property: "og:site_name", content: "RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:card", content: "summary_large_image" }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://www.retainsure.com/pricing" }),
+      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://retainsure.com/pricing" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:title", content: "Pricing - RetainSure | Custom Plans for Every Team" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:description", content: "Flexible pricing plans designed for teams of all sizes. Choose between Low-Touch and High-Touch accounts with custom pricing." }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://www.retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://retainsure.com/og-image.jpg" }),
       /* @__PURE__ */ jsx("script", { type: "application/ld+json", children: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "WebPage",
         "name": "RetainSure Pricing",
         "description": "Custom pricing plans for customer success teams",
-        "url": "https://www.retainsure.com/pricing"
+        "url": "https://retainsure.com/pricing"
       }) })
     ] }),
     /* @__PURE__ */ jsxs("div", { className: "container mx-auto px-4 sm:px-6 py-12 sm:py-16 lg:py-24", children: [
@@ -1940,13 +1961,13 @@ function TermsOfService() {
     /* @__PURE__ */ jsxs(Helmet, { children: [
       /* @__PURE__ */ jsx("title", { children: "Terms of Service - RetainSure | Legal Terms and Conditions" }),
       /* @__PURE__ */ jsx("meta", { name: "description", content: "RetainSure's Terms of Service govern your use of our AI-powered customer success platform. Read our legal terms and conditions." }),
-      /* @__PURE__ */ jsx("meta", { name: "robots", content: "noindex, nofollow" }),
-      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://www.retainsure.com/terms-of-service" }),
+      /* @__PURE__ */ jsx("meta", { name: "robots", content: "index, follow" }),
+      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://retainsure.com/terms-of-service" }),
       /* @__PURE__ */ jsx("meta", { property: "og:type", content: "website" }),
-      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://www.retainsure.com/terms-of-service" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://retainsure.com/terms-of-service" }),
       /* @__PURE__ */ jsx("meta", { property: "og:title", content: "Terms of Service - RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "og:description", content: "RetainSure's Terms of Service govern your use of our AI-powered customer success platform." }),
-      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://www.retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://retainsure.com/og-image.jpg" }),
       /* @__PURE__ */ jsx("meta", { property: "og:site_name", content: "RetainSure" })
     ] }),
     /* @__PURE__ */ jsx("header", { className: "py-16 bg-gradient-to-r from-white to-gray-50", children: /* @__PURE__ */ jsx("div", { className: "container mx-auto px-6", children: /* @__PURE__ */ jsxs("div", { className: "max-w-4xl mx-auto", children: [
@@ -2025,7 +2046,7 @@ function TermsOfService() {
         /* @__PURE__ */ jsx("h2", { className: "text-2xl font-bold mb-4", style: { color: "#022610" }, children: "14. Data Processing Agreement" }),
         /* @__PURE__ */ jsxs("p", { className: "text-base leading-relaxed", style: { color: "#022610", opacity: 0.8 }, children: [
           "Customers who subscribe to RetainSure's product or services automatically accept Data Processing Agreement found here: ",
-          /* @__PURE__ */ jsx("a", { href: "https://www.retainsure.com/data-processing-agreement", className: "underline hover:opacity-70 transition-opacity", style: { color: "#039143" }, children: "https://www.retainsure.com/data-processing-agreement" })
+          /* @__PURE__ */ jsx("a", { href: "https://retainsure.com/data-processing-agreement", className: "underline hover:opacity-70 transition-opacity", style: { color: "#039143" }, children: "https://retainsure.com/data-processing-agreement" })
         ] })
       ] }),
       /* @__PURE__ */ jsxs("section", { id: "contact", children: [
@@ -2059,12 +2080,12 @@ function PrivacyPolicy() {
       /* @__PURE__ */ jsx("title", { children: "Privacy Policy - RetainSure | Data Protection and Privacy Practices" }),
       /* @__PURE__ */ jsx("meta", { name: "description", content: "RetainSure's Privacy Policy explains how we collect, use, and protect your data. Learn about our commitment to data security and your privacy rights." }),
       /* @__PURE__ */ jsx("meta", { name: "robots", content: "noindex, nofollow" }),
-      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://www.retainsure.com/privacy-policy" }),
+      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://retainsure.com/privacy-policy" }),
       /* @__PURE__ */ jsx("meta", { property: "og:type", content: "website" }),
-      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://www.retainsure.com/privacy-policy" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://retainsure.com/privacy-policy" }),
       /* @__PURE__ */ jsx("meta", { property: "og:title", content: "Privacy Policy - RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "og:description", content: "RetainSure's Privacy Policy explains how we collect, use, and protect your data." }),
-      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://www.retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://retainsure.com/og-image.jpg" }),
       /* @__PURE__ */ jsx("meta", { property: "og:site_name", content: "RetainSure" })
     ] }),
     /* @__PURE__ */ jsx("header", { className: "py-16 bg-gradient-to-r from-white to-gray-50", children: /* @__PURE__ */ jsx("div", { className: "container mx-auto px-6", children: /* @__PURE__ */ jsxs("div", { className: "max-w-4xl mx-auto", children: [
@@ -2299,13 +2320,13 @@ function DataProcessingAgreement() {
     /* @__PURE__ */ jsxs(Helmet, { children: [
       /* @__PURE__ */ jsx("title", { children: "Data Processing Agreement - RetainSure | GDPR Compliance and Data Protection" }),
       /* @__PURE__ */ jsx("meta", { name: "description", content: "RetainSure's Data Processing Agreement outlines our GDPR compliance and data protection measures for EU customers and data subjects." }),
-      /* @__PURE__ */ jsx("meta", { name: "robots", content: "noindex, nofollow" }),
-      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://www.retainsure.com/data-processing-agreement" }),
+      /* @__PURE__ */ jsx("meta", { name: "robots", content: "index, follow" }),
+      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://retainsure.com/data-processing-agreement" }),
       /* @__PURE__ */ jsx("meta", { property: "og:type", content: "website" }),
-      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://www.retainsure.com/data-processing-agreement" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://retainsure.com/data-processing-agreement" }),
       /* @__PURE__ */ jsx("meta", { property: "og:title", content: "Data Processing Agreement - RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "og:description", content: "RetainSure's Data Processing Agreement outlines our GDPR compliance and data protection measures." }),
-      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://www.retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://retainsure.com/og-image.jpg" }),
       /* @__PURE__ */ jsx("meta", { property: "og:site_name", content: "RetainSure" })
     ] }),
     /* @__PURE__ */ jsx("header", { className: "py-16 bg-gradient-to-r from-white to-gray-50", children: /* @__PURE__ */ jsx("div", { className: "container mx-auto px-6", children: /* @__PURE__ */ jsxs("div", { className: "max-w-4xl mx-auto", children: [
@@ -3087,18 +3108,18 @@ function InteractiveDemo() {
     /* @__PURE__ */ jsxs(Helmet, { children: [
       /* @__PURE__ */ jsx("title", { children: "Interactive Demo - RetainSure" }),
       /* @__PURE__ */ jsx("meta", { name: "description", content: "Interactive demo of RetainSure's AI-powered customer success platform. Experience churn prediction, upsell identification, and AI-powered workflows." }),
-      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://www.retainsure.com/interactive-demo" }),
+      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://retainsure.com/interactive-demo" }),
       /* @__PURE__ */ jsx("meta", { property: "og:type", content: "website" }),
-      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://www.retainsure.com/interactive-demo" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://retainsure.com/interactive-demo" }),
       /* @__PURE__ */ jsx("meta", { property: "og:title", content: "Interactive Demo - RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "og:description", content: "Interactive demo of RetainSure's AI-powered customer success platform. Experience churn prediction, upsell identification, and AI-powered workflows." }),
-      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://www.retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://retainsure.com/og-image.jpg" }),
       /* @__PURE__ */ jsx("meta", { property: "og:site_name", content: "RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:card", content: "summary_large_image" }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://www.retainsure.com/interactive-demo" }),
+      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://retainsure.com/interactive-demo" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:title", content: "Interactive Demo - RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:description", content: "Interactive demo of RetainSure's AI-powered customer success platform. Experience churn prediction, upsell identification, and AI-powered workflows." }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://www.retainsure.com/og-image.jpg" })
+      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://retainsure.com/og-image.jpg" })
     ] }),
     showGate && /* @__PURE__ */ jsx(EmailGateModal, { onSuccess: handleAccessGranted }),
     /* @__PURE__ */ jsx("main", { className: "min-h-screen bg-gradient-to-br from-white to-green-50 flex flex-col items-center justify-center p-4 pt-12 pb-20", children: /* @__PURE__ */ jsxs("div", { className: "container mx-auto", children: [
@@ -3474,6 +3495,15 @@ function Footer() {
         /* @__PURE__ */ jsx(
           Link,
           {
+            to: "/book-a-demo",
+            className: "text-sm font-medium hover:opacity-70 transition-opacity duration-200",
+            style: { color: "#022610" },
+            children: "Book a Demo"
+          }
+        ),
+        /* @__PURE__ */ jsx(
+          Link,
+          {
             to: "/privacy-policy",
             className: "text-sm font-medium hover:opacity-70 transition-opacity duration-200",
             style: { color: "#022610" },
@@ -3487,6 +3517,15 @@ function Footer() {
             className: "text-sm font-medium hover:opacity-70 transition-opacity duration-200",
             style: { color: "#022610" },
             children: "Terms of Service"
+          }
+        ),
+        /* @__PURE__ */ jsx(
+          Link,
+          {
+            to: "/data-processing-agreement",
+            className: "text-sm font-medium hover:opacity-70 transition-opacity duration-200",
+            style: { color: "#022610" },
+            children: "Data Processing Agreement"
           }
         ),
         /* @__PURE__ */ jsx(
@@ -4462,18 +4501,18 @@ function CopilotAgentDemo() {
       /* @__PURE__ */ jsx("meta", { name: "robots", content: "noindex, nofollow" }),
       /* @__PURE__ */ jsx("title", { children: "Copilot Agent Demo - RetainSure" }),
       /* @__PURE__ */ jsx("meta", { name: "description", content: "Interactive demo of RetainSure's Copilot Agent. Chat with your customer data using AI to get instant insights and recommendations." }),
-      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://www.retainsure.com/interactive-demo/copilot-agent" }),
+      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://retainsure.com/interactive-demo/copilot-agent" }),
       /* @__PURE__ */ jsx("meta", { property: "og:type", content: "website" }),
-      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://www.retainsure.com/interactive-demo/copilot-agent" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://retainsure.com/interactive-demo/copilot-agent" }),
       /* @__PURE__ */ jsx("meta", { property: "og:title", content: "Copilot Agent Demo - RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "og:description", content: "Interactive demo of RetainSure's Copilot Agent. Chat with your customer data using AI to get instant insights and recommendations." }),
-      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://www.retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://retainsure.com/og-image.jpg" }),
       /* @__PURE__ */ jsx("meta", { property: "og:site_name", content: "RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:card", content: "summary_large_image" }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://www.retainsure.com/interactive-demo/copilot-agent" }),
+      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://retainsure.com/interactive-demo/copilot-agent" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:title", content: "Copilot Agent Demo - RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:description", content: "Interactive demo of RetainSure's Copilot Agent. Chat with your customer data using AI to get instant insights and recommendations." }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://www.retainsure.com/og-image.jpg" })
+      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://retainsure.com/og-image.jpg" })
     ] }),
     isLoggedIn ? /* @__PURE__ */ jsx(ChatInterface, {}) : /* @__PURE__ */ jsx(LoginScreen, { onLogin: handleLogin })
   ] });
@@ -6079,7 +6118,7 @@ function ProductAdoptionDemo() {
       /* @__PURE__ */ jsx("meta", { name: "robots", content: "noindex, nofollow" }),
       /* @__PURE__ */ jsx("title", { children: "Product Adoption Agent Demo - RetainSure" }),
       /* @__PURE__ */ jsx("meta", { name: "description", content: "Interactive demo of RetainSure's Product Adoption Agent. Explore AI-powered customer journey orchestration and product adoption tracking." }),
-      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://www.retainsure.com/interactive-demo/product-adoption-agent" })
+      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://retainsure.com/interactive-demo/product-adoption-agent" })
     ] }),
     /* @__PURE__ */ jsx("div", { className: `w-64 flex-shrink-0 ${isAIMinimized ? "filter blur-sm" : ""}`, children: /* @__PURE__ */ jsx(Sidebar, { activeSection, setActiveSection }) }),
     /* @__PURE__ */ jsx("main", { className: `flex-1 overflow-y-auto ${isAIMinimized ? "filter blur-sm" : ""}`, children: renderContent() }),
@@ -6525,7 +6564,7 @@ Key Metrics to Track:
       /* @__PURE__ */ jsx("meta", { name: "robots", content: "noindex, nofollow" }),
       /* @__PURE__ */ jsx("title", { children: "Meeting Agent Demo - RetainSure" }),
       /* @__PURE__ */ jsx("meta", { name: "description", content: "Interactive demo of RetainSure's AI Meeting Agent. See real-time smart suggestions and automated actions during customer success meetings." }),
-      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://www.retainsure.com/interactive-demo/meeting-agent" })
+      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://retainsure.com/interactive-demo/meeting-agent" })
     ] }),
     /* @__PURE__ */ jsxs("div", { className: "relative w-full h-screen", children: [
       /* @__PURE__ */ jsxs("div", { className: "grid grid-cols-2 gap-2 h-full p-4", children: [
@@ -7229,18 +7268,25 @@ function FreeAiTools() {
           content: "Free AI-powered micro tools for Customer Success teams. Generate QBR decks, identify churn risks, and uncover upsell opportunities in minutes."
         }
       ),
-      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://www.retainsure.com/free-customer-success-ai-tools" }),
+      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://retainsure.com/free-customer-success-ai-tools" }),
       /* @__PURE__ */ jsx("meta", { property: "og:type", content: "website" }),
-      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://www.retainsure.com/free-customer-success-ai-tools" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://retainsure.com/free-customer-success-ai-tools" }),
       /* @__PURE__ */ jsx("meta", { property: "og:title", content: "Free AI Customer Success Tools | RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "og:description", content: "Free AI-powered micro tools for Customer Success teams. Generate QBR decks, identify churn risks, and uncover upsell opportunities in minutes." }),
-      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://www.retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://retainsure.com/og-image.jpg" }),
       /* @__PURE__ */ jsx("meta", { property: "og:site_name", content: "RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:card", content: "summary_large_image" }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://www.retainsure.com/free-customer-success-ai-tools" }),
+      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://retainsure.com/free-customer-success-ai-tools" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:title", content: "Free AI Customer Success Tools | RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:description", content: "Free AI-powered micro tools for Customer Success teams. Generate QBR decks, identify churn risks, and uncover upsell opportunities in minutes." }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://www.retainsure.com/og-image.jpg" })
+      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("script", { type: "application/ld+json", children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Free AI Customer Success Tools | RetainSure",
+        "description": "Free AI-powered micro tools for Customer Success teams. Generate QBR decks, identify churn risks, and uncover upsell opportunities in minutes.",
+        "url": "https://retainsure.com/free-customer-success-ai-tools"
+      }) })
     ] }),
     /* @__PURE__ */ jsx(FreeToolsNav, {}),
     /* @__PURE__ */ jsxs("div", { className: "min-h-screen bg-white", style: { scrollBehavior: "smooth" }, children: [
@@ -7853,18 +7899,18 @@ function QbrDeckGenerator() {
           content: "Generate professional QBR decks in minutes with AI. Input customer data, get executive-ready presentations with usage trends, health scores, and strategic recommendations."
         }
       ),
-      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://www.retainsure.com/free-customer-success-ai-tools/qbr-deck-generator" }),
+      /* @__PURE__ */ jsx("link", { rel: "canonical", href: "https://retainsure.com/free-customer-success-ai-tools/qbr-deck-generator" }),
       /* @__PURE__ */ jsx("meta", { property: "og:type", content: "website" }),
-      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://www.retainsure.com/free-customer-success-ai-tools/qbr-deck-generator" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:url", content: "https://retainsure.com/free-customer-success-ai-tools/qbr-deck-generator" }),
       /* @__PURE__ */ jsx("meta", { property: "og:title", content: "Free AI QBR Deck Generator | RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "og:description", content: "Generate professional QBR decks in minutes with AI. Input customer data, get executive-ready presentations with usage trends, health scores, and strategic recommendations." }),
-      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://www.retainsure.com/og-image.jpg" }),
+      /* @__PURE__ */ jsx("meta", { property: "og:image", content: "https://retainsure.com/og-image.jpg" }),
       /* @__PURE__ */ jsx("meta", { property: "og:site_name", content: "RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:card", content: "summary_large_image" }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://www.retainsure.com/free-customer-success-ai-tools/qbr-deck-generator" }),
+      /* @__PURE__ */ jsx("meta", { property: "twitter:url", content: "https://retainsure.com/free-customer-success-ai-tools/qbr-deck-generator" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:title", content: "Free AI QBR Deck Generator | RetainSure" }),
       /* @__PURE__ */ jsx("meta", { property: "twitter:description", content: "Generate professional QBR decks in minutes with AI. Input customer data, get executive-ready presentations with usage trends, health scores, and strategic recommendations." }),
-      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://www.retainsure.com/og-image.jpg" })
+      /* @__PURE__ */ jsx("meta", { property: "twitter:image", content: "https://retainsure.com/og-image.jpg" })
     ] }),
     /* @__PURE__ */ jsx(FreeToolsNav, { sectionLinks: navSections }),
     /* @__PURE__ */ jsxs("div", { className: "min-h-screen bg-white", style: { scrollBehavior: "smooth" }, children: [
