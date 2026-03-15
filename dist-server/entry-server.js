@@ -10,7 +10,7 @@ import fastCompare from "react-fast-compare";
 import invariant from "invariant";
 import shallowEqual from "shallowequal";
 import { Link, useLocation, useNavigate, Navigate, Routes, Route as Route$1 } from "react-router-dom";
-import { CircleCheck, ArrowRight, Play, ChevronDown, Mail, MapPin, Calendar, TrendingUp, MessageSquare, FileText, Zap, ChartBar, Layers, Activity, Users, Check, X, Shield, CheckCircle, AlertCircle, Bot, Cookie, Settings as Settings$1, LogIn, AlertTriangle, DollarSign, Send, User, CheckSquare, Home, Route, FileImage, BarChart3, Bell, MousePointer, Plus, Filter, Search, ArrowLeft, Eye, Target, Clock, CreditCard, Palette, Book, Video, MessageCircle, Sparkles, Volume2, VolumeX, Minimize2, Square, MicOff, Mic, VideoOff, Phone, TriangleAlert, TrendingDown, ChevronLeft, Briefcase, Crown, Download } from "lucide-react";
+import { CircleCheck, ArrowRight, Play, ChevronDown, Mail, MapPin, Calendar, TrendingUp, MessageSquare, FileText, Zap, ChartBar, Layers, Activity, Users, Check, X, Shield, CircleCheck as CheckCircle, CircleAlert as AlertCircle, Bot, Cookie, Settings as Settings$1, LogIn, TriangleAlert as AlertTriangle, DollarSign, Send, User, SquareCheck as CheckSquare, Hop as Home, Route, FileImage, ChartBar as BarChart3, Bell, MousePointer, Plus, ListFilter as Filter, Search, ArrowLeft, Eye, Target, Clock, CreditCard, Palette, Book, Video, MessageCircle, Sparkles, Volume2, VolumeX, Minimize2, Square, MicOff, Mic, VideoOff, Phone, TriangleAlert, TrendingDown, ChevronLeft, Briefcase, Crown, Download } from "lucide-react";
 import { createClient } from "@supabase/supabase-js";
 var TAG_NAMES = /* @__PURE__ */ ((TAG_NAMES2) => {
   TAG_NAMES2["BASE"] = "base";
