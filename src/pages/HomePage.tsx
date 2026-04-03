@@ -224,6 +224,8 @@ function HomePage() {
                 <img src="/LimeChat.png" alt="LimeChat" className="h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" />
                 <img src="/LambdaTestLogo.png" alt="LambdaTest" className="h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" />
                 <img src="/tranzact-logo.png" alt="Tranzact" className="h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" />
+                <img src="/gallabox-logo.png" alt="Gallabox" className="h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" />
+                <img src="/GoComet.webp" alt="GoComet" className="h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" />
               </div>
 
               {/* Duplicate set for seamless loop */}
@@ -232,6 +234,8 @@ function HomePage() {
                 <img src="/LimeChat.png" alt="LimeChat" className="h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" />
                 <img src="/LambdaTestLogo.png" alt="LambdaTest" className="h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" />
                 <img src="/tranzact-logo.png" alt="Tranzact" className="h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" />
+                <img src="/gallabox-logo.png" alt="Gallabox" className="h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" />
+                <img src="/GoComet.webp" alt="GoComet" className="h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" />
               </div>
             </div>
           </div>

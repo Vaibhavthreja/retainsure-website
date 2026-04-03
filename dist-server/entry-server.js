@@ -993,13 +993,17 @@ function HomePage() {
           /* @__PURE__ */ jsx("img", { src: "/MailmodoLogo.png", alt: "Mailmodo", className: "h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" }),
           /* @__PURE__ */ jsx("img", { src: "/LimeChat.png", alt: "LimeChat", className: "h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" }),
           /* @__PURE__ */ jsx("img", { src: "/LambdaTestLogo.png", alt: "LambdaTest", className: "h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" }),
-          /* @__PURE__ */ jsx("img", { src: "/tranzact-logo.png", alt: "Tranzact", className: "h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" })
+          /* @__PURE__ */ jsx("img", { src: "/tranzact-logo.png", alt: "Tranzact", className: "h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" }),
+          /* @__PURE__ */ jsx("img", { src: "/gallabox-logo.png", alt: "Gallabox", className: "h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" }),
+          /* @__PURE__ */ jsx("img", { src: "/GoComet.webp", alt: "GoComet", className: "h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" })
         ] }),
         /* @__PURE__ */ jsxs("div", { className: "flex space-x-8 sm:space-x-16 items-center min-w-max", children: [
           /* @__PURE__ */ jsx("img", { src: "/MailmodoLogo.png", alt: "Mailmodo", className: "h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" }),
           /* @__PURE__ */ jsx("img", { src: "/LimeChat.png", alt: "LimeChat", className: "h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" }),
           /* @__PURE__ */ jsx("img", { src: "/LambdaTestLogo.png", alt: "LambdaTest", className: "h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" }),
-          /* @__PURE__ */ jsx("img", { src: "/tranzact-logo.png", alt: "Tranzact", className: "h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" })
+          /* @__PURE__ */ jsx("img", { src: "/tranzact-logo.png", alt: "Tranzact", className: "h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" }),
+          /* @__PURE__ */ jsx("img", { src: "/gallabox-logo.png", alt: "Gallabox", className: "h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" }),
+          /* @__PURE__ */ jsx("img", { src: "/GoComet.webp", alt: "GoComet", className: "h-12 sm:h-20 w-auto max-w-[120px] sm:max-w-[200px] object-contain" })
         ] })
       ] }) })
     ] }) }),
