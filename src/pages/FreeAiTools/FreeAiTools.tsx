@@ -649,7 +649,7 @@ function FreeAiTools() {
               className="inline-flex items-center gap-2 font-bold px-8 py-4 rounded-xl transition-all duration-200 hover:shadow-xl hover:-translate-y-0.5 text-base"
               style={{ backgroundColor: 'white', color: '#039143' }}
             >
-              Try micro toos - free always
+              Try micro tools - free always
               <ArrowRight className="w-5 h-5" />
             </a>
 
